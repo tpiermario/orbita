@@ -1,0 +1,2453 @@
+[
+  {
+    "id": "image.to.png",
+    "title": "PNG",
+    "families": [
+      "image"
+    ],
+    "mode": "convert",
+    "fields": [],
+    "note": "GIF animati: mantenuti quando si esporta in GIF, WebP o TIFF; gli altri formati usano il primo fotogramma.",
+    "batch": false
+  },
+  {
+    "id": "image.to.jpg",
+    "title": "JPG",
+    "families": [
+      "image"
+    ],
+    "mode": "convert",
+    "fields": [],
+    "note": "GIF animati: mantenuti quando si esporta in GIF, WebP o TIFF; gli altri formati usano il primo fotogramma.",
+    "batch": false
+  },
+  {
+    "id": "image.to.webp",
+    "title": "WEBP",
+    "families": [
+      "image"
+    ],
+    "mode": "convert",
+    "fields": [],
+    "note": "GIF animati: mantenuti quando si esporta in GIF, WebP o TIFF; gli altri formati usano il primo fotogramma.",
+    "batch": false
+  },
+  {
+    "id": "image.to.avif",
+    "title": "AVIF",
+    "families": [
+      "image"
+    ],
+    "mode": "convert",
+    "fields": [],
+    "note": "GIF animati: mantenuti quando si esporta in GIF, WebP o TIFF; gli altri formati usano il primo fotogramma.",
+    "batch": false
+  },
+  {
+    "id": "image.to.heic",
+    "title": "HEIC",
+    "families": [
+      "image"
+    ],
+    "mode": "convert",
+    "fields": [],
+    "note": "GIF animati: mantenuti quando si esporta in GIF, WebP o TIFF; gli altri formati usano il primo fotogramma.",
+    "batch": false
+  },
+  {
+    "id": "image.to.tiff",
+    "title": "TIFF",
+    "families": [
+      "image"
+    ],
+    "mode": "convert",
+    "fields": [],
+    "note": "GIF animati: mantenuti quando si esporta in GIF, WebP o TIFF; gli altri formati usano il primo fotogramma.",
+    "batch": false
+  },
+  {
+    "id": "image.to.gif",
+    "title": "GIF",
+    "families": [
+      "image"
+    ],
+    "mode": "convert",
+    "fields": [],
+    "note": "GIF animati: mantenuti quando si esporta in GIF, WebP o TIFF; gli altri formati usano il primo fotogramma.",
+    "batch": false
+  },
+  {
+    "id": "image.to.bmp",
+    "title": "BMP",
+    "families": [
+      "image"
+    ],
+    "mode": "convert",
+    "fields": [],
+    "note": "GIF animati: mantenuti quando si esporta in GIF, WebP o TIFF; gli altri formati usano il primo fotogramma.",
+    "batch": false
+  },
+  {
+    "id": "image.to.ico",
+    "title": "ICO",
+    "families": [
+      "image"
+    ],
+    "mode": "convert",
+    "fields": [],
+    "note": "GIF animati: mantenuti quando si esporta in GIF, WebP o TIFF; gli altri formati usano il primo fotogramma.",
+    "batch": false
+  },
+  {
+    "id": "image.to.icns",
+    "title": "ICNS",
+    "families": [
+      "image"
+    ],
+    "mode": "convert",
+    "fields": [],
+    "note": "GIF animati: mantenuti quando si esporta in GIF, WebP o TIFF; gli altri formati usano il primo fotogramma.",
+    "batch": false
+  },
+  {
+    "id": "image.to.pdf",
+    "title": "PDF",
+    "families": [
+      "image"
+    ],
+    "mode": "convert",
+    "fields": [],
+    "note": "GIF animati: mantenuti quando si esporta in GIF, WebP o TIFF; gli altri formati usano il primo fotogramma.",
+    "batch": false
+  },
+  {
+    "id": "image.rotate90",
+    "title": "Ruota 90°",
+    "families": [
+      "image"
+    ],
+    "mode": "tools",
+    "fields": [],
+    "note": "",
+    "batch": false
+  },
+  {
+    "id": "image.rotate270",
+    "title": "Ruota −90°",
+    "families": [
+      "image"
+    ],
+    "mode": "tools",
+    "fields": [],
+    "note": "",
+    "batch": false
+  },
+  {
+    "id": "image.rotate180",
+    "title": "Ruota 180°",
+    "families": [
+      "image"
+    ],
+    "mode": "tools",
+    "fields": [],
+    "note": "",
+    "batch": false
+  },
+  {
+    "id": "image.flipH",
+    "title": "Rifletti orizzontalmente",
+    "families": [
+      "image"
+    ],
+    "mode": "tools",
+    "fields": [],
+    "note": "",
+    "batch": false
+  },
+  {
+    "id": "image.flipV",
+    "title": "Rifletti verticalmente",
+    "families": [
+      "image"
+    ],
+    "mode": "tools",
+    "fields": [],
+    "note": "",
+    "batch": false
+  },
+  {
+    "id": "image.gray",
+    "title": "Bianco e nero",
+    "families": [
+      "image"
+    ],
+    "mode": "tools",
+    "fields": [],
+    "note": "",
+    "batch": false
+  },
+  {
+    "id": "image.resize",
+    "title": "Ridimensiona",
+    "families": [
+      "image"
+    ],
+    "mode": "tools",
+    "fields": [
+      {
+        "key": "width",
+        "label": "Larghezza (px)",
+        "default": "1920",
+        "kind": "text"
+      },
+      {
+        "key": "height",
+        "label": "Altezza (0 = proporzioni)",
+        "default": "0",
+        "kind": "text"
+      }
+    ],
+    "note": "",
+    "batch": false
+  },
+  {
+    "id": "image.crop",
+    "title": "Ritaglia",
+    "families": [
+      "image"
+    ],
+    "mode": "tools",
+    "fields": [
+      {
+        "key": "x",
+        "label": "X da sinistra (px)",
+        "default": "0",
+        "kind": "text"
+      },
+      {
+        "key": "y",
+        "label": "Y dall’alto (px)",
+        "default": "0",
+        "kind": "text"
+      },
+      {
+        "key": "width",
+        "label": "Larghezza (px)",
+        "default": "200",
+        "kind": "text"
+      },
+      {
+        "key": "height",
+        "label": "Altezza (px)",
+        "default": "200",
+        "kind": "text"
+      }
+    ],
+    "note": "",
+    "batch": false
+  },
+  {
+    "id": "image.edit",
+    "title": "Regola immagine",
+    "families": [
+      "image"
+    ],
+    "mode": "tools",
+    "fields": [
+      {
+        "key": "brightness",
+        "label": "Luminosità (1 = originale)",
+        "default": "1",
+        "kind": "text"
+      },
+      {
+        "key": "contrast",
+        "label": "Contrasto",
+        "default": "1",
+        "kind": "text"
+      },
+      {
+        "key": "saturation",
+        "label": "Saturazione",
+        "default": "1",
+        "kind": "text"
+      },
+      {
+        "key": "sharpness",
+        "label": "Nitidezza",
+        "default": "1",
+        "kind": "text"
+      }
+    ],
+    "note": "",
+    "batch": false
+  },
+  {
+    "id": "image.redact",
+    "title": "Oscura area",
+    "families": [
+      "image"
+    ],
+    "mode": "tools",
+    "fields": [
+      {
+        "key": "x",
+        "label": "X da sinistra (px)",
+        "default": "0",
+        "kind": "text"
+      },
+      {
+        "key": "y",
+        "label": "Y dall’alto (px)",
+        "default": "0",
+        "kind": "text"
+      },
+      {
+        "key": "width",
+        "label": "Larghezza (px)",
+        "default": "200",
+        "kind": "text"
+      },
+      {
+        "key": "height",
+        "label": "Altezza (px)",
+        "default": "200",
+        "kind": "text"
+      }
+    ],
+    "note": "",
+    "batch": false
+  },
+  {
+    "id": "image.annotate",
+    "title": "Aggiungi testo",
+    "families": [
+      "image"
+    ],
+    "mode": "tools",
+    "fields": [
+      {
+        "key": "text",
+        "label": "Testo",
+        "default": "Nota",
+        "kind": "text"
+      },
+      {
+        "key": "x",
+        "label": "X (px)",
+        "default": "20",
+        "kind": "text"
+      },
+      {
+        "key": "y",
+        "label": "Y (px)",
+        "default": "20",
+        "kind": "text"
+      },
+      {
+        "key": "size",
+        "label": "Dimensione testo",
+        "default": "32",
+        "kind": "text"
+      },
+      {
+        "key": "color",
+        "label": "Colore HEX",
+        "default": "#ff8000",
+        "kind": "text"
+      }
+    ],
+    "note": "",
+    "batch": false
+  },
+  {
+    "id": "image.watermark",
+    "title": "Filigrana",
+    "families": [
+      "image"
+    ],
+    "mode": "tools",
+    "fields": [
+      {
+        "key": "text",
+        "label": "Testo",
+        "default": "©",
+        "kind": "text"
+      },
+      {
+        "key": "opacity",
+        "label": "Opacità 0–1",
+        "default": "0.35",
+        "kind": "text"
+      }
+    ],
+    "note": "",
+    "batch": false
+  },
+  {
+    "id": "image.tilemark",
+    "title": "Filigrana ripetuta",
+    "families": [
+      "image"
+    ],
+    "mode": "tools",
+    "fields": [
+      {
+        "key": "text",
+        "label": "Testo",
+        "default": "©",
+        "kind": "text"
+      },
+      {
+        "key": "opacity",
+        "label": "Opacità 0–1",
+        "default": "0.2",
+        "kind": "text"
+      }
+    ],
+    "note": "",
+    "batch": false
+  },
+  {
+    "id": "image.background",
+    "title": "Aggiungi sfondo",
+    "families": [
+      "image"
+    ],
+    "mode": "tools",
+    "fields": [
+      {
+        "key": "color",
+        "label": "Colore HEX",
+        "default": "#ffffff",
+        "kind": "text"
+      }
+    ],
+    "note": "",
+    "batch": false
+  },
+  {
+    "id": "image.removebg",
+    "title": "Rimuovi sfondo",
+    "families": [
+      "image"
+    ],
+    "mode": "tools",
+    "fields": [],
+    "note": "",
+    "batch": false
+  },
+  {
+    "id": "image.blurbg",
+    "title": "Sfoca sfondo",
+    "families": [
+      "image"
+    ],
+    "mode": "tools",
+    "fields": [],
+    "note": "",
+    "batch": false
+  },
+  {
+    "id": "image.upscale2",
+    "title": "Ingrandisci 2×",
+    "families": [
+      "image"
+    ],
+    "mode": "tools",
+    "fields": [],
+    "note": "Ingrandimento con interpolazione Lanczos, senza ricostruzione AI.",
+    "batch": false
+  },
+  {
+    "id": "image.upscale4",
+    "title": "Ingrandisci 4×",
+    "families": [
+      "image"
+    ],
+    "mode": "tools",
+    "fields": [],
+    "note": "Ingrandimento con interpolazione Lanczos, senza ricostruzione AI.",
+    "batch": false
+  },
+  {
+    "id": "image.palette",
+    "title": "Estrai tavolozza",
+    "families": [
+      "image"
+    ],
+    "mode": "tools",
+    "fields": [],
+    "note": "",
+    "batch": false
+  },
+  {
+    "id": "image.metadata",
+    "title": "Leggi metadati",
+    "families": [
+      "image"
+    ],
+    "mode": "tools",
+    "fields": [],
+    "note": "",
+    "batch": false
+  },
+  {
+    "id": "image.editmeta",
+    "title": "Modifica metadati",
+    "families": [
+      "image"
+    ],
+    "mode": "tools",
+    "fields": [
+      {
+        "key": "artist",
+        "label": "Autore",
+        "default": "",
+        "kind": "text"
+      },
+      {
+        "key": "copyright",
+        "label": "Copyright",
+        "default": "",
+        "kind": "text"
+      },
+      {
+        "key": "description",
+        "label": "Descrizione",
+        "default": "",
+        "kind": "text"
+      }
+    ],
+    "note": "",
+    "batch": false
+  },
+  {
+    "id": "image.strip",
+    "title": "Rimuovi metadati",
+    "families": [
+      "image"
+    ],
+    "mode": "tools",
+    "fields": [],
+    "note": "",
+    "batch": false
+  },
+  {
+    "id": "image.compress",
+    "title": "Comprimi a una dimensione",
+    "families": [
+      "image"
+    ],
+    "mode": "tools",
+    "fields": [
+      {
+        "key": "mb",
+        "label": "Limite (MB)",
+        "default": "1",
+        "kind": "text"
+      }
+    ],
+    "note": "",
+    "batch": false
+  },
+  {
+    "id": "image.quality90",
+    "title": "Comprimi · alta qualità",
+    "families": [
+      "image"
+    ],
+    "mode": "tools",
+    "fields": [],
+    "note": "",
+    "batch": false
+  },
+  {
+    "id": "image.quality70",
+    "title": "Comprimi · bilanciata",
+    "families": [
+      "image"
+    ],
+    "mode": "tools",
+    "fields": [],
+    "note": "",
+    "batch": false
+  },
+  {
+    "id": "image.quality40",
+    "title": "Comprimi · minima",
+    "families": [
+      "image"
+    ],
+    "mode": "tools",
+    "fields": [],
+    "note": "",
+    "batch": false
+  },
+  {
+    "id": "vision.ocr",
+    "title": "Estrai testo (OCR)",
+    "families": [
+      "image"
+    ],
+    "mode": "tools",
+    "fields": [],
+    "note": "",
+    "batch": false
+  },
+  {
+    "id": "vision.qr",
+    "title": "Leggi QR e codici a barre",
+    "families": [
+      "image"
+    ],
+    "mode": "tools",
+    "fields": [],
+    "note": "",
+    "batch": false
+  },
+  {
+    "id": "vision.faces",
+    "title": "Oscura volti",
+    "families": [
+      "image"
+    ],
+    "mode": "tools",
+    "fields": [],
+    "note": "",
+    "batch": false
+  },
+  {
+    "id": "vision.textredact",
+    "title": "Oscura testo riconosciuto",
+    "families": [
+      "image"
+    ],
+    "mode": "tools",
+    "fields": [],
+    "note": "",
+    "batch": false
+  },
+  {
+    "id": "image.collage",
+    "title": "Crea collage",
+    "families": [
+      "image"
+    ],
+    "mode": "tools",
+    "fields": [
+      {
+        "key": "columns",
+        "label": "Colonne",
+        "default": "2",
+        "kind": "text"
+      }
+    ],
+    "note": "",
+    "batch": true
+  },
+  {
+    "id": "image.animate",
+    "title": "Crea GIF animata",
+    "families": [
+      "image"
+    ],
+    "mode": "tools",
+    "fields": [
+      {
+        "key": "duration",
+        "label": "Durata fotogramma (ms)",
+        "default": "250",
+        "kind": "text"
+      }
+    ],
+    "note": "",
+    "batch": true
+  },
+  {
+    "id": "image.combine",
+    "title": "Unisci immagini in PDF",
+    "families": [
+      "image"
+    ],
+    "mode": "tools",
+    "fields": [],
+    "note": "",
+    "batch": true
+  },
+  {
+    "id": "video.to.mp4",
+    "title": "MP4",
+    "families": [
+      "video"
+    ],
+    "mode": "convert",
+    "fields": [],
+    "note": "",
+    "batch": false
+  },
+  {
+    "id": "video.to.mov",
+    "title": "MOV",
+    "families": [
+      "video"
+    ],
+    "mode": "convert",
+    "fields": [],
+    "note": "",
+    "batch": false
+  },
+  {
+    "id": "video.to.mkv",
+    "title": "MKV",
+    "families": [
+      "video"
+    ],
+    "mode": "convert",
+    "fields": [],
+    "note": "",
+    "batch": false
+  },
+  {
+    "id": "video.to.webm",
+    "title": "WEBM",
+    "families": [
+      "video"
+    ],
+    "mode": "convert",
+    "fields": [],
+    "note": "",
+    "batch": false
+  },
+  {
+    "id": "video.to.avi",
+    "title": "AVI",
+    "families": [
+      "video"
+    ],
+    "mode": "convert",
+    "fields": [],
+    "note": "",
+    "batch": false
+  },
+  {
+    "id": "video.to.wmv",
+    "title": "WMV",
+    "families": [
+      "video"
+    ],
+    "mode": "convert",
+    "fields": [],
+    "note": "",
+    "batch": false
+  },
+  {
+    "id": "video.to.gif",
+    "title": "GIF",
+    "families": [
+      "video"
+    ],
+    "mode": "convert",
+    "fields": [],
+    "note": "",
+    "batch": false
+  },
+  {
+    "id": "audio.to.mp3",
+    "title": "MP3",
+    "families": [
+      "audio",
+      "video"
+    ],
+    "mode": "convert",
+    "fields": [],
+    "note": "",
+    "batch": false
+  },
+  {
+    "id": "audio.to.m4a",
+    "title": "M4A",
+    "families": [
+      "audio",
+      "video"
+    ],
+    "mode": "convert",
+    "fields": [],
+    "note": "",
+    "batch": false
+  },
+  {
+    "id": "audio.to.wav",
+    "title": "WAV",
+    "families": [
+      "audio",
+      "video"
+    ],
+    "mode": "convert",
+    "fields": [],
+    "note": "",
+    "batch": false
+  },
+  {
+    "id": "audio.to.flac",
+    "title": "FLAC",
+    "families": [
+      "audio",
+      "video"
+    ],
+    "mode": "convert",
+    "fields": [],
+    "note": "",
+    "batch": false
+  },
+  {
+    "id": "audio.to.ogg",
+    "title": "OGG",
+    "families": [
+      "audio",
+      "video"
+    ],
+    "mode": "convert",
+    "fields": [],
+    "note": "",
+    "batch": false
+  },
+  {
+    "id": "audio.to.opus",
+    "title": "OPUS",
+    "families": [
+      "audio",
+      "video"
+    ],
+    "mode": "convert",
+    "fields": [],
+    "note": "",
+    "batch": false
+  },
+  {
+    "id": "audio.to.aiff",
+    "title": "AIFF",
+    "families": [
+      "audio",
+      "video"
+    ],
+    "mode": "convert",
+    "fields": [],
+    "note": "",
+    "batch": false
+  },
+  {
+    "id": "audio.to.wma",
+    "title": "WMA",
+    "families": [
+      "audio",
+      "video"
+    ],
+    "mode": "convert",
+    "fields": [],
+    "note": "",
+    "batch": false
+  },
+  {
+    "id": "video.trim",
+    "title": "Taglia video",
+    "families": [
+      "video"
+    ],
+    "mode": "tools",
+    "fields": [
+      {
+        "key": "start",
+        "label": "Inizio (secondi)",
+        "default": "0",
+        "kind": "text"
+      },
+      {
+        "key": "end",
+        "label": "Fine (secondi)",
+        "default": "5",
+        "kind": "text"
+      }
+    ],
+    "note": "",
+    "batch": false
+  },
+  {
+    "id": "video.split",
+    "title": "Dividi video",
+    "families": [
+      "video"
+    ],
+    "mode": "tools",
+    "fields": [
+      {
+        "key": "start",
+        "label": "Punto di divisione (s)",
+        "default": "5",
+        "kind": "text"
+      }
+    ],
+    "note": "",
+    "batch": false
+  },
+  {
+    "id": "video.crop",
+    "title": "Ritaglia video",
+    "families": [
+      "video"
+    ],
+    "mode": "tools",
+    "fields": [
+      {
+        "key": "x",
+        "label": "X da sinistra (px)",
+        "default": "0",
+        "kind": "text"
+      },
+      {
+        "key": "y",
+        "label": "Y dall’alto (px)",
+        "default": "0",
+        "kind": "text"
+      },
+      {
+        "key": "width",
+        "label": "Larghezza (px)",
+        "default": "200",
+        "kind": "text"
+      },
+      {
+        "key": "height",
+        "label": "Altezza (px)",
+        "default": "200",
+        "kind": "text"
+      }
+    ],
+    "note": "",
+    "batch": false
+  },
+  {
+    "id": "video.frames",
+    "title": "Estrai fotogrammi",
+    "families": [
+      "video"
+    ],
+    "mode": "tools",
+    "fields": [
+      {
+        "key": "fps",
+        "label": "Fotogrammi al secondo",
+        "default": "1",
+        "kind": "text"
+      }
+    ],
+    "note": "",
+    "batch": false
+  },
+  {
+    "id": "video.redact",
+    "title": "Oscura area nel tempo",
+    "families": [
+      "video"
+    ],
+    "mode": "tools",
+    "fields": [
+      {
+        "key": "x",
+        "label": "X da sinistra (px)",
+        "default": "0",
+        "kind": "text"
+      },
+      {
+        "key": "y",
+        "label": "Y dall’alto (px)",
+        "default": "0",
+        "kind": "text"
+      },
+      {
+        "key": "width",
+        "label": "Larghezza (px)",
+        "default": "200",
+        "kind": "text"
+      },
+      {
+        "key": "height",
+        "label": "Altezza (px)",
+        "default": "200",
+        "kind": "text"
+      },
+      {
+        "key": "start",
+        "label": "Inizio (secondi)",
+        "default": "0",
+        "kind": "text"
+      },
+      {
+        "key": "end",
+        "label": "Fine (secondi)",
+        "default": "5",
+        "kind": "text"
+      }
+    ],
+    "note": "",
+    "batch": false
+  },
+  {
+    "id": "video.compress",
+    "title": "Comprimi video a MB",
+    "families": [
+      "video"
+    ],
+    "mode": "tools",
+    "fields": [
+      {
+        "key": "mb",
+        "label": "Limite (MB)",
+        "default": "8",
+        "kind": "text"
+      }
+    ],
+    "note": "",
+    "batch": false
+  },
+  {
+    "id": "video.speed",
+    "title": "Velocità video",
+    "families": [
+      "video"
+    ],
+    "mode": "tools",
+    "fields": [
+      {
+        "key": "speed",
+        "label": "Moltiplicatore",
+        "default": "2",
+        "kind": "text"
+      }
+    ],
+    "note": "",
+    "batch": false
+  },
+  {
+    "id": "video.rotate",
+    "title": "Ruota video 90°",
+    "families": [
+      "video"
+    ],
+    "mode": "tools",
+    "fields": [],
+    "note": "",
+    "batch": false
+  },
+  {
+    "id": "video.mute",
+    "title": "Rimuovi audio",
+    "families": [
+      "video"
+    ],
+    "mode": "tools",
+    "fields": [],
+    "note": "",
+    "batch": false
+  },
+  {
+    "id": "video.strip",
+    "title": "Rimuovi metadati video",
+    "families": [
+      "video"
+    ],
+    "mode": "tools",
+    "fields": [],
+    "note": "",
+    "batch": false
+  },
+  {
+    "id": "video.addsubs",
+    "title": "Aggiungi traccia sottotitoli",
+    "families": [
+      "video"
+    ],
+    "mode": "tools",
+    "fields": [
+      {
+        "key": "file",
+        "label": "Sottotitoli SRT/VTT",
+        "default": "",
+        "kind": "file"
+      }
+    ],
+    "note": "",
+    "batch": false
+  },
+  {
+    "id": "video.burnsubs",
+    "title": "Incorpora sottotitoli nel video",
+    "families": [
+      "video"
+    ],
+    "mode": "tools",
+    "fields": [
+      {
+        "key": "file",
+        "label": "Sottotitoli SRT/VTT",
+        "default": "",
+        "kind": "file"
+      }
+    ],
+    "note": "",
+    "batch": false
+  },
+  {
+    "id": "video.extractsubs",
+    "title": "Estrai sottotitoli",
+    "families": [
+      "video"
+    ],
+    "mode": "tools",
+    "fields": [],
+    "note": "",
+    "batch": false
+  },
+  {
+    "id": "video.join",
+    "title": "Unisci video",
+    "families": [
+      "video"
+    ],
+    "mode": "tools",
+    "fields": [],
+    "note": "L’ordine è quello mostrato nell’elenco dei file.",
+    "batch": true
+  },
+  {
+    "id": "audio.trim",
+    "title": "Taglia audio",
+    "families": [
+      "audio"
+    ],
+    "mode": "tools",
+    "fields": [
+      {
+        "key": "start",
+        "label": "Inizio (secondi)",
+        "default": "0",
+        "kind": "text"
+      },
+      {
+        "key": "end",
+        "label": "Fine (secondi)",
+        "default": "5",
+        "kind": "text"
+      }
+    ],
+    "note": "",
+    "batch": false
+  },
+  {
+    "id": "audio.bleep",
+    "title": "Oscura audio con un tono",
+    "families": [
+      "audio"
+    ],
+    "mode": "tools",
+    "fields": [
+      {
+        "key": "start",
+        "label": "Inizio (secondi)",
+        "default": "0",
+        "kind": "text"
+      },
+      {
+        "key": "end",
+        "label": "Fine (secondi)",
+        "default": "5",
+        "kind": "text"
+      }
+    ],
+    "note": "",
+    "batch": false
+  },
+  {
+    "id": "audio.fade",
+    "title": "Dissolvenze",
+    "families": [
+      "audio"
+    ],
+    "mode": "tools",
+    "fields": [
+      {
+        "key": "fade",
+        "label": "Durata dissolvenza (s)",
+        "default": "1",
+        "kind": "text"
+      }
+    ],
+    "note": "",
+    "batch": false
+  },
+  {
+    "id": "audio.normalize",
+    "title": "Normalizza volume",
+    "families": [
+      "audio"
+    ],
+    "mode": "tools",
+    "fields": [],
+    "note": "",
+    "batch": false
+  },
+  {
+    "id": "audio.denoise",
+    "title": "Riduci rumore",
+    "families": [
+      "audio"
+    ],
+    "mode": "tools",
+    "fields": [],
+    "note": "",
+    "batch": false
+  },
+  {
+    "id": "audio.speed",
+    "title": "Velocità audio",
+    "families": [
+      "audio"
+    ],
+    "mode": "tools",
+    "fields": [
+      {
+        "key": "speed",
+        "label": "Moltiplicatore",
+        "default": "1.5",
+        "kind": "text"
+      }
+    ],
+    "note": "",
+    "batch": false
+  },
+  {
+    "id": "audio.pitch",
+    "title": "Cambia tonalità",
+    "families": [
+      "audio"
+    ],
+    "mode": "tools",
+    "fields": [
+      {
+        "key": "semitones",
+        "label": "Semitoni",
+        "default": "2",
+        "kind": "text"
+      }
+    ],
+    "note": "",
+    "batch": false
+  },
+  {
+    "id": "audio.mono",
+    "title": "Converti in mono",
+    "families": [
+      "audio"
+    ],
+    "mode": "tools",
+    "fields": [],
+    "note": "",
+    "batch": false
+  },
+  {
+    "id": "audio.stereo",
+    "title": "Converti in stereo",
+    "families": [
+      "audio"
+    ],
+    "mode": "tools",
+    "fields": [],
+    "note": "",
+    "batch": false
+  },
+  {
+    "id": "audio.tags",
+    "title": "Modifica tag",
+    "families": [
+      "audio"
+    ],
+    "mode": "tools",
+    "fields": [
+      {
+        "key": "title",
+        "label": "Titolo",
+        "default": "",
+        "kind": "text"
+      },
+      {
+        "key": "artist",
+        "label": "Artista",
+        "default": "",
+        "kind": "text"
+      },
+      {
+        "key": "album",
+        "label": "Album",
+        "default": "",
+        "kind": "text"
+      }
+    ],
+    "note": "",
+    "batch": false
+  },
+  {
+    "id": "audio.artwork",
+    "title": "Aggiungi copertina",
+    "families": [
+      "audio"
+    ],
+    "mode": "tools",
+    "fields": [
+      {
+        "key": "file",
+        "label": "Immagine copertina",
+        "default": "",
+        "kind": "file"
+      }
+    ],
+    "note": "",
+    "batch": false
+  },
+  {
+    "id": "audio.strip",
+    "title": "Rimuovi metadati audio",
+    "families": [
+      "audio"
+    ],
+    "mode": "tools",
+    "fields": [],
+    "note": "",
+    "batch": false
+  },
+  {
+    "id": "audio.compress",
+    "title": "Comprimi audio · AAC 128 kbps",
+    "families": [
+      "audio"
+    ],
+    "mode": "tools",
+    "fields": [],
+    "note": "",
+    "batch": false
+  },
+  {
+    "id": "audio.silence",
+    "title": "Taglia silenzi alle estremità",
+    "families": [
+      "audio"
+    ],
+    "mode": "tools",
+    "fields": [
+      {
+        "key": "db",
+        "label": "Soglia silenzio (dB)",
+        "default": "-45",
+        "kind": "text"
+      }
+    ],
+    "note": "",
+    "batch": false
+  },
+  {
+    "id": "audio.volume",
+    "title": "Canali e volume",
+    "families": [
+      "audio"
+    ],
+    "mode": "tools",
+    "fields": [
+      {
+        "key": "volume",
+        "label": "Moltiplicatore volume",
+        "default": "1",
+        "kind": "text"
+      },
+      {
+        "key": "channels",
+        "label": "Canali (1 mono / 2 stereo)",
+        "default": "2",
+        "kind": "text"
+      }
+    ],
+    "note": "",
+    "batch": false
+  },
+  {
+    "id": "audio.waveform",
+    "title": "Crea video della forma d’onda",
+    "families": [
+      "audio"
+    ],
+    "mode": "tools",
+    "fields": [],
+    "note": "",
+    "batch": false
+  },
+  {
+    "id": "audio.join",
+    "title": "Unisci audio",
+    "families": [
+      "audio"
+    ],
+    "mode": "tools",
+    "fields": [],
+    "note": "",
+    "batch": true
+  },
+  {
+    "id": "transcribe.txt",
+    "title": "Trascrivi → TXT",
+    "families": [
+      "audio",
+      "video"
+    ],
+    "mode": "tools",
+    "fields": [],
+    "note": "Whisper tiny multilingue, locale. La trascrizione automatica può contenere errori.",
+    "batch": false
+  },
+  {
+    "id": "transcribe.srt",
+    "title": "Trascrivi → SRT",
+    "families": [
+      "audio",
+      "video"
+    ],
+    "mode": "tools",
+    "fields": [],
+    "note": "Whisper tiny multilingue, locale. La trascrizione automatica può contenere errori.",
+    "batch": false
+  },
+  {
+    "id": "transcribe.vtt",
+    "title": "Trascrivi → VTT",
+    "families": [
+      "audio",
+      "video"
+    ],
+    "mode": "tools",
+    "fields": [],
+    "note": "Whisper tiny multilingue, locale. La trascrizione automatica può contenere errori.",
+    "batch": false
+  },
+  {
+    "id": "video.autosubs",
+    "title": "Sottotitoli automatici nel video",
+    "families": [
+      "video"
+    ],
+    "mode": "tools",
+    "fields": [],
+    "note": "",
+    "batch": false
+  },
+  {
+    "id": "pdf.to.png",
+    "title": "PNG",
+    "families": [
+      "pdf"
+    ],
+    "mode": "convert",
+    "fields": [],
+    "note": "DOCX/EPUB: testo riadattabile; XLSX: tabelle rilevate; PPTX: una pagina come immagine per diapositiva. Il layout complesso può cambiare.",
+    "batch": false
+  },
+  {
+    "id": "pdf.to.jpg",
+    "title": "JPG",
+    "families": [
+      "pdf"
+    ],
+    "mode": "convert",
+    "fields": [],
+    "note": "DOCX/EPUB: testo riadattabile; XLSX: tabelle rilevate; PPTX: una pagina come immagine per diapositiva. Il layout complesso può cambiare.",
+    "batch": false
+  },
+  {
+    "id": "pdf.to.txt",
+    "title": "TXT",
+    "families": [
+      "pdf"
+    ],
+    "mode": "convert",
+    "fields": [],
+    "note": "DOCX/EPUB: testo riadattabile; XLSX: tabelle rilevate; PPTX: una pagina come immagine per diapositiva. Il layout complesso può cambiare.",
+    "batch": false
+  },
+  {
+    "id": "pdf.to.md",
+    "title": "MD",
+    "families": [
+      "pdf"
+    ],
+    "mode": "convert",
+    "fields": [],
+    "note": "DOCX/EPUB: testo riadattabile; XLSX: tabelle rilevate; PPTX: una pagina come immagine per diapositiva. Il layout complesso può cambiare.",
+    "batch": false
+  },
+  {
+    "id": "pdf.to.docx",
+    "title": "DOCX",
+    "families": [
+      "pdf"
+    ],
+    "mode": "convert",
+    "fields": [],
+    "note": "DOCX/EPUB: testo riadattabile; XLSX: tabelle rilevate; PPTX: una pagina come immagine per diapositiva. Il layout complesso può cambiare.",
+    "batch": false
+  },
+  {
+    "id": "pdf.to.xlsx",
+    "title": "XLSX",
+    "families": [
+      "pdf"
+    ],
+    "mode": "convert",
+    "fields": [],
+    "note": "DOCX/EPUB: testo riadattabile; XLSX: tabelle rilevate; PPTX: una pagina come immagine per diapositiva. Il layout complesso può cambiare.",
+    "batch": false
+  },
+  {
+    "id": "pdf.to.pptx",
+    "title": "PPTX",
+    "families": [
+      "pdf"
+    ],
+    "mode": "convert",
+    "fields": [],
+    "note": "DOCX/EPUB: testo riadattabile; XLSX: tabelle rilevate; PPTX: una pagina come immagine per diapositiva. Il layout complesso può cambiare.",
+    "batch": false
+  },
+  {
+    "id": "pdf.to.epub",
+    "title": "EPUB",
+    "families": [
+      "pdf"
+    ],
+    "mode": "convert",
+    "fields": [],
+    "note": "DOCX/EPUB: testo riadattabile; XLSX: tabelle rilevate; PPTX: una pagina come immagine per diapositiva. Il layout complesso può cambiare.",
+    "batch": false
+  },
+  {
+    "id": "pdf.merge",
+    "title": "Unisci PDF",
+    "families": [
+      "pdf"
+    ],
+    "mode": "tools",
+    "fields": [],
+    "note": "",
+    "batch": true
+  },
+  {
+    "id": "pdf.split",
+    "title": "Separa tutte le pagine",
+    "families": [
+      "pdf"
+    ],
+    "mode": "tools",
+    "fields": [],
+    "note": "",
+    "batch": false
+  },
+  {
+    "id": "pdf.select",
+    "title": "Estrai/riordina pagine",
+    "families": [
+      "pdf"
+    ],
+    "mode": "tools",
+    "fields": [
+      {
+        "key": "pages",
+        "label": "Pagine, es. 3,1,2 oppure 1-5",
+        "default": "1",
+        "kind": "text"
+      }
+    ],
+    "note": "",
+    "batch": false
+  },
+  {
+    "id": "pdf.rotate",
+    "title": "Ruota pagine 90°",
+    "families": [
+      "pdf"
+    ],
+    "mode": "tools",
+    "fields": [],
+    "note": "",
+    "batch": false
+  },
+  {
+    "id": "pdf.reverse",
+    "title": "Inverti pagine",
+    "families": [
+      "pdf"
+    ],
+    "mode": "tools",
+    "fields": [],
+    "note": "",
+    "batch": false
+  },
+  {
+    "id": "pdf.numbers",
+    "title": "Numera pagine",
+    "families": [
+      "pdf"
+    ],
+    "mode": "tools",
+    "fields": [
+      {
+        "key": "start",
+        "label": "Numero iniziale",
+        "default": "1",
+        "kind": "text"
+      }
+    ],
+    "note": "",
+    "batch": false
+  },
+  {
+    "id": "pdf.password",
+    "title": "Proteggi PDF",
+    "families": [
+      "pdf"
+    ],
+    "mode": "tools",
+    "fields": [
+      {
+        "key": "password",
+        "label": "Password",
+        "default": "",
+        "kind": "password"
+      }
+    ],
+    "note": "",
+    "batch": false
+  },
+  {
+    "id": "pdf.unlock",
+    "title": "Sblocca PDF",
+    "families": [
+      "pdf"
+    ],
+    "mode": "tools",
+    "fields": [
+      {
+        "key": "password",
+        "label": "Password attuale",
+        "default": "",
+        "kind": "password"
+      }
+    ],
+    "note": "",
+    "batch": false
+  },
+  {
+    "id": "pdf.compress",
+    "title": "Comprimi PDF",
+    "families": [
+      "pdf"
+    ],
+    "mode": "tools",
+    "fields": [
+      {
+        "key": "dpi",
+        "label": "Risoluzione immagini (dpi)",
+        "default": "120",
+        "kind": "text"
+      }
+    ],
+    "note": "Ricrea le pagine come immagini: testo ricercabile, moduli e firme digitali non vengono conservati.",
+    "batch": false
+  },
+  {
+    "id": "pdf.gray",
+    "title": "PDF in scala di grigi",
+    "families": [
+      "pdf"
+    ],
+    "mode": "tools",
+    "fields": [],
+    "note": "Ricrea le pagine come immagini: testo ricercabile, moduli e firme digitali non vengono conservati.",
+    "batch": false
+  },
+  {
+    "id": "pdf.watermark",
+    "title": "Filigrana PDF",
+    "families": [
+      "pdf"
+    ],
+    "mode": "tools",
+    "fields": [
+      {
+        "key": "text",
+        "label": "Testo",
+        "default": "BOZZA",
+        "kind": "text"
+      }
+    ],
+    "note": "",
+    "batch": false
+  },
+  {
+    "id": "pdf.images",
+    "title": "Estrai immagini",
+    "families": [
+      "pdf"
+    ],
+    "mode": "tools",
+    "fields": [],
+    "note": "",
+    "batch": false
+  },
+  {
+    "id": "pdf.metadata",
+    "title": "Leggi metadati PDF",
+    "families": [
+      "pdf"
+    ],
+    "mode": "tools",
+    "fields": [],
+    "note": "",
+    "batch": false
+  },
+  {
+    "id": "pdf.strip",
+    "title": "Rimuovi metadati PDF",
+    "families": [
+      "pdf"
+    ],
+    "mode": "tools",
+    "fields": [],
+    "note": "",
+    "batch": false
+  },
+  {
+    "id": "pdf.editmeta",
+    "title": "Modifica metadati PDF",
+    "families": [
+      "pdf"
+    ],
+    "mode": "tools",
+    "fields": [
+      {
+        "key": "title",
+        "label": "Titolo",
+        "default": "",
+        "kind": "text"
+      },
+      {
+        "key": "author",
+        "label": "Autore",
+        "default": "",
+        "kind": "text"
+      },
+      {
+        "key": "subject",
+        "label": "Oggetto",
+        "default": "",
+        "kind": "text"
+      }
+    ],
+    "note": "",
+    "batch": false
+  },
+  {
+    "id": "pdf.redact",
+    "title": "Oscura testo nel PDF",
+    "families": [
+      "pdf"
+    ],
+    "mode": "tools",
+    "fields": [
+      {
+        "key": "text",
+        "label": "Testo da eliminare",
+        "default": "",
+        "kind": "text"
+      }
+    ],
+    "note": "",
+    "batch": false
+  },
+  {
+    "id": "pdf.addtext",
+    "title": "Aggiungi testo al PDF",
+    "families": [
+      "pdf"
+    ],
+    "mode": "tools",
+    "fields": [
+      {
+        "key": "text",
+        "label": "Testo",
+        "default": "",
+        "kind": "text"
+      },
+      {
+        "key": "page",
+        "label": "Pagina",
+        "default": "1",
+        "kind": "text"
+      },
+      {
+        "key": "x",
+        "label": "X (punti)",
+        "default": "50",
+        "kind": "text"
+      },
+      {
+        "key": "y",
+        "label": "Y (punti)",
+        "default": "50",
+        "kind": "text"
+      },
+      {
+        "key": "size",
+        "label": "Dimensione",
+        "default": "14",
+        "kind": "text"
+      }
+    ],
+    "note": "",
+    "batch": false
+  },
+  {
+    "id": "pdf.sign",
+    "title": "Firma PDF con immagine",
+    "families": [
+      "pdf"
+    ],
+    "mode": "tools",
+    "fields": [
+      {
+        "key": "file",
+        "label": "Firma PNG trasparente",
+        "default": "",
+        "kind": "file"
+      },
+      {
+        "key": "page",
+        "label": "Pagina",
+        "default": "1",
+        "kind": "text"
+      },
+      {
+        "key": "x",
+        "label": "X da sinistra (px)",
+        "default": "0",
+        "kind": "text"
+      },
+      {
+        "key": "y",
+        "label": "Y dall’alto (px)",
+        "default": "0",
+        "kind": "text"
+      },
+      {
+        "key": "width",
+        "label": "Larghezza (px)",
+        "default": "200",
+        "kind": "text"
+      },
+      {
+        "key": "height",
+        "label": "Altezza (px)",
+        "default": "200",
+        "kind": "text"
+      }
+    ],
+    "note": "",
+    "batch": false
+  },
+  {
+    "id": "pdf.fill",
+    "title": "Compila campi PDF",
+    "families": [
+      "pdf"
+    ],
+    "mode": "tools",
+    "fields": [
+      {
+        "key": "values",
+        "label": "Campi e valori JSON",
+        "default": "{}",
+        "kind": "text"
+      }
+    ],
+    "note": "",
+    "batch": false
+  },
+  {
+    "id": "pdf.forms",
+    "title": "Elenca campi modulo",
+    "families": [
+      "pdf"
+    ],
+    "mode": "tools",
+    "fields": [],
+    "note": "",
+    "batch": false
+  },
+  {
+    "id": "pdf.ocr",
+    "title": "Rendi PDF ricercabile (OCR)",
+    "families": [
+      "pdf"
+    ],
+    "mode": "tools",
+    "fields": [],
+    "note": "Riconoscimento locale Vision; aggiunge uno strato di testo invisibile.",
+    "batch": false
+  },
+  {
+    "id": "document.to.pdf",
+    "title": "PDF",
+    "families": [
+      "document"
+    ],
+    "mode": "convert",
+    "fields": [],
+    "note": "",
+    "batch": false
+  },
+  {
+    "id": "document.to.docx",
+    "title": "DOCX",
+    "families": [
+      "document"
+    ],
+    "mode": "convert",
+    "fields": [],
+    "note": "",
+    "batch": false
+  },
+  {
+    "id": "document.to.odt",
+    "title": "ODT",
+    "families": [
+      "document"
+    ],
+    "mode": "convert",
+    "fields": [],
+    "note": "",
+    "batch": false
+  },
+  {
+    "id": "document.to.rtf",
+    "title": "RTF",
+    "families": [
+      "document"
+    ],
+    "mode": "convert",
+    "fields": [],
+    "note": "",
+    "batch": false
+  },
+  {
+    "id": "document.to.html",
+    "title": "HTML",
+    "families": [
+      "document"
+    ],
+    "mode": "convert",
+    "fields": [],
+    "note": "",
+    "batch": false
+  },
+  {
+    "id": "document.to.md",
+    "title": "MD",
+    "families": [
+      "document"
+    ],
+    "mode": "convert",
+    "fields": [],
+    "note": "",
+    "batch": false
+  },
+  {
+    "id": "document.to.txt",
+    "title": "TXT",
+    "families": [
+      "document"
+    ],
+    "mode": "convert",
+    "fields": [],
+    "note": "",
+    "batch": false
+  },
+  {
+    "id": "document.to.epub",
+    "title": "EPUB",
+    "families": [
+      "document"
+    ],
+    "mode": "convert",
+    "fields": [],
+    "note": "",
+    "batch": false
+  },
+  {
+    "id": "slides.to.pdf",
+    "title": "PDF",
+    "families": [
+      "slides"
+    ],
+    "mode": "convert",
+    "fields": [],
+    "note": "",
+    "batch": false
+  },
+  {
+    "id": "slides.to.pptx",
+    "title": "PPTX",
+    "families": [
+      "slides"
+    ],
+    "mode": "convert",
+    "fields": [],
+    "note": "",
+    "batch": false
+  },
+  {
+    "id": "slides.to.odp",
+    "title": "ODP",
+    "families": [
+      "slides"
+    ],
+    "mode": "convert",
+    "fields": [],
+    "note": "",
+    "batch": false
+  },
+  {
+    "id": "slides.to.png",
+    "title": "PNG",
+    "families": [
+      "slides"
+    ],
+    "mode": "convert",
+    "fields": [],
+    "note": "",
+    "batch": false
+  },
+  {
+    "id": "slides.to.jpg",
+    "title": "JPG",
+    "families": [
+      "slides"
+    ],
+    "mode": "convert",
+    "fields": [],
+    "note": "",
+    "batch": false
+  },
+  {
+    "id": "sheet.to.csv",
+    "title": "CSV",
+    "families": [
+      "sheet"
+    ],
+    "mode": "convert",
+    "fields": [],
+    "note": "CSV/TSV/JSON: primo foglio, valori; non conservano formule o impaginazione.",
+    "batch": false
+  },
+  {
+    "id": "sheet.to.tsv",
+    "title": "TSV",
+    "families": [
+      "sheet"
+    ],
+    "mode": "convert",
+    "fields": [],
+    "note": "CSV/TSV/JSON: primo foglio, valori; non conservano formule o impaginazione.",
+    "batch": false
+  },
+  {
+    "id": "sheet.to.xlsx",
+    "title": "XLSX",
+    "families": [
+      "sheet"
+    ],
+    "mode": "convert",
+    "fields": [],
+    "note": "CSV/TSV/JSON: primo foglio, valori; non conservano formule o impaginazione.",
+    "batch": false
+  },
+  {
+    "id": "sheet.to.ods",
+    "title": "ODS",
+    "families": [
+      "sheet"
+    ],
+    "mode": "convert",
+    "fields": [],
+    "note": "CSV/TSV/JSON: primo foglio, valori; non conservano formule o impaginazione.",
+    "batch": false
+  },
+  {
+    "id": "sheet.to.json",
+    "title": "JSON",
+    "families": [
+      "sheet"
+    ],
+    "mode": "convert",
+    "fields": [],
+    "note": "CSV/TSV/JSON: primo foglio, valori; non conservano formule o impaginazione.",
+    "batch": false
+  },
+  {
+    "id": "sheet.to.pdf",
+    "title": "PDF",
+    "families": [
+      "sheet"
+    ],
+    "mode": "convert",
+    "fields": [],
+    "note": "CSV/TSV/JSON: primo foglio, valori; non conservano formule o impaginazione.",
+    "batch": false
+  },
+  {
+    "id": "subtitle.to.srt",
+    "title": "SRT",
+    "families": [
+      "subtitle"
+    ],
+    "mode": "convert",
+    "fields": [],
+    "note": "",
+    "batch": false
+  },
+  {
+    "id": "subtitle.to.vtt",
+    "title": "VTT",
+    "families": [
+      "subtitle"
+    ],
+    "mode": "convert",
+    "fields": [],
+    "note": "",
+    "batch": false
+  },
+  {
+    "id": "subtitle.shift",
+    "title": "Sposta tempi sottotitoli",
+    "families": [
+      "subtitle"
+    ],
+    "mode": "tools",
+    "fields": [
+      {
+        "key": "seconds",
+        "label": "Spostamento (s)",
+        "default": "1",
+        "kind": "text"
+      }
+    ],
+    "note": "",
+    "batch": false
+  },
+  {
+    "id": "archive.zip",
+    "title": "Comprimi → ZIP",
+    "families": [
+      "any"
+    ],
+    "mode": "actions",
+    "fields": [],
+    "note": "",
+    "batch": true
+  },
+  {
+    "id": "archive.tar",
+    "title": "Comprimi → TAR",
+    "families": [
+      "any"
+    ],
+    "mode": "actions",
+    "fields": [],
+    "note": "",
+    "batch": true
+  },
+  {
+    "id": "archive.tar.gz",
+    "title": "Comprimi → TAR.GZ",
+    "families": [
+      "any"
+    ],
+    "mode": "actions",
+    "fields": [],
+    "note": "",
+    "batch": true
+  },
+  {
+    "id": "archive.password",
+    "title": "ZIP con password AES",
+    "families": [
+      "any"
+    ],
+    "mode": "actions",
+    "fields": [
+      {
+        "key": "password",
+        "label": "Password",
+        "default": "",
+        "kind": "password"
+      }
+    ],
+    "note": "",
+    "batch": true
+  },
+  {
+    "id": "archive.extract",
+    "title": "Estrai archivio",
+    "families": [
+      "archive"
+    ],
+    "mode": "convert",
+    "fields": [
+      {
+        "key": "password",
+        "label": "Password ZIP/7z (facoltativa)",
+        "default": "",
+        "kind": "password"
+      }
+    ],
+    "note": "",
+    "batch": false
+  },
+  {
+    "id": "files.strip",
+    "title": "Rimuovi metadati",
+    "families": [
+      "image",
+      "video",
+      "audio",
+      "pdf",
+      "document"
+    ],
+    "mode": "tools",
+    "fields": [],
+    "note": "Crea una copia senza metadati supportati. Contenuti visibili e dati incorporati nel documento possono restare.",
+    "batch": false
+  },
+  {
+    "id": "files.hash",
+    "title": "Calcola SHA-256",
+    "families": [
+      "any"
+    ],
+    "mode": "actions",
+    "fields": [],
+    "note": "",
+    "batch": false
+  },
+  {
+    "id": "files.renameOriginals",
+    "title": "Rinomina file in serie",
+    "families": [
+      "any"
+    ],
+    "mode": "actions",
+    "fields": [
+      {
+        "key": "prefix",
+        "label": "Prefisso",
+        "default": "File",
+        "kind": "text"
+      },
+      {
+        "key": "start",
+        "label": "Numero iniziale",
+        "default": "1",
+        "kind": "text"
+      }
+    ],
+    "note": "Questa azione cambia il nome dei file originali. Non sovrascrive file esistenti.",
+    "batch": true
+  },
+  {
+    "id": "native.hash",
+    "title": "Copia checksum SHA-256",
+    "families": [
+      "any"
+    ],
+    "mode": "actions",
+    "fields": [],
+    "note": "",
+    "batch": false
+  },
+  {
+    "id": "files.rename",
+    "title": "Rinomina copie in serie",
+    "families": [
+      "any"
+    ],
+    "mode": "actions",
+    "fields": [
+      {
+        "key": "prefix",
+        "label": "Prefisso",
+        "default": "File",
+        "kind": "text"
+      },
+      {
+        "key": "start",
+        "label": "Numero iniziale",
+        "default": "1",
+        "kind": "text"
+      }
+    ],
+    "note": "Crea copie con il nuovo nome e conserva gli originali.",
+    "batch": true
+  },
+  {
+    "id": "native.copy",
+    "title": "Copia file",
+    "families": [
+      "any"
+    ],
+    "mode": "actions",
+    "fields": [],
+    "note": "",
+    "batch": false
+  },
+  {
+    "id": "native.path",
+    "title": "Copia percorsi",
+    "families": [
+      "any"
+    ],
+    "mode": "actions",
+    "fields": [],
+    "note": "",
+    "batch": false
+  },
+  {
+    "id": "native.reveal",
+    "title": "Mostra nel Finder",
+    "families": [
+      "any"
+    ],
+    "mode": "actions",
+    "fields": [],
+    "note": "",
+    "batch": false
+  },
+  {
+    "id": "native.move",
+    "title": "Sposta in…",
+    "families": [
+      "any"
+    ],
+    "mode": "actions",
+    "fields": [],
+    "note": "",
+    "batch": false
+  },
+  {
+    "id": "native.copyto",
+    "title": "Copia in…",
+    "families": [
+      "any"
+    ],
+    "mode": "actions",
+    "fields": [],
+    "note": "",
+    "batch": false
+  },
+  {
+    "id": "native.airdrop",
+    "title": "AirDrop",
+    "families": [
+      "any"
+    ],
+    "mode": "actions",
+    "fields": [],
+    "note": "",
+    "batch": false
+  },
+  {
+    "id": "native.float",
+    "title": "Conserva nello scaffale",
+    "families": [
+      "any"
+    ],
+    "mode": "actions",
+    "fields": [],
+    "note": "",
+    "batch": false
+  },
+  {
+    "id": "native.terminal",
+    "title": "Apri Terminale qui",
+    "families": [
+      "any"
+    ],
+    "mode": "actions",
+    "fields": [],
+    "note": "",
+    "batch": false
+  },
+  {
+    "id": "native.copyimage",
+    "title": "Copia immagine",
+    "families": [
+      "image"
+    ],
+    "mode": "actions",
+    "fields": [],
+    "note": "",
+    "batch": false
+  },
+  {
+    "id": "native.dmg",
+    "title": "Immagine disco cifrata",
+    "families": [
+      "any"
+    ],
+    "mode": "actions",
+    "fields": [
+      {
+        "key": "password",
+        "label": "Password",
+        "default": "",
+        "kind": "password"
+      }
+    ],
+    "note": "",
+    "batch": true
+  },
+  {
+    "id": "native.pages",
+    "title": "Esporta in Pages",
+    "families": [
+      "document"
+    ],
+    "mode": "convert",
+    "fields": [],
+    "note": "",
+    "batch": false
+  },
+  {
+    "id": "native.keynote",
+    "title": "Esporta in Keynote",
+    "families": [
+      "slides"
+    ],
+    "mode": "convert",
+    "fields": [],
+    "note": "",
+    "batch": false
+  }
+]
