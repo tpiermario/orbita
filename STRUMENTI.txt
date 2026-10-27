@@ -1,0 +1,169 @@
+ORBITA 2 — 167 COMANDI NEL CATALOGO
+
+  1. PNG | image | image.to.png
+  2. JPG | image | image.to.jpg
+  3. WEBP | image | image.to.webp
+  4. AVIF | image | image.to.avif
+  5. HEIC | image | image.to.heic
+  6. TIFF | image | image.to.tiff
+  7. GIF | image | image.to.gif
+  8. BMP | image | image.to.bmp
+  9. ICO | image | image.to.ico
+ 10. ICNS | image | image.to.icns
+ 11. PDF | image | image.to.pdf
+ 12. Ruota 90° | image | image.rotate90
+ 13. Ruota −90° | image | image.rotate270
+ 14. Ruota 180° | image | image.rotate180
+ 15. Rifletti orizzontalmente | image | image.flipH
+ 16. Rifletti verticalmente | image | image.flipV
+ 17. Bianco e nero | image | image.gray
+ 18. Ridimensiona | image | image.resize
+ 19. Ritaglia | image | image.crop
+ 20. Regola immagine | image | image.edit
+ 21. Oscura area | image | image.redact
+ 22. Aggiungi testo | image | image.annotate
+ 23. Filigrana | image | image.watermark
+ 24. Filigrana ripetuta | image | image.tilemark
+ 25. Aggiungi sfondo | image | image.background
+ 26. Rimuovi sfondo | image | image.removebg
+ 27. Sfoca sfondo | image | image.blurbg
+ 28. Ingrandisci 2× | image | image.upscale2
+ 29. Ingrandisci 4× | image | image.upscale4
+ 30. Estrai tavolozza | image | image.palette
+ 31. Leggi metadati | image | image.metadata
+ 32. Modifica metadati | image | image.editmeta
+ 33. Rimuovi metadati | image | image.strip
+ 34. Comprimi a una dimensione | image | image.compress
+ 35. Comprimi · alta qualità | image | image.quality90
+ 36. Comprimi · bilanciata | image | image.quality70
+ 37. Comprimi · minima | image | image.quality40
+ 38. Estrai testo (OCR) | image | vision.ocr
+ 39. Leggi QR e codici a barre | image | vision.qr
+ 40. Oscura volti | image | vision.faces
+ 41. Oscura testo riconosciuto | image | vision.textredact
+ 42. Crea collage | image | image.collage
+ 43. Crea GIF animata | image | image.animate
+ 44. Unisci immagini in PDF | image | image.combine
+ 45. MP4 | video | video.to.mp4
+ 46. MOV | video | video.to.mov
+ 47. MKV | video | video.to.mkv
+ 48. WEBM | video | video.to.webm
+ 49. AVI | video | video.to.avi
+ 50. WMV | video | video.to.wmv
+ 51. GIF | video | video.to.gif
+ 52. MP3 | audio, video | audio.to.mp3
+ 53. M4A | audio, video | audio.to.m4a
+ 54. WAV | audio, video | audio.to.wav
+ 55. FLAC | audio, video | audio.to.flac
+ 56. OGG | audio, video | audio.to.ogg
+ 57. OPUS | audio, video | audio.to.opus
+ 58. AIFF | audio, video | audio.to.aiff
+ 59. WMA | audio, video | audio.to.wma
+ 60. Taglia video | video | video.trim
+ 61. Dividi video | video | video.split
+ 62. Ritaglia video | video | video.crop
+ 63. Estrai fotogrammi | video | video.frames
+ 64. Oscura area nel tempo | video | video.redact
+ 65. Comprimi video a MB | video | video.compress
+ 66. Velocità video | video | video.speed
+ 67. Ruota video 90° | video | video.rotate
+ 68. Rimuovi audio | video | video.mute
+ 69. Rimuovi metadati video | video | video.strip
+ 70. Aggiungi traccia sottotitoli | video | video.addsubs
+ 71. Incorpora sottotitoli nel video | video | video.burnsubs
+ 72. Estrai sottotitoli | video | video.extractsubs
+ 73. Unisci video | video | video.join
+ 74. Taglia audio | audio | audio.trim
+ 75. Oscura audio con un tono | audio | audio.bleep
+ 76. Dissolvenze | audio | audio.fade
+ 77. Normalizza volume | audio | audio.normalize
+ 78. Riduci rumore | audio | audio.denoise
+ 79. Velocità audio | audio | audio.speed
+ 80. Cambia tonalità | audio | audio.pitch
+ 81. Converti in mono | audio | audio.mono
+ 82. Converti in stereo | audio | audio.stereo
+ 83. Modifica tag | audio | audio.tags
+ 84. Aggiungi copertina | audio | audio.artwork
+ 85. Rimuovi metadati audio | audio | audio.strip
+ 86. Comprimi audio · AAC 128 kbps | audio | audio.compress
+ 87. Taglia silenzi alle estremità | audio | audio.silence
+ 88. Canali e volume | audio | audio.volume
+ 89. Crea video della forma d’onda | audio | audio.waveform
+ 90. Unisci audio | audio | audio.join
+ 91. Trascrivi → TXT | audio, video | transcribe.txt
+ 92. Trascrivi → SRT | audio, video | transcribe.srt
+ 93. Trascrivi → VTT | audio, video | transcribe.vtt
+ 94. Sottotitoli automatici nel video | video | video.autosubs
+ 95. PNG | pdf | pdf.to.png
+ 96. JPG | pdf | pdf.to.jpg
+ 97. TXT | pdf | pdf.to.txt
+ 98. MD | pdf | pdf.to.md
+ 99. DOCX | pdf | pdf.to.docx
+100. XLSX | pdf | pdf.to.xlsx
+101. PPTX | pdf | pdf.to.pptx
+102. EPUB | pdf | pdf.to.epub
+103. Unisci PDF | pdf | pdf.merge
+104. Separa tutte le pagine | pdf | pdf.split
+105. Estrai/riordina pagine | pdf | pdf.select
+106. Ruota pagine 90° | pdf | pdf.rotate
+107. Inverti pagine | pdf | pdf.reverse
+108. Numera pagine | pdf | pdf.numbers
+109. Proteggi PDF | pdf | pdf.password
+110. Sblocca PDF | pdf | pdf.unlock
+111. Comprimi PDF | pdf | pdf.compress
+112. PDF in scala di grigi | pdf | pdf.gray
+113. Filigrana PDF | pdf | pdf.watermark
+114. Estrai immagini | pdf | pdf.images
+115. Leggi metadati PDF | pdf | pdf.metadata
+116. Rimuovi metadati PDF | pdf | pdf.strip
+117. Modifica metadati PDF | pdf | pdf.editmeta
+118. Oscura testo nel PDF | pdf | pdf.redact
+119. Aggiungi testo al PDF | pdf | pdf.addtext
+120. Firma PDF con immagine | pdf | pdf.sign
+121. Compila campi PDF | pdf | pdf.fill
+122. Elenca campi modulo | pdf | pdf.forms
+123. Rendi PDF ricercabile (OCR) | pdf | pdf.ocr
+124. PDF | document | document.to.pdf
+125. DOCX | document | document.to.docx
+126. ODT | document | document.to.odt
+127. RTF | document | document.to.rtf
+128. HTML | document | document.to.html
+129. MD | document | document.to.md
+130. TXT | document | document.to.txt
+131. EPUB | document | document.to.epub
+132. PDF | slides | slides.to.pdf
+133. PPTX | slides | slides.to.pptx
+134. ODP | slides | slides.to.odp
+135. PNG | slides | slides.to.png
+136. JPG | slides | slides.to.jpg
+137. CSV | sheet | sheet.to.csv
+138. TSV | sheet | sheet.to.tsv
+139. XLSX | sheet | sheet.to.xlsx
+140. ODS | sheet | sheet.to.ods
+141. JSON | sheet | sheet.to.json
+142. PDF | sheet | sheet.to.pdf
+143. SRT | subtitle | subtitle.to.srt
+144. VTT | subtitle | subtitle.to.vtt
+145. Sposta tempi sottotitoli | subtitle | subtitle.shift
+146. Comprimi → ZIP | any | archive.zip
+147. Comprimi → TAR | any | archive.tar
+148. Comprimi → TAR.GZ | any | archive.tar.gz
+149. ZIP con password AES | any | archive.password
+150. Estrai archivio | archive | archive.extract
+151. Rimuovi metadati | image, video, audio, pdf, document | files.strip
+152. Calcola SHA-256 | any | files.hash
+153. Rinomina file in serie | any | files.renameOriginals
+154. Copia checksum SHA-256 | any | native.hash
+155. Rinomina copie in serie | any | files.rename
+156. Copia file | any | native.copy
+157. Copia percorsi | any | native.path
+158. Mostra nel Finder | any | native.reveal
+159. Sposta in… | any | native.move
+160. Copia in… | any | native.copyto
+161. AirDrop | any | native.airdrop
+162. Conserva nello scaffale | any | native.float
+163. Apri Terminale qui | any | native.terminal
+164. Copia immagine | image | native.copyimage
+165. Immagine disco cifrata | any | native.dmg
+166. Esporta in Pages | document | native.pages
+167. Esporta in Keynote | slides | native.keynote

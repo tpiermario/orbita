@@ -1,0 +1,36 @@
+COMPONENTI INCLUSI IN ORBITA 2.3 UNIVERSAL
+
+Interfaccia e coordinamento: codice sorgente in Sources/ ed Engine/.
+Il pacchetto usa componenti open source con licenze distinte. Le licenze e gli avvisi dei pacchetti Python sono conservati nelle rispettive cartelle *.dist-info; LibreOffice include LICENSE, NOTICE e le sue informazioni di licenza.
+
+Python 3.12.15, python-build-standalone 20261021 (PSF e licenze delle librerie incluse)
+https://github.com/astral-sh/python-build-standalone/releases/tag/20261021
+
+FFmpeg 7.1, distribuito dalla wheel imageio-ffmpeg 0.6.0 (build GPL; consultare ffmpeg -L)
+https://github.com/imageio/imageio-ffmpeg
+https://ffmpeg.org/releases/ffmpeg-7.1.tar.xz
+
+LibreOffice 25.8.7.2 x86_64 e arm64 (MPL 2.0 e componenti con altre licenze)
+https://www.libreoffice.org/about-us/licenses/
+https://download.documentfoundation.org/libreoffice/src/25.8.7/
+
+Pandoc 3.1.13 Intel e 3.1.6 ARM, distribuzioni ufficiali, wrapper pypandoc_binary 1.17 (Pandoc GPL)
+https://github.com/jgm/pandoc
+https://github.com/JessicaTegner/pypandoc
+
+PyMuPDF 1.26.7 / MuPDF (AGPL, salvo licenza commerciale separata)
+https://github.com/pymupdf/PyMuPDF/tree/1.26.7
+https://mupdf.com/licensing/index.html
+
+Pillow, pillow-heif/libheif, NumPy, ONNX Runtime, python-docx, python-pptx, openpyxl, odfpy, EbookLib, py7zr, pyzipper e relative dipendenze: versioni in requirements.lock.txt, licenze incluse nelle distribuzioni.
+
+whisper.cpp 1.8.2 (MIT), modello Whisper tiny multilingue
+https://github.com/ggml-org/whisper.cpp/tree/v1.8.2
+https://huggingface.co/ggerganov/whisper.cpp
+
+U2NetP per rimozione sfondo, distribuito dal progetto rembg; U-2-Net (Apache 2.0)
+https://github.com/xuebinqin/U-2-Net
+https://github.com/danielgatis/rembg
+
+Gli hash degli archivi e modelli acquisiti sono in DEPENDENCIES.json. La firma locale dell'app non equivale a una certificazione dei fornitori.
+Questo è un pacchetto locale realizzato per l'utente. Prima di una redistribuzione pubblica occorre rispettare le licenze di ciascun componente, inclusi gli obblighi di fornitura del codice sorgente per componenti GPL/AGPL; includere i soli collegamenti non sostituisce tali obblighi.
