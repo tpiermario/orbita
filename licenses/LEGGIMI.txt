@@ -1,0 +1,33 @@
+ORBITA — LICENZE E SORGENTI
+
+Copyright © 2026 Piermario Tavernise
+Codice originale e risorse di Orbita: GNU Affero General Public License 3.0
+(SPDX: AGPL-3.0-only). Testo integrale nel file AGPL-3.0.txt.
+
+Orbita è software libero: puoi studiarlo, modificarlo e ridistribuirlo secondo
+la licenza AGPL-3.0. È fornito SENZA ALCUNA GARANZIA, incluse le garanzie
+implicite di commerciabilità e idoneità per uno scopo particolare.
+
+Sorgenti di Orbita:
+https://github.com/tpiermario/orbita
+
+Sorgenti, istruzioni di compilazione e avvisi della versione 2.3.1:
+https://github.com/tpiermario/orbita/releases/tag/v2.3.1
+Gli archivi Sources-* sono disponibili gratuitamente accanto al DMG.
+
+COMPONENTI ESTERNI
+Ogni componente mantiene la licenza e il copyright dei propri autori.
+La licenza di Orbita non sostituisce le licenze di Python, LibreOffice,
+FFmpeg, Pandoc, MuPDF, Whisper, U-2-Net o delle altre dipendenze.
+Nella distribuzione completa, INDEX.txt e INDEX.json rimandano ai testi
+originali degli avvisi nella sottocartella texts/. THIRD-PARTY.txt elenca
+le principali versioni e condizioni. Alcuni avvisi riguardano componenti
+facoltativi presenti nei sorgenti upstream, non necessariamente nel binario.
+
+I componenti LGPL possono essere modificati, sostituiti e ricompilati secondo
+le loro licenze. Non sono imposte restrizioni al reverse engineering
+necessario per il debug di tali modifiche. Le istruzioni di ricompilazione
+e firma locale sono in Distribution/README.md nei sorgenti pubblici.
+
+Orbita è un progetto indipendente, non affiliato a Clementine né ai fornitori
+dei componenti esterni. La firma ad hoc non è una notarizzazione Apple.
