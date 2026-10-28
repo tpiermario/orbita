@@ -1,0 +1,32 @@
+ORBITA 2.3.1 — MAC INTEL E APPLE SILICON
+
+1. Scarica Orbita-2.3.1-Universal.dmg dalla release ufficiale:
+   https://github.com/tpiermario/orbita/releases/tag/v2.3.1
+2. Apri il DMG e trascina Orbita nella cartella Applicazioni.
+3. Apri Orbita. Trascina un file e tieni premuti Shift + Option (⇧⌥)
+   per scegliere un formato dalla ruota. “Apri Studio…” offre tutti gli strumenti.
+
+PRIMO AVVIO
+L'app è firmata localmente (ad hoc), ma non ha firma Developer ID né
+notarizzazione Apple. macOS può quindi bloccarne il primo avvio.
+Se ti fidi della provenienza del file, dopo aver tentato di aprirlo usa
+Impostazioni di Sistema > Privacy e sicurezza > Apri comunque.
+Segui le istruzioni ufficiali Apple: https://support.apple.com/it-it/102445
+Su un Mac amministrato dall'azienda questa opzione può non essere disponibile.
+
+COMPATIBILITÀ
+macOS 12 o successivo. Include motori nativi Intel e ARM.
+Test di esecuzione effettuati su Intel. Le architetture ARM e i requisiti
+minimi sono stati verificati nei file; il collaudo su un Mac Apple Silicon
+reale resta da completare.
+
+OFFLINE
+I motori e i modelli necessari sono inclusi. Non serve scaricarli al primo uso.
+Le operazioni che richiedono Pages o Keynote richiedono quelle app Apple.
+
+LICENZE E SORGENTI
+Orbita: AGPL-3.0-only, copyright 2026 Piermario Tavernise; senza garanzia.
+I componenti esterni mantengono le proprie licenze.
+Nel menu di Orbita trovi “Licenze e sorgenti…”. I sorgenti e gli avvisi sono
+scaricabili gratuitamente dalla stessa release. Non occorre scaricare gli
+archivi Sources per installare o utilizzare l'app.
