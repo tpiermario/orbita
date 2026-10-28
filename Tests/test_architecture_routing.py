@@ -4,6 +4,16 @@ from unittest.mock import patch
 ROOT=Path(__file__).resolve().parents[1];sys.path.insert(0,str(ROOT/'Engine'))
 import engine as E
 class ArchitectureRouting(unittest.TestCase):
+ def test_ffmpeg_native_for_each_processor(self):
+  for arch,directory in [('x86_64','bin'),('arm64','bin/arm64')]:
+   with patch.object(E.platform,'machine',return_value=arch),patch.object(Path,'is_file',return_value=True):
+    self.assertEqual(E.ffmpeg(),str(E.RES/directory/'ffmpeg'))
+ def test_missing_ffmpeg_does_not_use_system_binary(self):
+  with patch.object(E.platform,'machine',return_value='x86_64'),patch.object(Path,'is_file',return_value=False):
+   with self.assertRaises(E.UserError):E.ffmpeg()
+ def test_unknown_ffmpeg_processor_is_rejected(self):
+  with patch.object(E.platform,'machine',return_value='unknown'):
+   with self.assertRaises(E.UserError):E.ffmpeg()
  def test_office_native_for_each_processor(self):
   for arch,directory in [('x86_64','Office'),('arm64','Office-arm64')]:
    with patch.object(E.platform,'machine',return_value=arch),patch.object(Path,'exists',return_value=True):
