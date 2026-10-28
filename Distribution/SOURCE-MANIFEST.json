@@ -1,0 +1,2916 @@
+{
+  "release": "2.3.1",
+  "source_archives": [
+    {
+      "path": "office-external/1725634df4bb3dcb1b2c91a6175f8789-GentiumBasic_1102.zip",
+      "bytes": 811606,
+      "url": "https://dev-www.libreoffice.org/src/1725634df4bb3dcb1b2c91a6175f8789-GentiumBasic_1102.zip",
+      "sha256": "2f1a2c5491d7305dffd3520c6375d2f3e14931ee35c6d8ae1e8f098bf1a7b3cc"
+    },
+    {
+      "path": "office-external/17410483b5b5f267aa18b7e00b65e6e0-hsqldb_1_8_0.zip",
+      "bytes": 3519470,
+      "url": "https://dev-www.libreoffice.org/src/17410483b5b5f267aa18b7e00b65e6e0-hsqldb_1_8_0.zip",
+      "sha256": "d30b13f4ba2e3b6a2d4f020c0dee0a9fb9fc6fbcc2d561f36b78da4bf3802370"
+    },
+    {
+      "path": "office-external/1f5def51ca0026cd192958ef07228b52-rasqal-0.9.33.tar.gz",
+      "bytes": 1595647,
+      "url": "https://dev-www.libreoffice.org/src/1f5def51ca0026cd192958ef07228b52-rasqal-0.9.33.tar.gz",
+      "sha256": "6924c9ac6570bd241a9669f83b467c728a322470bf34f4b2da4f69492ccfd97c"
+    },
+    {
+      "path": "office-external/26b3e95ddf3d9c077c480ea45874b3b8-lp_solve_5.5.tar.gz",
+      "bytes": 769268,
+      "url": "https://dev-www.libreoffice.org/src/26b3e95ddf3d9c077c480ea45874b3b8-lp_solve_5.5.tar.gz",
+      "sha256": "171816288f14215c69e730f7a4f1c325739873e21f946ff83884b350574e6695"
+    },
+    {
+      "path": "office-external/33e1e61fab06a547851ed308b4ffef42-dejavu-fonts-ttf-2.37.zip",
+      "bytes": 5522795,
+      "url": "https://dev-www.libreoffice.org/src/33e1e61fab06a547851ed308b4ffef42-dejavu-fonts-ttf-2.37.zip",
+      "sha256": "7576310b219e04159d35ff61dd4a4ec4cdba4f35c00e002a136f00e96a908b0a"
+    },
+    {
+      "path": "office-external/3404ab6b1792ae5f16bbd603bd1e1d03-libformula-1.1.7.zip",
+      "bytes": 1180582,
+      "url": "https://dev-www.libreoffice.org/src/3404ab6b1792ae5f16bbd603bd1e1d03-libformula-1.1.7.zip",
+      "sha256": "5826d1551bf599b85742545f6e01a0079b93c1b2c8434bf409eddb3a29e4726b"
+    },
+    {
+      "path": "office-external/368f114c078f94214a308a74c7e991bc-crosextrafonts-20130214.tar.gz",
+      "bytes": 112756,
+      "url": "https://dev-www.libreoffice.org/src/368f114c078f94214a308a74c7e991bc-crosextrafonts-20130214.tar.gz",
+      "sha256": "c48d1c2fd613c9c06c959c34da7b8388059e2408d2bb19845dc3ed35f76e4d09"
+    },
+    {
+      "path": "office-external/39bb3fcea1514f1369fcfc87542390fd-sacjava-1.3.zip",
+      "bytes": 153157,
+      "url": "https://dev-www.libreoffice.org/src/39bb3fcea1514f1369fcfc87542390fd-sacjava-1.3.zip",
+      "sha256": "085f2112c51fa8c1783fac12fbd452650596415121348393bb51f0f7e85a9045"
+    },
+    {
+      "path": "office-external/3ade8cfe7e59ca8e65052644fed9fca4-epm-3.7.tar.gz",
+      "bytes": 463264,
+      "url": "https://dev-www.libreoffice.org/src/3ade8cfe7e59ca8e65052644fed9fca4-epm-3.7.tar.gz",
+      "sha256": "b3fc4c5445de6c9a801504a3ea3efb2d4ea9d5a622c9427e716736e7713ddb91"
+    },
+    {
+      "path": "office-external/3bdf40c0d199af31923e900d082ca2dd-libfonts-1.1.6.zip",
+      "bytes": 5750610,
+      "url": "https://dev-www.libreoffice.org/src/3bdf40c0d199af31923e900d082ca2dd-libfonts-1.1.6.zip",
+      "sha256": "e0531091787c0f16c83965fdcbc49162c059d7f0c64669e7f119699321549743"
+    },
+    {
+      "path": "office-external/48d647fbd8ef8889e5a7f422c1bfda94-clucene-core-2.3.3.4.tar.gz",
+      "bytes": 2241498,
+      "url": "https://dev-www.libreoffice.org/src/48d647fbd8ef8889e5a7f422c1bfda94-clucene-core-2.3.3.4.tar.gz",
+      "sha256": "ddfdc433dd8ad31b5c5819cc4404a8d2127472a3b720d3e744e8c51d79732eab"
+    },
+    {
+      "path": "office-external/5ade6ae2a99bc1e9e57031ca88d36dad-hyphen-2.8.8.tar.gz",
+      "bytes": 638369,
+      "url": "https://dev-www.libreoffice.org/src/5ade6ae2a99bc1e9e57031ca88d36dad-hyphen-2.8.8.tar.gz",
+      "sha256": "304636d4eccd81a14b6914d07b84c79ebb815288c76fe027b9ebff6ff24d5705"
+    },
+    {
+      "path": "office-external/8ce2fcd72becf06c41f7201d15373ed9-librepository-1.1.6.zip",
+      "bytes": 762419,
+      "url": "https://dev-www.libreoffice.org/src/8ce2fcd72becf06c41f7201d15373ed9-librepository-1.1.6.zip",
+      "sha256": "abe2c57ac12ba45d83563b02e240fa95d973376de2f720aab8fe11f2e621c095"
+    },
+    {
+      "path": "office-external/97b2d4dba862397f446b217e2b623e71-libloader-1.1.6.zip",
+      "bytes": 2938721,
+      "url": "https://dev-www.libreoffice.org/src/97b2d4dba862397f446b217e2b623e71-libloader-1.1.6.zip",
+      "sha256": "3d853b19b1d94a6efa69e7af90f7f2b09ecf302913bee3da796c15ecfebcfac8"
+    },
+    {
+      "path": "office-external/Agdasima-2.002.zip",
+      "bytes": 51020,
+      "url": "https://dev-www.libreoffice.org/src/Agdasima-2.002.zip",
+      "sha256": "b4c17499f8bc183320ffdcf1f8491c778dd68a237adc056dc08e1fcb2da488f3"
+    },
+    {
+      "path": "office-external/Amiri-1.001.zip",
+      "bytes": 1027892,
+      "url": "https://dev-www.libreoffice.org/src/Amiri-1.001.zip",
+      "sha256": "cae999a9fc5638cb69cf0812e8bca1437ef1ebbf094f8b3c5b3f0a3ea2ef8c3a"
+    },
+    {
+      "path": "office-external/Bacasime_Antique-2.000.zip",
+      "bytes": 35088,
+      "url": "https://dev-www.libreoffice.org/src/Bacasime_Antique-2.000.zip",
+      "sha256": "81127cebc97d4ee0b950c2bc2d6be0ed29abfe0d5988435eb9a39e382557250a"
+    },
+    {
+      "path": "office-external/Belanosima-2.000.zip",
+      "bytes": 121362,
+      "url": "https://dev-www.libreoffice.org/src/Belanosima-2.000.zip",
+      "sha256": "9c30e9e7cdb0797b651113a77f6b789659b8d8598a466b2ba92754e9dec30449"
+    },
+    {
+      "path": "office-external/Caprasimo-1.001.zip",
+      "bytes": 46398,
+      "url": "https://dev-www.libreoffice.org/src/Caprasimo-1.001.zip",
+      "sha256": "f066d27cfc99b6601083be102d08b4039da8d2834e2795aabd890f16c6fd1b9b"
+    },
+    {
+      "path": "office-external/CoinMP-1.8.4.tgz",
+      "bytes": 10778373,
+      "url": "https://dev-www.libreoffice.org/src/CoinMP-1.8.4.tgz",
+      "sha256": "3459fb0ccbdd39342744684338984ac4cc153fb0434f4cae8cf74bd67490a38d"
+    },
+    {
+      "path": "office-external/Firebird-3.0.7.33374-0.tar.bz2",
+      "bytes": 9841457,
+      "url": "https://dev-www.libreoffice.org/src/Firebird-3.0.7.33374-0.tar.bz2",
+      "sha256": "acb85cedafa10ce106b1823fb236b1b3e5d942a5741e8f8435cc8ccfec0afe76"
+    },
+    {
+      "path": "office-external/IAccessible2-1.3+git20231013.3d8c7f0.tar.gz",
+      "bytes": 58317,
+      "url": "https://dev-www.libreoffice.org/src/IAccessible2-1.3+git20231013.3d8c7f0.tar.gz",
+      "sha256": "0e279003f5199f80031c6dcd08f79d6f65a0505139160e7df0d09b226bff4023"
+    },
+    {
+      "path": "office-external/Java-WebSocket-1.6.0.tar.gz",
+      "bytes": 190202,
+      "url": "https://dev-www.libreoffice.org/src/Java-WebSocket-1.6.0.tar.gz",
+      "sha256": "f3ce29efde338707241d47ab4784b19a1e3658bfa0564b5bc5f80c27e5118728"
+    },
+    {
+      "path": "office-external/Lugrasimo-1.001.zip",
+      "bytes": 37242,
+      "url": "https://dev-www.libreoffice.org/src/Lugrasimo-1.001.zip",
+      "sha256": "db24dff31e8ddf6a113556c947a219f9534b072852e9ce2079a08c94854a7503"
+    },
+    {
+      "path": "office-external/Lumanosimo-1.010.zip",
+      "bytes": 43490,
+      "url": "https://dev-www.libreoffice.org/src/Lumanosimo-1.010.zip",
+      "sha256": "d4545ad6afded9a55d9a7728cfc7453cf5637861db87aafe0a730676a0cb960f"
+    },
+    {
+      "path": "office-external/Lunasima-2.009.zip",
+      "bytes": 394416,
+      "url": "https://dev-www.libreoffice.org/src/Lunasima-2.009.zip",
+      "sha256": "4302809cf4b95b481bec53de87484d919b391c90a518d065f6c775fd435a5393"
+    },
+    {
+      "path": "office-external/NotoKufiArabic-v2.110.zip",
+      "bytes": 4810990,
+      "url": "https://dev-www.libreoffice.org/src/NotoKufiArabic-v2.110.zip",
+      "sha256": "34390882c196f032811f2a3db8982c1e839f69aae3e4c2c1fdd63203150690df"
+    },
+    {
+      "path": "office-external/NotoNaskhArabic-v2.021.zip",
+      "bytes": 2922060,
+      "url": "https://dev-www.libreoffice.org/src/NotoNaskhArabic-v2.021.zip",
+      "sha256": "6c050ab9bd087d69b733c505a7576e60c528c2f33cd7b91005a5bd7da4514032"
+    },
+    {
+      "path": "office-external/NotoSans-v2.015.zip",
+      "bytes": 117491253,
+      "url": "https://dev-www.libreoffice.org/src/NotoSans-v2.015.zip",
+      "sha256": "0c34df072a3fa7efbb7cbf34950e1f971a4447cffe365d3a359e2d4089b958f5"
+    },
+    {
+      "path": "office-external/NotoSansArabic-v2.010.zip",
+      "bytes": 21788671,
+      "url": "https://dev-www.libreoffice.org/src/NotoSansArabic-v2.010.zip",
+      "sha256": "a5a34ac1ea01d0d71c083f99440ebfb1f64224474a0d88bb7ef0e2f8d9a996d2"
+    },
+    {
+      "path": "office-external/NotoSansArmenian-v2.008.zip",
+      "bytes": 4472441,
+      "url": "https://dev-www.libreoffice.org/src/NotoSansArmenian-v2.008.zip",
+      "sha256": "eab89b99e134177ca6a3f9f0412a7cb812aafceb13175d686b4c45cb237f64ac"
+    },
+    {
+      "path": "office-external/NotoSansGeorgian-v2.005.zip",
+      "bytes": 6705397,
+      "url": "https://dev-www.libreoffice.org/src/NotoSansGeorgian-v2.005.zip",
+      "sha256": "10e85011008108308e6feab0408242acb07804da61ede3d3ff236461ae07ab1b"
+    },
+    {
+      "path": "office-external/NotoSansHebrew-v3.001.zip",
+      "bytes": 3734185,
+      "url": "https://dev-www.libreoffice.org/src/NotoSansHebrew-v3.001.zip",
+      "sha256": "df0a71814b4e63644cf40fcc4529111b61266b7a2dafbe95068b29a7520cc3cb"
+    },
+    {
+      "path": "office-external/NotoSansLao-v2.003.zip",
+      "bytes": 4825278,
+      "url": "https://dev-www.libreoffice.org/src/NotoSansLao-v2.003.zip",
+      "sha256": "5a87c31b1a40ef8147c1e84437e5f0ceba2d4dbbfc0b56a65821ad29870da8c0"
+    },
+    {
+      "path": "office-external/NotoSansLisu-v2.102.zip",
+      "bytes": 513379,
+      "url": "https://dev-www.libreoffice.org/src/NotoSansLisu-v2.102.zip",
+      "sha256": "b12a1ff762680681b7ce4d98dd29a7f54d90f5bcadd10c955afc640a27b3a268"
+    },
+    {
+      "path": "office-external/NotoSerif-v2.015.zip",
+      "bytes": 70637713,
+      "url": "https://dev-www.libreoffice.org/src/NotoSerif-v2.015.zip",
+      "sha256": "0e9a43c8a4b94ac76f55069ed1d7385bbcaf6b99527a94deb5619e032b7e76c1"
+    },
+    {
+      "path": "office-external/NotoSerifArmenian-v2.008.zip",
+      "bytes": 4889280,
+      "url": "https://dev-www.libreoffice.org/src/NotoSerifArmenian-v2.008.zip",
+      "sha256": "b21c198a4c76ae598a304decefb3b5c2a4c2d4c3ae226728eff359185f291c6f"
+    },
+    {
+      "path": "office-external/NotoSerifGeorgian-v2.003.zip",
+      "bytes": 8400489,
+      "url": "https://dev-www.libreoffice.org/src/NotoSerifGeorgian-v2.003.zip",
+      "sha256": "cfb41a264b97d463bab6807a5be937ba4a6ddcfa93d519a21b98b0ba73ca27d4"
+    },
+    {
+      "path": "office-external/NotoSerifHebrew-v2.004.zip",
+      "bytes": 4622961,
+      "url": "https://dev-www.libreoffice.org/src/NotoSerifHebrew-v2.004.zip",
+      "sha256": "99523f4f21051495f18cbd5169ed0d1e9b395eefe770fece1844a4a7a00c46da"
+    },
+    {
+      "path": "office-external/NotoSerifLao-v2.003.zip",
+      "bytes": 5587972,
+      "url": "https://dev-www.libreoffice.org/src/NotoSerifLao-v2.003.zip",
+      "sha256": "e96a303d3347790b0ef3db274971a989a736ce766ec9ea1bea0e1458568a80b2"
+    },
+    {
+      "path": "office-external/Python-3.11.15.tar.xz",
+      "bytes": 20332596,
+      "url": "https://dev-www.libreoffice.org/src/Python-3.11.15.tar.xz",
+      "sha256": "272179ddd9a2e41a0fc8e42e33dfbdca0b3711aa5abf372d3f2d51543d09b625"
+    },
+    {
+      "path": "office-external/ReemKufi-2.0.zip",
+      "bytes": 226574,
+      "url": "https://dev-www.libreoffice.org/src/ReemKufi-2.0.zip",
+      "sha256": "94ae468fd88f37011607f03466bfc3a03fb617682b7bac6419b70de94cac22f0"
+    },
+    {
+      "path": "office-external/Scheherazade-2.100.zip",
+      "bytes": 1114645,
+      "url": "https://dev-www.libreoffice.org/src/Scheherazade-2.100.zip",
+      "sha256": "251c8817ceb87d9b661ce1d5b49e732a0116add10abc046be4b8ba5196e149b5"
+    },
+    {
+      "path": "office-external/a7983f859eafb2677d7ff386a023bc40-xsltml_2.1.2.zip",
+      "bytes": 23150,
+      "url": "https://dev-www.libreoffice.org/src/a7983f859eafb2677d7ff386a023bc40-xsltml_2.1.2.zip",
+      "sha256": "75823776fb51a9c526af904f1503a7afaaab900fba83eda64f8a41073724c870"
+    },
+    {
+      "path": "office-external/ace6ab49184e329db254e454a010f56d-libxml-1.1.7.zip",
+      "bytes": 2929311,
+      "url": "https://dev-www.libreoffice.org/src/ace6ab49184e329db254e454a010f56d-libxml-1.1.7.zip",
+      "sha256": "7d2797fe9f79a77009721e3f14fa4a1dec17a6d706bdc93f85f1f01d124fab66"
+    },
+    {
+      "path": "office-external/alef-1.001.tar.gz",
+      "bytes": 93498,
+      "url": "https://dev-www.libreoffice.org/src/alef-1.001.tar.gz",
+      "sha256": "b98b67602a2c8880a1770f0b9e37c190f29a7e2ade5616784f0b89fbdb75bf52"
+    },
+    {
+      "path": "office-external/ba2930200c9f019c2d93a8c88c651a0f-flow-engine-0.9.4.zip",
+      "bytes": 743031,
+      "url": "https://dev-www.libreoffice.org/src/ba2930200c9f019c2d93a8c88c651a0f-flow-engine-0.9.4.zip",
+      "sha256": "233f66e8d25c5dd971716d4200203a612a407649686ef3b52075d04b4c9df0dd"
+    },
+    {
+      "path": "office-external/boost_1_88_0.tar.xz",
+      "bytes": 21005176,
+      "url": "https://dev-www.libreoffice.org/src/boost_1_88_0.tar.xz",
+      "sha256": "5c67a448c562f1606e38203ba7ed7e8d7453581b6b9ca324e96205eae0da5ff8"
+    },
+    {
+      "path": "office-external/box2d-2.4.1.tar.gz",
+      "bytes": 1224516,
+      "url": "https://dev-www.libreoffice.org/src/box2d-2.4.1.tar.gz",
+      "sha256": "d6b4650ff897ee1ead27cf77a5933ea197cbeef6705638dd181adc2e816b23c2"
+    },
+    {
+      "path": "office-external/breakpad-b324760c7f53667af128a6b77b790323da04fcb9.tar.xz",
+      "bytes": 5000956,
+      "url": "https://dev-www.libreoffice.org/src/breakpad-b324760c7f53667af128a6b77b790323da04fcb9.tar.xz",
+      "sha256": "c44a2e898895cfc13b42d2371ba4b88b0777d7782214d6cdc91c33720f3b0d91"
+    },
+    {
+      "path": "office-external/bsh-2.1.1-src.zip",
+      "bytes": 2208737,
+      "url": "https://dev-www.libreoffice.org/src/bsh-2.1.1-src.zip",
+      "sha256": "2248387ceaa319840434a3547a8b2fec12f95a8418ee039ce5ff5726053a139c"
+    },
+    {
+      "path": "office-external/bzip2-1.0.8.tar.gz",
+      "bytes": 810029,
+      "url": "https://dev-www.libreoffice.org/src/bzip2-1.0.8.tar.gz",
+      "sha256": "ab5a03176ee106d3f0fa90e381da478ddae405918153cca248e682cd0c4a2269"
+    },
+    {
+      "path": "office-external/c74b7223abe75949b4af367942d96c7a-crosextrafonts-carlito-20130920.tar.gz",
+      "bytes": 1169488,
+      "url": "https://dev-www.libreoffice.org/src/c74b7223abe75949b4af367942d96c7a-crosextrafonts-carlito-20130920.tar.gz",
+      "sha256": "4bd12b6cbc321c1cf16da76e2c585c925ce956a08067ae6f6c64eff6ccfdaf5a"
+    },
+    {
+      "path": "office-external/cairo-1.17.6.tar.xz",
+      "bytes": 35055900,
+      "url": "https://dev-www.libreoffice.org/src/cairo-1.17.6.tar.xz",
+      "sha256": "4eebc4c2bad0402bc3f501db184417094657d111fb6c06f076a82ea191fe1faf"
+    },
+    {
+      "path": "office-external/cppunit-1.15.1.tar.gz",
+      "bytes": 814363,
+      "url": "https://dev-www.libreoffice.org/src/cppunit-1.15.1.tar.gz",
+      "sha256": "89c5c6665337f56fd2db36bc3805a5619709d51fb136e51937072f63fcc717a7"
+    },
+    {
+      "path": "office-external/culmus-0.140.tar.gz",
+      "bytes": 1958577,
+      "url": "https://dev-www.libreoffice.org/src/culmus-0.140.tar.gz",
+      "sha256": "6daed104481007752a76905000e71c0093c591c8ef3017d1b18222c277fc52e3"
+    },
+    {
+      "path": "office-external/curl-8.14.1.tar.xz",
+      "bytes": 2817248,
+      "url": "https://dev-www.libreoffice.org/src/curl-8.14.1.tar.xz",
+      "sha256": "f4619a1e2474c4bbfedc88a7c2191209c8334b48fa1f4e53fd584cc12e9120dd"
+    },
+    {
+      "path": "office-external/d8bd5eed178db6e2b18eeed243f85aa8-flute-1.1.6.zip",
+      "bytes": 207563,
+      "url": "https://dev-www.libreoffice.org/src/d8bd5eed178db6e2b18eeed243f85aa8-flute-1.1.6.zip",
+      "sha256": "1b5b24f7bc543c0362b667692f78db8bab4ed6dafc6172f104d0bd3757d8a133"
+    },
+    {
+      "path": "office-external/db60e4fde8dd6d6807523deb71ee34dc-liblayout-0.2.10.zip",
+      "bytes": 1396007,
+      "url": "https://dev-www.libreoffice.org/src/db60e4fde8dd6d6807523deb71ee34dc-liblayout-0.2.10.zip",
+      "sha256": "e1fb87f3f7b980d33414473279615c4644027e013012d156efa538bc2b031772"
+    },
+    {
+      "path": "office-external/dragonbox-1.1.3.tar.gz",
+      "bytes": 4337233,
+      "url": "https://dev-www.libreoffice.org/src/dragonbox-1.1.3.tar.gz",
+      "sha256": "09d63b05e9c594ec423778ab59b7a5aa1d76fdd71d25c7048b0258c4ec9c3384"
+    },
+    {
+      "path": "office-external/dtoa-20180411.tgz",
+      "bytes": 48893,
+      "url": "https://dev-www.libreoffice.org/src/dtoa-20180411.tgz",
+      "sha256": "0082d0684f7db6f62361b76c4b7faba19e0c7ce5cb8e36c4b65fea8281e711b4"
+    },
+    {
+      "path": "office-external/e5be03eda13ef68aabab6e42aa67715e-redland-1.0.17.tar.gz",
+      "bytes": 1621566,
+      "url": "https://dev-www.libreoffice.org/src/e5be03eda13ef68aabab6e42aa67715e-redland-1.0.17.tar.gz",
+      "sha256": "de1847f7b59021c16bdc72abb4d8e2d9187cd6124d69156f3326dd34ee043681"
+    },
+    {
+      "path": "office-external/e7a384790b13c29113e22e596ade9687-LinLibertineG-20120116.zip",
+      "bytes": 6651982,
+      "url": "https://dev-www.libreoffice.org/src/e7a384790b13c29113e22e596ade9687-LinLibertineG-20120116.zip",
+      "sha256": "54adcb2bc8cac0927a647fbd9362f45eff48130ce6e2379dc3867643019e08c5"
+    },
+    {
+      "path": "office-external/eeb2c7ddf0d302fba4bfc6e97eac9624-libbase-1.1.6.zip",
+      "bytes": 427800,
+      "url": "https://dev-www.libreoffice.org/src/eeb2c7ddf0d302fba4bfc6e97eac9624-libbase-1.1.6.zip",
+      "sha256": "75c80359c9ce343c20aab8a36a45cb3b9ee7c61cf92c13ae45399d854423a9ba"
+    },
+    {
+      "path": "office-external/expat-2.8.0.tar.xz",
+      "bytes": 511328,
+      "url": "https://dev-www.libreoffice.org/src/expat-2.8.0.tar.xz",
+      "sha256": "a37bfae0aa9775bd8521ebd85dc456d486f0ff31138f6c91fd902ea732624542"
+    },
+    {
+      "path": "office-external/f94d9870737518e3b597f9265f4e9803-libserializer-1.1.6.zip",
+      "bytes": 211919,
+      "url": "https://dev-www.libreoffice.org/src/f94d9870737518e3b597f9265f4e9803-libserializer-1.1.6.zip",
+      "sha256": "05640a1f6805b2b2d7e2cb9c50db9a5cb084e3c52ab1a71ce015239b4a1d4343"
+    },
+    {
+      "path": "office-external/fontconfig-2.17.1.tar.xz",
+      "bytes": 1326312,
+      "url": "https://dev-www.libreoffice.org/src/fontconfig-2.17.1.tar.xz",
+      "sha256": "9f5cae93f4fffc1fbc05ae99cdfc708cd60dfd6612ffc0512827025c026fa541"
+    },
+    {
+      "path": "office-external/freetype-2.14.3.tar.xz",
+      "bytes": 2670220,
+      "url": "https://dev-www.libreoffice.org/src/freetype-2.14.3.tar.xz",
+      "sha256": "36bc4f1cc413335368ee656c42afca65c5a3987e8768cc28cf11ba775e785a5f"
+    },
+    {
+      "path": "office-external/frozen-1.2.0.tar.gz",
+      "bytes": 187169,
+      "url": "https://dev-www.libreoffice.org/src/frozen-1.2.0.tar.gz",
+      "sha256": "ed8339c017d7c5fe019ac2c642477f435278f0dc643c1d69d3f3b1e95915e823"
+    },
+    {
+      "path": "office-external/glm-1.0.2.zip",
+      "bytes": 6242675,
+      "url": "https://dev-www.libreoffice.org/src/glm-1.0.2.zip",
+      "sha256": "be64032585415ca7dbea0d614915bb8eec012adf7b4d4fea7ff6b5bd3e0b906a"
+    },
+    {
+      "path": "office-external/gpgme-1.24.3.tar.bz2",
+      "bytes": 1892862,
+      "url": "https://dev-www.libreoffice.org/src/gpgme-1.24.3.tar.bz2",
+      "sha256": "bfc17f5bd1b178c8649fdd918956d277080f33df006a2dc40acdecdce68c50dd"
+    },
+    {
+      "path": "office-external/graphite2-minimal-1.3.14.tgz",
+      "bytes": 149974,
+      "url": "https://dev-www.libreoffice.org/src/graphite2-minimal-1.3.14.tgz",
+      "sha256": "b8e892d8627c41888ff121e921455b9e2d26836978f2359173d19825da62b8fc"
+    },
+    {
+      "path": "office-external/harfbuzz-12.3.0.tar.xz",
+      "bytes": 18580220,
+      "url": "https://dev-www.libreoffice.org/src/harfbuzz-12.3.0.tar.xz",
+      "sha256": "8660ebd3c27d9407fc8433b5d172bafba5f0317cb0bb4339f28e5370c93d42b7"
+    },
+    {
+      "path": "office-external/hunspell-1.7.2.tar.gz",
+      "bytes": 1536202,
+      "url": "https://dev-www.libreoffice.org/src/hunspell-1.7.2.tar.gz",
+      "sha256": "11ddfa39afe28c28539fe65fc4f1592d410c1e9b6dd7d8a91ca25d85e9ec65b8"
+    },
+    {
+      "path": "office-external/icu4c-77_1-data.zip",
+      "bytes": 19708389,
+      "url": "https://dev-www.libreoffice.org/src/icu4c-77_1-data.zip",
+      "sha256": "1e08bfafa442260ccabf9a872d4eab12de813d42b90769df056bab032b37e1d3"
+    },
+    {
+      "path": "office-external/icu4c-77_1-src.tgz",
+      "bytes": 27384265,
+      "url": "https://dev-www.libreoffice.org/src/icu4c-77_1-src.tgz",
+      "sha256": "588e431f77327c39031ffbb8843c0e3bc122c211374485fa87dc5f3faff24061"
+    },
+    {
+      "path": "office-external/language-subtag-registry-2026-04-21.tar.bz2",
+      "bytes": 79691,
+      "url": "https://dev-www.libreoffice.org/src/language-subtag-registry-2026-04-21.tar.bz2",
+      "sha256": "0aef705315aeec1dc43052c920b1971f447f86aad3091e15a9bbc0390a3bc8ff"
+    },
+    {
+      "path": "office-external/lcms2-2.18.tar.gz",
+      "bytes": 5599928,
+      "url": "https://dev-www.libreoffice.org/src/lcms2-2.18.tar.gz",
+      "sha256": "ee67be3566f459362c1ee094fde2c159d33fa0390aa4ed5f5af676f9e5004347"
+    },
+    {
+      "path": "office-external/libabw-0.1.3.tar.xz",
+      "bytes": 318808,
+      "url": "https://dev-www.libreoffice.org/src/libabw-0.1.3.tar.xz",
+      "sha256": "e763a9dc21c3d2667402d66e202e3f8ef4db51b34b79ef41f56cacb86dcd6eed"
+    },
+    {
+      "path": "office-external/libassuan-3.0.2.tar.bz2",
+      "bytes": 593917,
+      "url": "https://dev-www.libreoffice.org/src/libassuan-3.0.2.tar.bz2",
+      "sha256": "d2931cdad266e633510f9970e1a2f346055e351bb19f9b78912475b8074c36f6"
+    },
+    {
+      "path": "office-external/libatomic_ops-7.8.4.tar.gz",
+      "bytes": 526632,
+      "url": "https://dev-www.libreoffice.org/src/libatomic_ops-7.8.4.tar.gz",
+      "sha256": "2356e002e80ef695875e971d6a4fd8c61ca5c6fa4fd1bf31cce54a269c8bfcd5"
+    },
+    {
+      "path": "office-external/libcdr-0.1.8.tar.xz",
+      "bytes": 625836,
+      "url": "https://dev-www.libreoffice.org/src/libcdr-0.1.8.tar.xz",
+      "sha256": "ced677c8300b29c91d3004bb1dddf0b99761bf5544991c26c2ee8f427e87193c"
+    },
+    {
+      "path": "office-external/libcmis-0.6.2.tar.xz",
+      "bytes": 488736,
+      "url": "https://dev-www.libreoffice.org/src/libcmis-0.6.2.tar.xz",
+      "sha256": "1b5c2d7258ff93eb5f9958ff0e4dfd7332dc75a071bb717dde2217a26602a644"
+    },
+    {
+      "path": "office-external/libe-book-0.1.3.tar.xz",
+      "bytes": 416268,
+      "url": "https://dev-www.libreoffice.org/src/libe-book-0.1.3.tar.xz",
+      "sha256": "7e8d8ff34f27831aca3bc6f9cc532c2f90d2057c778963b884ff3d1e34dfe1f9"
+    },
+    {
+      "path": "office-external/libeot-0.01.tar.bz2",
+      "bytes": 260288,
+      "url": "https://dev-www.libreoffice.org/src/libeot-0.01.tar.bz2",
+      "sha256": "cf5091fa8e7dcdbe667335eb90a2cfdd0a3fe8f8c7c8d1ece44d9d055736a06a"
+    },
+    {
+      "path": "office-external/libepoxy-1.5.10.tar.gz",
+      "bytes": 332078,
+      "url": "https://dev-www.libreoffice.org/src/libepoxy-1.5.10.tar.gz",
+      "sha256": "a7ced37f4102b745ac86d6a70a9da399cc139ff168ba6b8002b4d8d43c900c15"
+    },
+    {
+      "path": "office-external/libepubgen-0.1.1.tar.xz",
+      "bytes": 324380,
+      "url": "https://dev-www.libreoffice.org/src/libepubgen-0.1.1.tar.xz",
+      "sha256": "03e084b994cbeffc8c3dd13303b2cb805f44d8f2c3b79f7690d7e3fc7f6215ad"
+    },
+    {
+      "path": "office-external/liberation-fonts-ttf-2.1.5.tar.gz",
+      "bytes": 2385008,
+      "url": "https://dev-www.libreoffice.org/src/liberation-fonts-ttf-2.1.5.tar.gz",
+      "sha256": "7191c669bf38899f73a2094ed00f7b800553364f90e2637010a69c0e268f25d0"
+    },
+    {
+      "path": "office-external/liberation-narrow-fonts-ttf-1.07.6.tar.gz",
+      "bytes": 300832,
+      "url": "https://dev-www.libreoffice.org/src/liberation-narrow-fonts-ttf-1.07.6.tar.gz",
+      "sha256": "8879d89b5ff7b506c9fc28efc31a5c0b954bbe9333e66e5283d27d20a8519ea3"
+    },
+    {
+      "path": "office-external/libetonyek-0.1.13.tar.xz",
+      "bytes": 1514256,
+      "url": "https://dev-www.libreoffice.org/src/libetonyek-0.1.13.tar.xz",
+      "sha256": "032b71cb597edd92a0b270b916188281bc35be55296b263f6817b29adbcb1709"
+    },
+    {
+      "path": "office-external/libexttextcat-3.4.7.tar.xz",
+      "bytes": 1122804,
+      "url": "https://dev-www.libreoffice.org/src/libexttextcat-3.4.7.tar.xz",
+      "sha256": "df0a59d413a5b202573d8d4f5159e33a8538da4f8e8e60979facc64d6290cebd"
+    },
+    {
+      "path": "office-external/libffi-3.5.2.tar.gz",
+      "bytes": 1423124,
+      "url": "https://dev-www.libreoffice.org/src/libffi-3.5.2.tar.gz",
+      "sha256": "f3a3082a23b37c293a4fcd1053147b371f2ff91fa7ea1b2a52e335676bac82dc"
+    },
+    {
+      "path": "office-external/libfreehand-0.1.2.tar.xz",
+      "bytes": 516132,
+      "url": "https://dev-www.libreoffice.org/src/libfreehand-0.1.2.tar.xz",
+      "sha256": "0e422d1564a6dbf22a9af598535425271e583514c0f7ba7d9091676420de34ac"
+    },
+    {
+      "path": "office-external/libgpg-error-1.56.tar.bz2",
+      "bytes": 1116017,
+      "url": "https://dev-www.libreoffice.org/src/libgpg-error-1.56.tar.bz2",
+      "sha256": "82c3d2deb4ad96ad3925d6f9f124fe7205716055ab50e291116ef27975d169c0"
+    },
+    {
+      "path": "office-external/libjpeg-turbo-3.1.3.tar.gz",
+      "bytes": 2516606,
+      "url": "https://dev-www.libreoffice.org/src/libjpeg-turbo-3.1.3.tar.gz",
+      "sha256": "3a13a5ba767dc8264bc40b185e41368a80d5d5f945944d1dbaa4b2fb0099f4e5"
+    },
+    {
+      "path": "office-external/liblangtag-0.6.8.tar.bz2",
+      "bytes": 768482,
+      "url": "https://dev-www.libreoffice.org/src/liblangtag-0.6.8.tar.bz2",
+      "sha256": "a96975b79ddd8fef6d9295c083fe3f1afa1a8898a57235d4069255ade44e5cf2"
+    },
+    {
+      "path": "office-external/libmspub-0.1.4.tar.xz",
+      "bytes": 377472,
+      "url": "https://dev-www.libreoffice.org/src/libmspub-0.1.4.tar.xz",
+      "sha256": "ef36c1a1aabb2ba3b0bedaaafe717bf4480be2ba8de6f3894be5fd3702b013ba"
+    },
+    {
+      "path": "office-external/libmwaw-0.3.22.tar.xz",
+      "bytes": 1476620,
+      "url": "https://dev-www.libreoffice.org/src/libmwaw-0.3.22.tar.xz",
+      "sha256": "a1a39ffcea3ff2a7a7aae0c23877ddf4918b554bf82b0de5d7ce8e7f61ea8e32"
+    },
+    {
+      "path": "office-external/libnumbertext-1.0.11.tar.xz",
+      "bytes": 302676,
+      "url": "https://dev-www.libreoffice.org/src/libnumbertext-1.0.11.tar.xz",
+      "sha256": "5dcb4db3b2340f81f601ce86d8d76b69e34d70f84f804192c901e4b7f84d5fb0"
+    },
+    {
+      "path": "office-external/libodfgen-0.1.8.tar.xz",
+      "bytes": 386156,
+      "url": "https://dev-www.libreoffice.org/src/libodfgen-0.1.8.tar.xz",
+      "sha256": "55200027fd46623b9bdddd38d275e7452d1b0ff8aeddcad6f9ae6dc25f610625"
+    },
+    {
+      "path": "office-external/liborcus-0.20.1.tar.xz",
+      "bytes": 2246732,
+      "url": "https://dev-www.libreoffice.org/src/liborcus-0.20.1.tar.xz",
+      "sha256": "ec27f30e8445a2a3f307f7e829fc446fd48193150b7f8f23bb5bfb25ec6e4e27"
+    },
+    {
+      "path": "office-external/libpagemaker-0.0.4.tar.xz",
+      "bytes": 306496,
+      "url": "https://dev-www.libreoffice.org/src/libpagemaker-0.0.4.tar.xz",
+      "sha256": "66adacd705a7d19895e08eac46d1e851332adf2e736c566bef1164e7a442519d"
+    },
+    {
+      "path": "office-external/libpng-1.6.58.tar.xz",
+      "bytes": 1070096,
+      "url": "https://dev-www.libreoffice.org/src/libpng-1.6.58.tar.xz",
+      "sha256": "28eb403f51f0f7405249132cecfe82ea5c0ef97f1b32c5a65828814ae0d34775"
+    },
+    {
+      "path": "office-external/libqxp-0.0.2.tar.xz",
+      "bytes": 341760,
+      "url": "https://dev-www.libreoffice.org/src/libqxp-0.0.2.tar.xz",
+      "sha256": "e137b6b110120a52c98edd02ebdc4095ee08d0d5295a94316a981750095a945c"
+    },
+    {
+      "path": "office-external/libre-hebrew-1.0.tar.gz",
+      "bytes": 531276,
+      "url": "https://dev-www.libreoffice.org/src/libre-hebrew-1.0.tar.gz",
+      "sha256": "f596257c1db706ce35795b18d7f66a4db99d427725f20e9384914b534142579a"
+    },
+    {
+      "path": "office-external/librevenge-0.0.5.tar.bz2",
+      "bytes": 534079,
+      "url": "https://dev-www.libreoffice.org/src/librevenge-0.0.5.tar.bz2",
+      "sha256": "5892ca6796f7a2a93d580832e907e849b19d980b40d326a283b18877ab6de0c5"
+    },
+    {
+      "path": "office-external/libstaroffice-0.0.7.tar.xz",
+      "bytes": 707920,
+      "url": "https://dev-www.libreoffice.org/src/libstaroffice-0.0.7.tar.xz",
+      "sha256": "f94fb0ad8216f97127bedef163a45886b43c62deac5e5b0f5e628e234220c8db"
+    },
+    {
+      "path": "office-external/libvisio-0.1.10.tar.xz",
+      "bytes": 2041876,
+      "url": "https://dev-www.libreoffice.org/src/libvisio-0.1.10.tar.xz",
+      "sha256": "9e9eff75112d4d92d92262ad7fc2599c21e26f8fc5ba54900efdc83c0501e472"
+    },
+    {
+      "path": "office-external/libwebp-1.6.0.tar.gz",
+      "bytes": 4296070,
+      "url": "https://dev-www.libreoffice.org/src/libwebp-1.6.0.tar.gz",
+      "sha256": "e4ab7009bf0629fd11982d4c2aa83964cf244cffba7347ecd39019a9e38c4564"
+    },
+    {
+      "path": "office-external/libwpd-0.10.3.tar.xz",
+      "bytes": 534712,
+      "url": "https://dev-www.libreoffice.org/src/libwpd-0.10.3.tar.xz",
+      "sha256": "2465b0b662fdc5d4e3bebcdc9a79027713fb629ca2bff04a3c9251fdec42dd09"
+    },
+    {
+      "path": "office-external/libwpg-0.3.4.tar.xz",
+      "bytes": 340428,
+      "url": "https://dev-www.libreoffice.org/src/libwpg-0.3.4.tar.xz",
+      "sha256": "b55fda9440d1e070630eb2487d8b8697cf412c214a27caee9df69cec7c004de3"
+    },
+    {
+      "path": "office-external/libwps-0.4.14.tar.xz",
+      "bytes": 719016,
+      "url": "https://dev-www.libreoffice.org/src/libwps-0.4.14.tar.xz",
+      "sha256": "365b968e270e85a8469c6b160aa6af5619a4e6c995dbb04c1ecc1b4dd13e80de"
+    },
+    {
+      "path": "office-external/libxml2-2.14.6.tar.xz",
+      "bytes": 2327580,
+      "url": "https://dev-www.libreoffice.org/src/libxml2-2.14.6.tar.xz",
+      "sha256": "7ce458a0affeb83f0b55f1f4f9e0e55735dbfc1a9de124ee86fb4a66b597203a"
+    },
+    {
+      "path": "office-external/libxslt-1.1.45.tar.xz",
+      "bytes": 1519992,
+      "url": "https://dev-www.libreoffice.org/src/libxslt-1.1.45.tar.xz",
+      "sha256": "9acfe68419c4d06a45c550321b3212762d92f41465062ca4ea19e632ee5d216e"
+    },
+    {
+      "path": "office-external/libzmf-0.0.2.tar.xz",
+      "bytes": 320952,
+      "url": "https://dev-www.libreoffice.org/src/libzmf-0.0.2.tar.xz",
+      "sha256": "27051a30cb057fdb5d5de65a1f165c7153dc76e27fe62251cbb86639eb2caf22"
+    },
+    {
+      "path": "office-external/ltm-1.3.0.tar.xz",
+      "bytes": 642776,
+      "url": "https://dev-www.libreoffice.org/src/ltm-1.3.0.tar.xz",
+      "sha256": "296272d93435991308eb73607600c034b558807a07e829e751142e65ccfa9d08"
+    },
+    {
+      "path": "office-external/lxml-6.1.0.tar.gz",
+      "bytes": 4197006,
+      "url": "https://dev-www.libreoffice.org/src/lxml-6.1.0.tar.gz",
+      "sha256": "bfd57d8008c4965709a919c3e9a98f76c2c7cb319086b3d26858250620023b13"
+    },
+    {
+      "path": "office-external/mDNSResponder-878.200.35.tar.gz",
+      "bytes": 2537410,
+      "url": "https://dev-www.libreoffice.org/src/mDNSResponder-878.200.35.tar.gz",
+      "sha256": "e777b4d7dbf5eb1552cb80090ad1ede319067ab6e45e3990d68aabf6e8b3f5a0"
+    },
+    {
+      "path": "office-external/mariadb-connector-c-3.3.18-src.tar.gz",
+      "bytes": 1349598,
+      "url": "https://dev-www.libreoffice.org/src/mariadb-connector-c-3.3.18-src.tar.gz",
+      "sha256": "292c0f2e6ce5cb6f1217f3a53c72f792e55fb20393e00924b11943e2f9f6e9d5"
+    },
+    {
+      "path": "office-external/mdds-3.1.0.tar.xz",
+      "bytes": 638576,
+      "url": "https://dev-www.libreoffice.org/src/mdds-3.1.0.tar.xz",
+      "sha256": "ca295f4c86968a7eb1f5d503ff7ae180e6605210cfb26d01658be42048c0924c"
+    },
+    {
+      "path": "office-external/meson-1.8.3.tar.gz",
+      "bytes": 2335924,
+      "url": "https://dev-www.libreoffice.org/src/meson-1.8.3.tar.gz",
+      "sha256": "f118aa910fc0a137cc2dd0122232dbf82153d9a12fb5b0f5bb64896f6a157abf"
+    },
+    {
+      "path": "office-external/mythes-1.2.5.tar.xz",
+      "bytes": 2891852,
+      "url": "https://dev-www.libreoffice.org/src/mythes-1.2.5.tar.xz",
+      "sha256": "19279f70707bbe5ffa619f2dc319f888cec0c4a8d339dc0a21330517bd6f521d"
+    },
+    {
+      "path": "office-external/nss-3.122.2-with-nspr-4.38.2.tar.gz",
+      "bytes": 79113091,
+      "url": "https://dev-www.libreoffice.org/src/nss-3.122.2-with-nspr-4.38.2.tar.gz",
+      "sha256": "565fbe0e84b335e38c9a68bc6aa073e6cb9951141e02a74389ed16277321356f"
+    },
+    {
+      "path": "office-external/onlineupdate-c003be8b9727672e7d30972983b375f4c200233f-2.tar.xz",
+      "bytes": 358092,
+      "url": "https://dev-www.libreoffice.org/src/onlineupdate-c003be8b9727672e7d30972983b375f4c200233f-2.tar.xz",
+      "sha256": "37206cf981e8409d048b59ac5839621ea107ff49af72beb9d7769a2f41da8d90"
+    },
+    {
+      "path": "office-external/openldap-2.6.10.tgz",
+      "bytes": 6517089,
+      "url": "https://dev-www.libreoffice.org/src/openldap-2.6.10.tgz",
+      "sha256": "c065f04aad42737aebd60b2fe4939704ac844266bc0aeaa1609f0cad987be516"
+    },
+    {
+      "path": "office-external/openssl-3.0.20.tar.gz",
+      "bytes": 15292815,
+      "url": "https://dev-www.libreoffice.org/src/openssl-3.0.20.tar.gz",
+      "sha256": "c80a01dfc70ece4dc21168932c37739042d404d46ccc81a5986dd75314ecda6f"
+    },
+    {
+      "path": "office-external/pdfium-7012.tar.bz2",
+      "bytes": 11270991,
+      "url": "https://dev-www.libreoffice.org/src/pdfium-7012.tar.bz2",
+      "sha256": "e647ca4fcc2c91d9dca717452e1b1be1ab6155ac4977dca716041652c7b10bdd"
+    },
+    {
+      "path": "office-external/phc-winner-argon2-20190702.tar.gz",
+      "bytes": 1505307,
+      "url": "https://dev-www.libreoffice.org/src/phc-winner-argon2-20190702.tar.gz",
+      "sha256": "daf972a89577f8772602bf2eb38b6a3dd3d922bf5724d45e7f9589b5e830442c"
+    },
+    {
+      "path": "office-external/pixman-0.42.2.tar.gz",
+      "bytes": 959669,
+      "url": "https://dev-www.libreoffice.org/src/pixman-0.42.2.tar.gz",
+      "sha256": "ea1480efada2fd948bc75366f7c349e1c96d3297d09a3fe62626e38e234a625e"
+    },
+    {
+      "path": "office-external/poppler-25.12.0.tar.xz",
+      "bytes": 1992456,
+      "url": "https://dev-www.libreoffice.org/src/poppler-25.12.0.tar.xz",
+      "sha256": "c18b40eb36b1a0c5b86e29ca054bf0770304583da4f2cdd42fe86eca6a20de48"
+    },
+    {
+      "path": "office-external/poppler-data-0.4.12.tar.gz",
+      "bytes": 4504754,
+      "url": "https://dev-www.libreoffice.org/src/poppler-data-0.4.12.tar.gz",
+      "sha256": "c835b640a40ce357e1b83666aabd95edffa24ddddd49b8daff63adb851cdab74"
+    },
+    {
+      "path": "office-external/postgresql-15.17.tar.bz2",
+      "bytes": 23357238,
+      "url": "https://dev-www.libreoffice.org/src/postgresql-15.17.tar.bz2",
+      "sha256": "ae14f24c14727e0b2ded1c5553031666099bd1054db3ef44bfa6e2bd6d554a56"
+    },
+    {
+      "path": "office-external/raptor2-2.0.16.tar.gz",
+      "bytes": 1750726,
+      "url": "https://dev-www.libreoffice.org/src/raptor2-2.0.16.tar.gz",
+      "sha256": "089db78d7ac982354bdbf39d973baf09581e6904ac4c92a98c5caadb3de44680"
+    },
+    {
+      "path": "office-external/rhino-1.7.15.1.zip",
+      "bytes": 5878840,
+      "url": "https://dev-www.libreoffice.org/src/rhino-1.7.15.1.zip",
+      "sha256": "65599965d82c0e60332601d511dacb0241e796cabfa5550c72bb80c4bf89e8ad"
+    },
+    {
+      "path": "office-external/skia-m136-28685d899b0a35894743e2cedad4c9f525e90e1e.tar.xz",
+      "bytes": 14601640,
+      "url": "https://dev-www.libreoffice.org/src/skia-m136-28685d899b0a35894743e2cedad4c9f525e90e1e.tar.xz",
+      "sha256": "2384f5f44a0b714d8dc78923fdf17453ab5a1808ca638154e3e27b361531db25"
+    },
+    {
+      "path": "office-external/tiff-4.7.1.tar.xz",
+      "bytes": 2358600,
+      "url": "https://dev-www.libreoffice.org/src/tiff-4.7.1.tar.xz",
+      "sha256": "b92017489bdc1db3a4c97191aa4b75366673cb746de0dce5d7a749d5954681ba"
+    },
+    {
+      "path": "office-external/twaindsm_2.4.1.orig.tar.gz",
+      "bytes": 690151,
+      "url": "https://dev-www.libreoffice.org/src/twaindsm_2.4.1.orig.tar.gz",
+      "sha256": "82c818be771f242388457aa8c807e4b52aa84dc22b21c6c56184a6b4cbb085e6"
+    },
+    {
+      "path": "office-external/xmlsec1-1.3.9.tar.gz",
+      "bytes": 2377806,
+      "url": "https://dev-www.libreoffice.org/src/xmlsec1-1.3.9.tar.gz",
+      "sha256": "a631c8cd7a6b86e6adb9f5b935d45a9cf9768b3cb090d461e8eb9d043cf9b62f"
+    },
+    {
+      "path": "office-external/zlib-1.3.2.tar.xz",
+      "bytes": 1320064,
+      "url": "https://dev-www.libreoffice.org/src/zlib-1.3.2.tar.xz",
+      "sha256": "d7a0654783a4da529d1bb793b7ad9c3318020af77667bcae35f95d0e42a792f3"
+    },
+    {
+      "path": "office-external/zstd-1.5.7.tar.gz",
+      "bytes": 2434947,
+      "url": "https://dev-www.libreoffice.org/src/zstd-1.5.7.tar.gz",
+      "sha256": "eb33e51f49a15e023950cd7825ca74a4a2b43db8354825ac24fc1b7ee09e6fa3"
+    },
+    {
+      "path": "office-external/zxcvbn-c-2.6.tar.gz",
+      "bytes": 1405136,
+      "url": "https://dev-www.libreoffice.org/src/zxcvbn-c-2.6.tar.gz",
+      "sha256": "11e39f6776f9c82c68b2acb94336e32697d4ab6cdb4ac16f9583ccbdd735113a"
+    },
+    {
+      "path": "office-external/zxing-cpp-2.3.0.tar.gz",
+      "bytes": 1008541,
+      "url": "https://dev-www.libreoffice.org/src/zxing-cpp-2.3.0.tar.gz",
+      "sha256": "64e4139103fdbc57752698ee15b5f0b0f7af9a0331ecbdc492047e0772c417ba"
+    },
+    {
+      "path": "pandoc-dependencies/Glob-0.10.2.tar.gz",
+      "bytes": 30226,
+      "url": "https://hackage.haskell.org/package/Glob-0.10.2/Glob-0.10.2.tar.gz",
+      "sha256": "6af672ac8427d35cbd42d64142dc288feab266f0be92dae3c696e8860d8173c0"
+    },
+    {
+      "path": "pandoc-dependencies/JuicyPixels-3.3.8.tar.gz",
+      "bytes": 132479,
+      "url": "https://hackage.haskell.org/package/JuicyPixels-3.3.8/JuicyPixels-3.3.8.tar.gz",
+      "sha256": "d3a0f6ca3515a1b3d526cbf79f2e0b0aab57f208ab216f9c26437bbcd86fb63e"
+    },
+    {
+      "path": "pandoc-dependencies/QuickCheck-2.14.3.tar.gz",
+      "bytes": 76849,
+      "url": "https://hackage.haskell.org/package/QuickCheck-2.14.3/QuickCheck-2.14.3.tar.gz",
+      "sha256": "5c0f22b36b28a1a8fa110b3819818d3f29494a3b0dedbae299f064123ca70501"
+    },
+    {
+      "path": "pandoc-dependencies/SHA-1.6.4.4.tar.gz",
+      "bytes": 2715144,
+      "url": "https://hackage.haskell.org/package/SHA-1.6.4.4/SHA-1.6.4.4.tar.gz",
+      "sha256": "6bd950df6b11a3998bb1452d875d2da043ee43385459afc5f16d471d25178b44"
+    },
+    {
+      "path": "pandoc-dependencies/aeson-2.1.2.1.tar.gz",
+      "bytes": 335908,
+      "url": "https://hackage.haskell.org/package/aeson-2.1.2.1/aeson-2.1.2.1.tar.gz",
+      "sha256": "5d4042b903ce181ee023bbf908f37a3f55e820c5f0df102683b87f963e3522c6"
+    },
+    {
+      "path": "pandoc-dependencies/aeson-2.2.1.0.tar.gz",
+      "bytes": 341038,
+      "url": "https://hackage.haskell.org/package/aeson-2.2.1.0/aeson-2.2.1.0.tar.gz",
+      "sha256": "914eefd0e80d12db5c721daa2cbab427acee39795f125c5460c1fe48cf9a5d7f"
+    },
+    {
+      "path": "pandoc-dependencies/aeson-pretty-0.8.10.tar.gz",
+      "bytes": 5894,
+      "url": "https://hackage.haskell.org/package/aeson-pretty-0.8.10/aeson-pretty-0.8.10.tar.gz",
+      "sha256": "2a21f2cd78adcb149ceba770239ed664519552911e7680172b18ff695cfa7ae5"
+    },
+    {
+      "path": "pandoc-dependencies/appar-0.1.8.tar.gz",
+      "bytes": 4037,
+      "url": "https://hackage.haskell.org/package/appar-0.1.8/appar-0.1.8.tar.gz",
+      "sha256": "c4ceeddc26525b58d82c41b6d3e32141371a200a6794aae185b6266ccc81631f"
+    },
+    {
+      "path": "pandoc-dependencies/array-0.5.4.0.tar.gz",
+      "bytes": 20066,
+      "url": "https://hackage.haskell.org/package/array-0.5.4.0/array-0.5.4.0.tar.gz",
+      "sha256": "3b135753f9697f9cafbda7ebbd98fd56cc136e7496c371d090829ad13ab7b8c7"
+    },
+    {
+      "path": "pandoc-dependencies/array-0.5.6.0.tar.gz",
+      "bytes": 21718,
+      "url": "https://hackage.haskell.org/package/array-0.5.6.0/array-0.5.6.0.tar.gz",
+      "sha256": "a85e21744016f04841369d8c79c7d82d1557949d6732fb1df15751cb3fe1112e"
+    },
+    {
+      "path": "pandoc-dependencies/asn1-encoding-0.9.6.tar.gz",
+      "bytes": 17343,
+      "url": "https://hackage.haskell.org/package/asn1-encoding-0.9.6/asn1-encoding-0.9.6.tar.gz",
+      "sha256": "d9f8deabd3b908e5cf83c0d813c08dc0143b3ec1c0d97f660d2cfa02c1c8da0a"
+    },
+    {
+      "path": "pandoc-dependencies/asn1-parse-0.9.5.tar.gz",
+      "bytes": 2951,
+      "url": "https://hackage.haskell.org/package/asn1-parse-0.9.5/asn1-parse-0.9.5.tar.gz",
+      "sha256": "8f1fe1344d30b39dc594d74df2c55209577722af1497204b4c2b6d6e8747f39e"
+    },
+    {
+      "path": "pandoc-dependencies/asn1-types-0.3.4.tar.gz",
+      "bytes": 6472,
+      "url": "https://hackage.haskell.org/package/asn1-types-0.3.4/asn1-types-0.3.4.tar.gz",
+      "sha256": "78ee92a251379298ca820fa53edbf4b33c539b9fcd887c86f520c30e3b4e21a8"
+    },
+    {
+      "path": "pandoc-dependencies/assoc-1.1.tar.gz",
+      "bytes": 3193,
+      "url": "https://hackage.haskell.org/package/assoc-1.1/assoc-1.1.tar.gz",
+      "sha256": "7aa2e6548b3d9d49a286ac20639479aaf6c47a1446113ed784d98737c5f60df4"
+    },
+    {
+      "path": "pandoc-dependencies/async-2.2.4.tar.gz",
+      "bytes": 14148,
+      "url": "https://hackage.haskell.org/package/async-2.2.4/async-2.2.4.tar.gz",
+      "sha256": "484df85be0e76c4fed9376451e48e1d0c6e97952ce79735b72d54297e7e0a725"
+    },
+    {
+      "path": "pandoc-dependencies/async-2.2.5.tar.gz",
+      "bytes": 15742,
+      "url": "https://hackage.haskell.org/package/async-2.2.5/async-2.2.5.tar.gz",
+      "sha256": "1818473ebab9212afad2ed76297aefde5fae8b5d4404daf36939aece6a8f16f7"
+    },
+    {
+      "path": "pandoc-dependencies/attoparsec-0.14.4.tar.gz",
+      "bytes": 160701,
+      "url": "https://hackage.haskell.org/package/attoparsec-0.14.4/attoparsec-0.14.4.tar.gz",
+      "sha256": "3f337fe58624565de12426f607c23e60c7b09c86b4e3adfc827ca188c9979e6c"
+    },
+    {
+      "path": "pandoc-dependencies/attoparsec-iso8601-1.1.0.0.tar.gz",
+      "bytes": 5564,
+      "url": "https://hackage.haskell.org/package/attoparsec-iso8601-1.1.0.0/attoparsec-iso8601-1.1.0.0.tar.gz",
+      "sha256": "1109a817c448a154ec58047a8f01282530cb40d20fbd5690bc58b1443ecb264a"
+    },
+    {
+      "path": "pandoc-dependencies/auto-update-0.1.6.tar.gz",
+      "bytes": 10929,
+      "url": "https://hackage.haskell.org/package/auto-update-0.1.6/auto-update-0.1.6.tar.gz",
+      "sha256": "f4e023dc8713c387ecf20d851247597fd012cabea3872310b35e911105eb66c4"
+    },
+    {
+      "path": "pandoc-dependencies/base16-bytestring-1.0.2.0.tar.gz",
+      "bytes": 7219,
+      "url": "https://hackage.haskell.org/package/base16-bytestring-1.0.2.0/base16-bytestring-1.0.2.0.tar.gz",
+      "sha256": "1d5a91143ef0e22157536093ec8e59d226a68220ec89378d5dcaeea86472c784"
+    },
+    {
+      "path": "pandoc-dependencies/base64-0.4.2.4.tar.gz",
+      "bytes": 22065,
+      "url": "https://hackage.haskell.org/package/base64-0.4.2.4/base64-0.4.2.4.tar.gz",
+      "sha256": "640a2d0afcb07e1de2e0a13a5e942b0265781c5942bd642a8793e7b019be3585"
+    },
+    {
+      "path": "pandoc-dependencies/base64-bytestring-1.2.1.0.tar.gz",
+      "bytes": 13743,
+      "url": "https://hackage.haskell.org/package/base64-bytestring-1.2.1.0/base64-bytestring-1.2.1.0.tar.gz",
+      "sha256": "fbf8ed30edde271eb605352021431d8f1b055f95a56af31fe2eacf6bdfdc49c9"
+    },
+    {
+      "path": "pandoc-dependencies/basement-0.0.16.tar.gz",
+      "bytes": 134837,
+      "url": "https://hackage.haskell.org/package/basement-0.0.16/basement-0.0.16.tar.gz",
+      "sha256": "7fb77e249aef76ba5aed3059d556800ce02b614597c488ba01f0a16449146300"
+    },
+    {
+      "path": "pandoc-dependencies/bifunctors-5.6.1.tar.gz",
+      "bytes": 38170,
+      "url": "https://hackage.haskell.org/package/bifunctors-5.6.1/bifunctors-5.6.1.tar.gz",
+      "sha256": "06381471b5be16516a1b2c4b21a5101a3d991038bface8e0cad144c0044d57fc"
+    },
+    {
+      "path": "pandoc-dependencies/binary-0.8.9.1.tar.gz",
+      "bytes": 57344,
+      "url": "https://hackage.haskell.org/package/binary-0.8.9.1/binary-0.8.9.1.tar.gz",
+      "sha256": "ac21ca63452dfc9b0bcab87c57699c531d87f7a9bcb6230ca46fba1b7faeebc0"
+    },
+    {
+      "path": "pandoc-dependencies/blaze-builder-0.4.2.2.tar.gz",
+      "bytes": 60707,
+      "url": "https://hackage.haskell.org/package/blaze-builder-0.4.2.2/blaze-builder-0.4.2.2.tar.gz",
+      "sha256": "2cdc998c021d3a5f2a66a95138b93386271c26a117e7676d78264a90e536af67"
+    },
+    {
+      "path": "pandoc-dependencies/blaze-html-0.9.1.2.tar.gz",
+      "bytes": 81617,
+      "url": "https://hackage.haskell.org/package/blaze-html-0.9.1.2/blaze-html-0.9.1.2.tar.gz",
+      "sha256": "60503f42546c6c1b954014d188ea137e43d74dcffd2bf6157c113fd91a0c394c"
+    },
+    {
+      "path": "pandoc-dependencies/blaze-markup-0.8.2.8.tar.gz",
+      "bytes": 14519,
+      "url": "https://hackage.haskell.org/package/blaze-markup-0.8.2.8/blaze-markup-0.8.2.8.tar.gz",
+      "sha256": "43fc3f6872dc8d1be8d0fe091bd4775139b42179987f33d6490a7c5f1e07a349"
+    },
+    {
+      "path": "pandoc-dependencies/blaze-markup-0.8.3.0.tar.gz",
+      "bytes": 14647,
+      "url": "https://hackage.haskell.org/package/blaze-markup-0.8.3.0/blaze-markup-0.8.3.0.tar.gz",
+      "sha256": "8606ac8b4a1f7f8f1bbc0770b2752e9b6f88ccc9fbdcbb33aa20577d0e5930e8"
+    },
+    {
+      "path": "pandoc-dependencies/bsb-http-chunked-0.0.0.4.tar.gz",
+      "bytes": 6630,
+      "url": "https://hackage.haskell.org/package/bsb-http-chunked-0.0.0.4/bsb-http-chunked-0.0.0.4.tar.gz",
+      "sha256": "148309e23eb8b261c1de374712372d62d8c8dc8ee504c392809c7ec33c0a0e7c"
+    },
+    {
+      "path": "pandoc-dependencies/byteorder-1.0.4.tar.gz",
+      "bytes": 2030,
+      "url": "https://hackage.haskell.org/package/byteorder-1.0.4/byteorder-1.0.4.tar.gz",
+      "sha256": "bd20bbb586947f99c38a4c93d9d0266f49f6fc581767b51ba568f6d5d52d2919"
+    },
+    {
+      "path": "pandoc-dependencies/bytestring-0.11.3.1.tar.gz",
+      "bytes": 209803,
+      "url": "https://hackage.haskell.org/package/bytestring-0.11.3.1/bytestring-0.11.3.1.tar.gz",
+      "sha256": "50518e1722be212d09df385e0d1054d6e67c3d125b8782413198d50ac52e075a"
+    },
+    {
+      "path": "pandoc-dependencies/bytestring-0.11.5.3.tar.gz",
+      "bytes": 216552,
+      "url": "https://hackage.haskell.org/package/bytestring-0.11.5.3/bytestring-0.11.5.3.tar.gz",
+      "sha256": "6bd8fa536ed6a8278bc98dfa9fdf2c91da662bea58fde929a6ba8a38bbe9d7eb"
+    },
+    {
+      "path": "pandoc-dependencies/case-insensitive-1.2.1.0.tar.gz",
+      "bytes": 53609,
+      "url": "https://hackage.haskell.org/package/case-insensitive-1.2.1.0/case-insensitive-1.2.1.0.tar.gz",
+      "sha256": "296dc17e0c5f3dfb3d82ced83e4c9c44c338ecde749b278b6eae512f1d04e406"
+    },
+    {
+      "path": "pandoc-dependencies/cassava-0.5.3.0.tar.gz",
+      "bytes": 38224,
+      "url": "https://hackage.haskell.org/package/cassava-0.5.3.0/cassava-0.5.3.0.tar.gz",
+      "sha256": "b4c8451f433ad7725cb8b9f7a7efe598ba103b16584713c91f48ae023829e9be"
+    },
+    {
+      "path": "pandoc-dependencies/cereal-0.5.8.3.tar.gz",
+      "bytes": 20166,
+      "url": "https://hackage.haskell.org/package/cereal-0.5.8.3/cereal-0.5.8.3.tar.gz",
+      "sha256": "99905220661b26e5bd91130bd9772554938608a5b1d717240a6eb331121e0f6a"
+    },
+    {
+      "path": "pandoc-dependencies/citeproc-0.8.1.tar.gz",
+      "bytes": 549947,
+      "url": "https://hackage.haskell.org/package/citeproc-0.8.1/citeproc-0.8.1.tar.gz",
+      "sha256": "33523bbd8c38f72c6d606e02d11b93254171f801be4f2a0cb4d34d6626426400"
+    },
+    {
+      "path": "pandoc-dependencies/colour-2.3.6.tar.gz",
+      "bytes": 20675,
+      "url": "https://hackage.haskell.org/package/colour-2.3.6/colour-2.3.6.tar.gz",
+      "sha256": "2cd35dcd6944a5abc9f108a5eb5ee564b6b1fa98a9ec79cefcc20b588991f871"
+    },
+    {
+      "path": "pandoc-dependencies/commonmark-0.2.3.tar.gz",
+      "bytes": 102342,
+      "url": "https://hackage.haskell.org/package/commonmark-0.2.3/commonmark-0.2.3.tar.gz",
+      "sha256": "745ade908c7cd8a61538d9c3e60363d5e1175fd7f544f557ff52517c8408d905"
+    },
+    {
+      "path": "pandoc-dependencies/commonmark-0.2.6.tar.gz",
+      "bytes": 104222,
+      "url": "https://hackage.haskell.org/package/commonmark-0.2.6/commonmark-0.2.6.tar.gz",
+      "sha256": "e7e66ce4ecf187c2d7245988c99ac727904f58bca6a89b688d67b385e99e1c4c"
+    },
+    {
+      "path": "pandoc-dependencies/commonmark-extensions-0.2.3.5.tar.gz",
+      "bytes": 37915,
+      "url": "https://hackage.haskell.org/package/commonmark-extensions-0.2.3.5/commonmark-extensions-0.2.3.5.tar.gz",
+      "sha256": "078847f996df468c3736fee50b469ad1903befb17a193247ad068e690c5bb70e"
+    },
+    {
+      "path": "pandoc-dependencies/commonmark-extensions-0.2.5.4.tar.gz",
+      "bytes": 45115,
+      "url": "https://hackage.haskell.org/package/commonmark-extensions-0.2.5.4/commonmark-extensions-0.2.5.4.tar.gz",
+      "sha256": "35fae084a1a94b231428d224b5fef1a8af89f16d5ec01b9015dc7862bd918908"
+    },
+    {
+      "path": "pandoc-dependencies/commonmark-pandoc-0.2.1.3.tar.gz",
+      "bytes": 4907,
+      "url": "https://hackage.haskell.org/package/commonmark-pandoc-0.2.1.3/commonmark-pandoc-0.2.1.3.tar.gz",
+      "sha256": "77adcf9074299a5b318901d057ebf49a7f032245f2aee783ef475539b0897f21"
+    },
+    {
+      "path": "pandoc-dependencies/commonmark-pandoc-0.2.2.1.tar.gz",
+      "bytes": 5022,
+      "url": "https://hackage.haskell.org/package/commonmark-pandoc-0.2.2.1/commonmark-pandoc-0.2.2.1.tar.gz",
+      "sha256": "6190eb15bf2e0964cb1b206984f7613bd204b55469d11dff8fcca5488b097acd"
+    },
+    {
+      "path": "pandoc-dependencies/conduit-1.3.5.tar.gz",
+      "bytes": 88893,
+      "url": "https://hackage.haskell.org/package/conduit-1.3.5/conduit-1.3.5.tar.gz",
+      "sha256": "2bb0d3e0eecc43e3d1d8cfc2125914f9175cde752be2d5908a1e120f321c782d"
+    },
+    {
+      "path": "pandoc-dependencies/conduit-extra-1.3.6.tar.gz",
+      "bytes": 33321,
+      "url": "https://hackage.haskell.org/package/conduit-extra-1.3.6/conduit-extra-1.3.6.tar.gz",
+      "sha256": "8950c38049d892c38590d389bed49ecf880671f58ec63dd4709d9fe3d4b8f153"
+    },
+    {
+      "path": "pandoc-dependencies/constraints-0.13.4.tar.gz",
+      "bytes": 21673,
+      "url": "https://hackage.haskell.org/package/constraints-0.13.4/constraints-0.13.4.tar.gz",
+      "sha256": "4186946df4b88c5d7cae3a42aa426f30fd5d249835ea1d290e139cebbf464434"
+    },
+    {
+      "path": "pandoc-dependencies/containers-0.6.6.tar.gz",
+      "bytes": 198884,
+      "url": "https://hackage.haskell.org/package/containers-0.6.6/containers-0.6.6.tar.gz",
+      "sha256": "b8190ed1f102d5f3463a8057660357be63167456e80e2755cdead10d510b2ae8"
+    },
+    {
+      "path": "pandoc-dependencies/containers-0.6.7.tar.gz",
+      "bytes": 203394,
+      "url": "https://hackage.haskell.org/package/containers-0.6.7/containers-0.6.7.tar.gz",
+      "sha256": "8516effc5e88a6ce5e65e9efa2c64eee3d7540c081792c11ece2df4f0a25c874"
+    },
+    {
+      "path": "pandoc-dependencies/cookie-0.4.6.tar.gz",
+      "bytes": 6219,
+      "url": "https://hackage.haskell.org/package/cookie-0.4.6/cookie-0.4.6.tar.gz",
+      "sha256": "8c41a956c32b9733d525a53d43b0338a236a34d36658ecc4364c8249a6664baa"
+    },
+    {
+      "path": "pandoc-dependencies/crypton-0.33.tar.gz",
+      "bytes": 618064,
+      "url": "https://hackage.haskell.org/package/crypton-0.33/crypton-0.33.tar.gz",
+      "sha256": "e66fa0a75c2afe149205df9f496f05d31fa94d8116551632d39e37e58fe60520"
+    },
+    {
+      "path": "pandoc-dependencies/crypton-0.34.tar.gz",
+      "bytes": 622533,
+      "url": "https://hackage.haskell.org/package/crypton-0.34/crypton-0.34.tar.gz",
+      "sha256": "4444846924ca55615fce104913a5a68675a180cfeadc350ab2b124fba1bc1ed6"
+    },
+    {
+      "path": "pandoc-dependencies/crypton-connection-0.3.1.tar.gz",
+      "bytes": 9112,
+      "url": "https://hackage.haskell.org/package/crypton-connection-0.3.1/crypton-connection-0.3.1.tar.gz",
+      "sha256": "03073694f6525f975db78dbc67c34e89bb27b95cf863d4a3a77dc6ef49d81dcc"
+    },
+    {
+      "path": "pandoc-dependencies/crypton-connection-0.3.2.tar.gz",
+      "bytes": 9054,
+      "url": "https://hackage.haskell.org/package/crypton-connection-0.3.2/crypton-connection-0.3.2.tar.gz",
+      "sha256": "208be23bc910f8e5f9431995b9c011ed376bb947d79f74c8f51a5e4ecd9e991e"
+    },
+    {
+      "path": "pandoc-dependencies/crypton-x509-1.7.6.tar.gz",
+      "bytes": 21557,
+      "url": "https://hackage.haskell.org/package/crypton-x509-1.7.6/crypton-x509-1.7.6.tar.gz",
+      "sha256": "ebb74aca2d00261e2fb4927d211ba1a174e190e5257f309e190f019727f8caff"
+    },
+    {
+      "path": "pandoc-dependencies/crypton-x509-store-1.6.9.tar.gz",
+      "bytes": 12735,
+      "url": "https://hackage.haskell.org/package/crypton-x509-store-1.6.9/crypton-x509-store-1.6.9.tar.gz",
+      "sha256": "3e6218af12e039cc291d19792db044df1647b5cf0bbc60b909a027e7595a256f"
+    },
+    {
+      "path": "pandoc-dependencies/crypton-x509-system-1.6.7.tar.gz",
+      "bytes": 3496,
+      "url": "https://hackage.haskell.org/package/crypton-x509-system-1.6.7/crypton-x509-system-1.6.7.tar.gz",
+      "sha256": "a436261e5f5e83d85080f57a5509c8224c9e75a6e56d0c43a7d2967052b634ca"
+    },
+    {
+      "path": "pandoc-dependencies/crypton-x509-validation-1.6.12.tar.gz",
+      "bytes": 19573,
+      "url": "https://hackage.haskell.org/package/crypton-x509-validation-1.6.12/crypton-x509-validation-1.6.12.tar.gz",
+      "sha256": "0e60b7e237a4fd5e7e6e7200018c7947314292ef63751cbb51877836ebe650f6"
+    },
+    {
+      "path": "pandoc-dependencies/data-fix-0.3.2.tar.gz",
+      "bytes": 5842,
+      "url": "https://hackage.haskell.org/package/data-fix-0.3.2/data-fix-0.3.2.tar.gz",
+      "sha256": "3a172d3bc0639c327345e965f9d9023e099425814b28dcdb7b60ff66d66219cc"
+    },
+    {
+      "path": "pandoc-dependencies/dec-0.0.5.tar.gz",
+      "bytes": 3224,
+      "url": "https://hackage.haskell.org/package/dec-0.0.5/dec-0.0.5.tar.gz",
+      "sha256": "e18043c7c7e68168489f164921a02efede0c0175a5012ed5451ec2242338df88"
+    },
+    {
+      "path": "pandoc-dependencies/deepseq-1.4.8.0.tar.gz",
+      "bytes": 12392,
+      "url": "https://hackage.haskell.org/package/deepseq-1.4.8.0/deepseq-1.4.8.0.tar.gz",
+      "sha256": "2d181372e70f7a24572d18fa78249ec50c0079f607617b0b0e6975703c85655a"
+    },
+    {
+      "path": "pandoc-dependencies/digest-0.0.1.7.tar.gz",
+      "bytes": 4067,
+      "url": "https://hackage.haskell.org/package/digest-0.0.1.7/digest-0.0.1.7.tar.gz",
+      "sha256": "b23d6c804e6fed0ac9bb0d35b7aed5785330d63efebe296cf0073dab17e05f0a"
+    },
+    {
+      "path": "pandoc-dependencies/digits-0.3.1.tar.gz",
+      "bytes": 2480,
+      "url": "https://hackage.haskell.org/package/digits-0.3.1/digits-0.3.1.tar.gz",
+      "sha256": "a8499c9745dcf8a4e6c48594f555e6c6276e8d91c457dcc562a370ccadcd6a2c"
+    },
+    {
+      "path": "pandoc-dependencies/directory-1.3.7.1.tar.gz",
+      "bytes": 83757,
+      "url": "https://hackage.haskell.org/package/directory-1.3.7.1/directory-1.3.7.1.tar.gz",
+      "sha256": "dc2785d6548cec2e80700fab007d3e9467f65d3c58ab3efa21b34d9017cf0efd"
+    },
+    {
+      "path": "pandoc-dependencies/directory-1.3.8.1.tar.gz",
+      "bytes": 98714,
+      "url": "https://hackage.haskell.org/package/directory-1.3.8.1/directory-1.3.8.1.tar.gz",
+      "sha256": "bd8253197587d32d4553070d2de89d3817176860932b0e9ab7bb7ba3759d8e9c"
+    },
+    {
+      "path": "pandoc-dependencies/djot-0.1.1.3.tar.gz",
+      "bytes": 124161,
+      "url": "https://hackage.haskell.org/package/djot-0.1.1.3/djot-0.1.1.3.tar.gz",
+      "sha256": "70c195c88d7470932d75707aebdb45102c4b586bca99cfab6901d66b5848df20"
+    },
+    {
+      "path": "pandoc-dependencies/dlist-1.0.tar.gz",
+      "bytes": 18667,
+      "url": "https://hackage.haskell.org/package/dlist-1.0/dlist-1.0.tar.gz",
+      "sha256": "173d637328bb173fcc365f30d29ff4a94292a1e0e5558aeb3dfc11de81510115"
+    },
+    {
+      "path": "pandoc-dependencies/doclayout-0.4.0.1.tar.gz",
+      "bytes": 38465,
+      "url": "https://hackage.haskell.org/package/doclayout-0.4.0.1/doclayout-0.4.0.1.tar.gz",
+      "sha256": "f7d3515d41abdfd7a5b69f28bf9520f591881364262698fd49686506b570b30b"
+    },
+    {
+      "path": "pandoc-dependencies/doctemplates-0.11.tar.gz",
+      "bytes": 25255,
+      "url": "https://hackage.haskell.org/package/doctemplates-0.11/doctemplates-0.11.tar.gz",
+      "sha256": "e0080c7f030e98ce6156fd31e77df4c83b8f3ee049beee5006ce923a0169546b"
+    },
+    {
+      "path": "pandoc-dependencies/emojis-0.1.2.tar.gz",
+      "bytes": 49333,
+      "url": "https://hackage.haskell.org/package/emojis-0.1.2/emojis-0.1.2.tar.gz",
+      "sha256": "3cfe9c2ea3efbbdb9b7fc24ee6707a839d272c1deee7e39319f17a7e6feea227"
+    },
+    {
+      "path": "pandoc-dependencies/exceptions-0.10.5.tar.gz",
+      "bytes": 17192,
+      "url": "https://hackage.haskell.org/package/exceptions-0.10.5/exceptions-0.10.5.tar.gz",
+      "sha256": "66e3c0b4e2d32287621a3faab6b99c7e03b285a07711f335332aec6b4217bf8b"
+    },
+    {
+      "path": "pandoc-dependencies/exceptions-0.10.7.tar.gz",
+      "bytes": 18236,
+      "url": "https://hackage.haskell.org/package/exceptions-0.10.7/exceptions-0.10.7.tar.gz",
+      "sha256": "9a42ade4c8b53d8da5350e8e0e2929f4ef128c4b8591b120656455310b546049"
+    },
+    {
+      "path": "pandoc-dependencies/filepath-1.4.2.2.tar.gz",
+      "bytes": 41636,
+      "url": "https://hackage.haskell.org/package/filepath-1.4.2.2/filepath-1.4.2.2.tar.gz",
+      "sha256": "bdd64be4dcdb0f712651a73833351c6ee0768e367786fc63e3510bf53e952667"
+    },
+    {
+      "path": "pandoc-dependencies/filepath-1.4.200.1.tar.gz",
+      "bytes": 99224,
+      "url": "https://hackage.haskell.org/package/filepath-1.4.200.1/filepath-1.4.200.1.tar.gz",
+      "sha256": "2efe9437e5db1128a53f13fd658e9a87d900c95f4dd85fcb76cbf4736d3c6386"
+    },
+    {
+      "path": "pandoc-dependencies/foldable1-classes-compat-0.1.tar.gz",
+      "bytes": 10484,
+      "url": "https://hackage.haskell.org/package/foldable1-classes-compat-0.1/foldable1-classes-compat-0.1.tar.gz",
+      "sha256": "d057c3f358e1a6b72c73519bc64ba6aa959f066c08fed69f73258555ef95ff12"
+    },
+    {
+      "path": "pandoc-dependencies/gridtables-0.1.0.0.tar.gz",
+      "bytes": 12279,
+      "url": "https://hackage.haskell.org/package/gridtables-0.1.0.0/gridtables-0.1.0.0.tar.gz",
+      "sha256": "d6ac341bc7997d39a3b1f6cd811f70ab69689d9c3117ce3bc44bfb2ec55ab0ea"
+    },
+    {
+      "path": "pandoc-dependencies/haddock-library-1.11.0.tar.gz",
+      "bytes": 32833,
+      "url": "https://hackage.haskell.org/package/haddock-library-1.11.0/haddock-library-1.11.0.tar.gz",
+      "sha256": "7c075ec9a378b0a2d9d605e72135201e6c7ff316564f2c974113582f43bea20a"
+    },
+    {
+      "path": "pandoc-dependencies/hashable-1.4.2.0.tar.gz",
+      "bytes": 25094,
+      "url": "https://hackage.haskell.org/package/hashable-1.4.2.0/hashable-1.4.2.0.tar.gz",
+      "sha256": "1b4000ea82b81f69d46d0af4152c10c6303873510738e24cfc4767760d30e3f8"
+    },
+    {
+      "path": "pandoc-dependencies/haskell-lexer-1.1.1.tar.gz",
+      "bytes": 14499,
+      "url": "https://hackage.haskell.org/package/haskell-lexer-1.1.1/haskell-lexer-1.1.1.tar.gz",
+      "sha256": "c8eeda569a30f115244c17920247ba2c45d11b3e30805f648a878f7855d8f349"
+    },
+    {
+      "path": "pandoc-dependencies/hourglass-0.2.12.tar.gz",
+      "bytes": 25797,
+      "url": "https://hackage.haskell.org/package/hourglass-0.2.12/hourglass-0.2.12.tar.gz",
+      "sha256": "44335b5c402e80c60f1db6a74462be4ea29d1a9043aa994334ffee1164f1ca4a"
+    },
+    {
+      "path": "pandoc-dependencies/hslua-2.3.0.tar.gz",
+      "bytes": 17387,
+      "url": "https://hackage.haskell.org/package/hslua-2.3.0/hslua-2.3.0.tar.gz",
+      "sha256": "4fc16b45f012c991717407bf17b50e8240467b76e1f404933addb96df19087b3"
+    },
+    {
+      "path": "pandoc-dependencies/hslua-aeson-2.3.0.1.tar.gz",
+      "bytes": 7182,
+      "url": "https://hackage.haskell.org/package/hslua-aeson-2.3.0.1/hslua-aeson-2.3.0.1.tar.gz",
+      "sha256": "838adb847538b9fc1d8d61df5cc6fad20564f8098a101a8c8bc167a38fffd5ba"
+    },
+    {
+      "path": "pandoc-dependencies/hslua-classes-2.3.0.tar.gz",
+      "bytes": 11579,
+      "url": "https://hackage.haskell.org/package/hslua-classes-2.3.0/hslua-classes-2.3.0.tar.gz",
+      "sha256": "97cd4469764d83dd4410e6493127a49e6f9a9455302ea616d96e289aab2cccd9"
+    },
+    {
+      "path": "pandoc-dependencies/hslua-cli-1.4.1.tar.gz",
+      "bytes": 5856,
+      "url": "https://hackage.haskell.org/package/hslua-cli-1.4.1/hslua-cli-1.4.1.tar.gz",
+      "sha256": "e6f1b61da6adf1089822cf501c5955612fbf9b7a56dadff957eda99fb70c6ea1"
+    },
+    {
+      "path": "pandoc-dependencies/hslua-cli-1.4.2.tar.gz",
+      "bytes": 5904,
+      "url": "https://hackage.haskell.org/package/hslua-cli-1.4.2/hslua-cli-1.4.2.tar.gz",
+      "sha256": "fbd89184ab5d9e3a0179c1500ba63279953c1658c308f5a37368333c8e914642"
+    },
+    {
+      "path": "pandoc-dependencies/hslua-core-2.3.1.tar.gz",
+      "bytes": 39580,
+      "url": "https://hackage.haskell.org/package/hslua-core-2.3.1/hslua-core-2.3.1.tar.gz",
+      "sha256": "1eb218dd9b8791fc113f44c71d42010fa9d5786c2164c35a8b15917c5120afa5"
+    },
+    {
+      "path": "pandoc-dependencies/hslua-core-2.3.2.tar.gz",
+      "bytes": 39648,
+      "url": "https://hackage.haskell.org/package/hslua-core-2.3.2/hslua-core-2.3.2.tar.gz",
+      "sha256": "14ec6f800002efa361c99055fadc3aeb3060ab408255ea9f68e0afc94b166d40"
+    },
+    {
+      "path": "pandoc-dependencies/hslua-list-1.1.1.tar.gz",
+      "bytes": 8004,
+      "url": "https://hackage.haskell.org/package/hslua-list-1.1.1/hslua-list-1.1.1.tar.gz",
+      "sha256": "368df8ca23b3f83acf84db5044337d026642b6d99e315f2f46a9e079f7cee05c"
+    },
+    {
+      "path": "pandoc-dependencies/hslua-marshalling-2.3.0.tar.gz",
+      "bytes": 17214,
+      "url": "https://hackage.haskell.org/package/hslua-marshalling-2.3.0/hslua-marshalling-2.3.0.tar.gz",
+      "sha256": "ec01063ae07421325bc0c4427d58d4ffd272d1d38dbcfebae2c3005eaf176510"
+    },
+    {
+      "path": "pandoc-dependencies/hslua-marshalling-2.3.1.tar.gz",
+      "bytes": 17266,
+      "url": "https://hackage.haskell.org/package/hslua-marshalling-2.3.1/hslua-marshalling-2.3.1.tar.gz",
+      "sha256": "0949d9ff45e4e9b55d0e99c07ea48bf84016a21c5240d21372f11321e1bff06c"
+    },
+    {
+      "path": "pandoc-dependencies/hslua-module-doclayout-1.1.0.tar.gz",
+      "bytes": 10294,
+      "url": "https://hackage.haskell.org/package/hslua-module-doclayout-1.1.0/hslua-module-doclayout-1.1.0.tar.gz",
+      "sha256": "61b204944a74b64ff3d98582071c9ed56778f730e14f29d34a40a3003ff5c4d0"
+    },
+    {
+      "path": "pandoc-dependencies/hslua-module-path-1.1.0.tar.gz",
+      "bytes": 8040,
+      "url": "https://hackage.haskell.org/package/hslua-module-path-1.1.0/hslua-module-path-1.1.0.tar.gz",
+      "sha256": "aed5589344ab96879c8dad80785e3de47076126d7f886be8c915ba6adfb187b1"
+    },
+    {
+      "path": "pandoc-dependencies/hslua-module-system-1.1.0.1.tar.gz",
+      "bytes": 8930,
+      "url": "https://hackage.haskell.org/package/hslua-module-system-1.1.0.1/hslua-module-system-1.1.0.1.tar.gz",
+      "sha256": "06c866e44805bfc7fb04de308a52ae81f2b5da483de176686c784172fdc30ae5"
+    },
+    {
+      "path": "pandoc-dependencies/hslua-module-text-1.1.0.1.tar.gz",
+      "bytes": 6216,
+      "url": "https://hackage.haskell.org/package/hslua-module-text-1.1.0.1/hslua-module-text-1.1.0.1.tar.gz",
+      "sha256": "2bd85de6dc58c78493a859de7af9db8b996b443fcdd640da75143d7680a83fa1"
+    },
+    {
+      "path": "pandoc-dependencies/hslua-module-version-1.1.0.tar.gz",
+      "bytes": 6110,
+      "url": "https://hackage.haskell.org/package/hslua-module-version-1.1.0/hslua-module-version-1.1.0.tar.gz",
+      "sha256": "a46bbca58b8ddaba17871ca9787f8ceeaa9f5ae9580cdc41b7b902b33c0f65d8"
+    },
+    {
+      "path": "pandoc-dependencies/hslua-module-zip-1.1.0.tar.gz",
+      "bytes": 7603,
+      "url": "https://hackage.haskell.org/package/hslua-module-zip-1.1.0/hslua-module-zip-1.1.0.tar.gz",
+      "sha256": "b0dabee06c2ff8ec4a616bb23126710f98d237988bbc62198945b061dfb86372"
+    },
+    {
+      "path": "pandoc-dependencies/hslua-objectorientation-2.3.0.tar.gz",
+      "bytes": 16615,
+      "url": "https://hackage.haskell.org/package/hslua-objectorientation-2.3.0/hslua-objectorientation-2.3.0.tar.gz",
+      "sha256": "4fb51a892d872f0c80f01dcbcdc4fed97602479c631fa67fb90dc04f1900e61d"
+    },
+    {
+      "path": "pandoc-dependencies/hslua-objectorientation-2.3.1.tar.gz",
+      "bytes": 16673,
+      "url": "https://hackage.haskell.org/package/hslua-objectorientation-2.3.1/hslua-objectorientation-2.3.1.tar.gz",
+      "sha256": "1824b71160f2c545277b6f29f0dbde3da1a223c70406d5466c9c4c91198e7dab"
+    },
+    {
+      "path": "pandoc-dependencies/hslua-packaging-2.3.0.tar.gz",
+      "bytes": 16903,
+      "url": "https://hackage.haskell.org/package/hslua-packaging-2.3.0/hslua-packaging-2.3.0.tar.gz",
+      "sha256": "21ba53e54c3a8431650ad34cb310974edf14767f927fea58eb3e98794d6b3fcc"
+    },
+    {
+      "path": "pandoc-dependencies/hslua-packaging-2.3.1.tar.gz",
+      "bytes": 16952,
+      "url": "https://hackage.haskell.org/package/hslua-packaging-2.3.1/hslua-packaging-2.3.1.tar.gz",
+      "sha256": "36dcaed69a9f7a3fc4adb4e1c7a063774b6b75d7c02ad2c1ec04035cc1572173"
+    },
+    {
+      "path": "pandoc-dependencies/hslua-repl-0.1.1.tar.gz",
+      "bytes": 4052,
+      "url": "https://hackage.haskell.org/package/hslua-repl-0.1.1/hslua-repl-0.1.1.tar.gz",
+      "sha256": "f086b35e211975c3874185d84994d624fd542bd8860f5ed867e9067c0345f6ce"
+    },
+    {
+      "path": "pandoc-dependencies/hslua-typing-0.1.0.tar.gz",
+      "bytes": 6420,
+      "url": "https://hackage.haskell.org/package/hslua-typing-0.1.0/hslua-typing-0.1.0.tar.gz",
+      "sha256": "b18740abe3fbe0a2b4bf3cd1e6dda2c080dba097e19a809dff8ffd99095a9002"
+    },
+    {
+      "path": "pandoc-dependencies/hslua-typing-0.1.1.tar.gz",
+      "bytes": 6484,
+      "url": "https://hackage.haskell.org/package/hslua-typing-0.1.1/hslua-typing-0.1.1.tar.gz",
+      "sha256": "449ac7b351b71a64fcc68f2dbbe16a222ccd8d14d2b53c9459ad44ed4f7a094c"
+    },
+    {
+      "path": "pandoc-dependencies/http-api-data-0.5.1.tar.gz",
+      "bytes": 21114,
+      "url": "https://hackage.haskell.org/package/http-api-data-0.5.1/http-api-data-0.5.1.tar.gz",
+      "sha256": "6166c64824e139a2727cc31af44d0077f66eb3921a20973bc6e98ff9fb77122b"
+    },
+    {
+      "path": "pandoc-dependencies/http-api-data-0.6.tar.gz",
+      "bytes": 20775,
+      "url": "https://hackage.haskell.org/package/http-api-data-0.6/http-api-data-0.6.tar.gz",
+      "sha256": "74904382dfd0774a34fef881d895afafdb856bd57f162db275cfe550a1dc1346"
+    },
+    {
+      "path": "pandoc-dependencies/http-client-0.7.13.1.tar.gz",
+      "bytes": 95306,
+      "url": "https://hackage.haskell.org/package/http-client-0.7.13.1/http-client-0.7.13.1.tar.gz",
+      "sha256": "c98e86a0382fa877e320d83dbbd173c41c966a60a32c9bc597058929a7aa0e27"
+    },
+    {
+      "path": "pandoc-dependencies/http-client-0.7.17.tar.gz",
+      "bytes": 96965,
+      "url": "https://hackage.haskell.org/package/http-client-0.7.17/http-client-0.7.17.tar.gz",
+      "sha256": "aa614366110641c48aa0ceeb12acd1fea992bbce02ef66cf31f82688a31fadc6"
+    },
+    {
+      "path": "pandoc-dependencies/http-client-tls-0.3.6.2.tar.gz",
+      "bytes": 7852,
+      "url": "https://hackage.haskell.org/package/http-client-tls-0.3.6.2/http-client-tls-0.3.6.2.tar.gz",
+      "sha256": "28438ebeee2b97b2354c9cf6d3cb1fb73ac7ebc6cb1f4d54aedf10980394aba6"
+    },
+    {
+      "path": "pandoc-dependencies/http-client-tls-0.3.6.3.tar.gz",
+      "bytes": 7935,
+      "url": "https://hackage.haskell.org/package/http-client-tls-0.3.6.3/http-client-tls-0.3.6.3.tar.gz",
+      "sha256": "38dcfc3d772eb6898b4a8856d6159824d13f65eb291733619f625a802dad9095"
+    },
+    {
+      "path": "pandoc-dependencies/http-date-0.0.11.tar.gz",
+      "bytes": 5351,
+      "url": "https://hackage.haskell.org/package/http-date-0.0.11/http-date-0.0.11.tar.gz",
+      "sha256": "32f923ac1ad9bdfeadce7c52a03c9ba6225ba60dc14137cb1cdf32ea84ccf4d3"
+    },
+    {
+      "path": "pandoc-dependencies/http-media-0.8.0.0.tar.gz",
+      "bytes": 18895,
+      "url": "https://hackage.haskell.org/package/http-media-0.8.0.0/http-media-0.8.0.0.tar.gz",
+      "sha256": "398279d1dff5b60cd8b8c650caceca248ea1184d694bedf5df5426963b2b9c53"
+    },
+    {
+      "path": "pandoc-dependencies/http-media-0.8.1.1.tar.gz",
+      "bytes": 18395,
+      "url": "https://hackage.haskell.org/package/http-media-0.8.1.1/http-media-0.8.1.1.tar.gz",
+      "sha256": "1920adf31b15d167f60374fbfd0a53a1fbe7820fd7fd459beacf6eb00d03f183"
+    },
+    {
+      "path": "pandoc-dependencies/http-types-0.12.3.tar.gz",
+      "bytes": 13547,
+      "url": "https://hackage.haskell.org/package/http-types-0.12.3/http-types-0.12.3.tar.gz",
+      "sha256": "4e8a4a66477459fa436a331c75e46857ec8026283df984d54f90576cd3024016"
+    },
+    {
+      "path": "pandoc-dependencies/http-types-0.12.4.tar.gz",
+      "bytes": 18707,
+      "url": "https://hackage.haskell.org/package/http-types-0.12.4/http-types-0.12.4.tar.gz",
+      "sha256": "4d4b1bb0cc817e5fef0c9c76c9647f69f4d300c45a105043493eff86381be549"
+    },
+    {
+      "path": "pandoc-dependencies/http2-4.1.4.tar.gz",
+      "bytes": 5498780,
+      "url": "https://hackage.haskell.org/package/http2-4.1.4/http2-4.1.4.tar.gz",
+      "sha256": "7d951447f4c38b27bb4a0a45bacbf168da20c9452d889c16ab0aeca5a1b220d6"
+    },
+    {
+      "path": "pandoc-dependencies/http2-5.0.1.tar.gz",
+      "bytes": 5508150,
+      "url": "https://hackage.haskell.org/package/http2-5.0.1/http2-5.0.1.tar.gz",
+      "sha256": "3bf0f51b8753b7c3f9e80aab6d5af40c49ed3b3c16dc6498c3f1d42301a499d5"
+    },
+    {
+      "path": "pandoc-dependencies/indexed-traversable-0.1.2.1.tar.gz",
+      "bytes": 8905,
+      "url": "https://hackage.haskell.org/package/indexed-traversable-0.1.2.1/indexed-traversable-0.1.2.1.tar.gz",
+      "sha256": "fe854c10285debc7d6fe3e09da0928a740ebc091ad2911ae695bb007e6f746a4"
+    },
+    {
+      "path": "pandoc-dependencies/indexed-traversable-instances-0.1.1.2.tar.gz",
+      "bytes": 3769,
+      "url": "https://hackage.haskell.org/package/indexed-traversable-instances-0.1.1.2/indexed-traversable-instances-0.1.1.2.tar.gz",
+      "sha256": "0f9b4e895ccc819f74d15f913c93613cc74cab74dbb05d7e305aa387bdbe374a"
+    },
+    {
+      "path": "pandoc-dependencies/integer-conversion-0.1.0.1.tar.gz",
+      "bytes": 6166,
+      "url": "https://hackage.haskell.org/package/integer-conversion-0.1.0.1/integer-conversion-0.1.0.1.tar.gz",
+      "sha256": "20ac70cf1cb65458bba2c562c209a8930e45bdb89886182d644d0a457fc46f39"
+    },
+    {
+      "path": "pandoc-dependencies/integer-gmp-1.1.tar.gz",
+      "bytes": 4526,
+      "url": "https://hackage.haskell.org/package/integer-gmp-1.1/integer-gmp-1.1.tar.gz",
+      "sha256": "934f9547d82990d1da9e0950264e3b236d637bbe5cd788c2fb8a1abe51236339"
+    },
+    {
+      "path": "pandoc-dependencies/integer-logarithms-1.0.3.1.tar.gz",
+      "bytes": 9023,
+      "url": "https://hackage.haskell.org/package/integer-logarithms-1.0.3.1/integer-logarithms-1.0.3.1.tar.gz",
+      "sha256": "9b0a9f9fab609b15cd015865721fb05f744a1bc77ae92fd133872de528bbea7f"
+    },
+    {
+      "path": "pandoc-dependencies/iproute-1.7.12.tar.gz",
+      "bytes": 17864,
+      "url": "https://hackage.haskell.org/package/iproute-1.7.12/iproute-1.7.12.tar.gz",
+      "sha256": "f1751d1579fcbc1d9f86d9d1c9ede48cb71cbeb1d7b2043491c6216e4f236b63"
+    },
+    {
+      "path": "pandoc-dependencies/ipynb-0.2.tar.gz",
+      "bytes": 632962,
+      "url": "https://hackage.haskell.org/package/ipynb-0.2/ipynb-0.2.tar.gz",
+      "sha256": "9a743d74e95ccccfadca4a734f44c7b3e2a5b838da3f9044231590d7355191c7"
+    },
+    {
+      "path": "pandoc-dependencies/isocline-1.0.9.tar.gz",
+      "bytes": 101834,
+      "url": "https://hackage.haskell.org/package/isocline-1.0.9/isocline-1.0.9.tar.gz",
+      "sha256": "9090c69e8082cda45214e41e8205bce671a6c04b78ac412b7bacffadafe75468"
+    },
+    {
+      "path": "pandoc-dependencies/jira-wiki-markup-1.5.1.tar.gz",
+      "bytes": 25459,
+      "url": "https://hackage.haskell.org/package/jira-wiki-markup-1.5.1/jira-wiki-markup-1.5.1.tar.gz",
+      "sha256": "9ca23d369c3ccf1b3ffb209dda8e6288a5f5901fb8235113825fa48d3ae8e520"
+    },
+    {
+      "path": "pandoc-dependencies/libyaml-0.1.2.tar.gz",
+      "bytes": 63635,
+      "url": "https://hackage.haskell.org/package/libyaml-0.1.2/libyaml-0.1.2.tar.gz",
+      "sha256": "8f42d66f199fcaee255326f8f770d88b0670df56b5eb78002d6058f3a45e97b5"
+    },
+    {
+      "path": "pandoc-dependencies/libyaml-0.1.4.tar.gz",
+      "bytes": 9592,
+      "url": "https://hackage.haskell.org/package/libyaml-0.1.4/libyaml-0.1.4.tar.gz",
+      "sha256": "d6297ec9b1ebb4e4b580a4357d840d08a6f53e13a10c0c53ee74b973bba6fa13"
+    },
+    {
+      "path": "pandoc-dependencies/lpeg-1.0.4.tar.gz",
+      "bytes": 40132,
+      "url": "https://hackage.haskell.org/package/lpeg-1.0.4/lpeg-1.0.4.tar.gz",
+      "sha256": "24084721a225f133682aa12c5ff4f65c7ea7b6b03894c6af0504864bea2054bb"
+    },
+    {
+      "path": "pandoc-dependencies/lua-2.3.1.tar.gz",
+      "bytes": 262809,
+      "url": "https://hackage.haskell.org/package/lua-2.3.1/lua-2.3.1.tar.gz",
+      "sha256": "b92515811f6b1400a39d517e1aa95e406aa45cd11aa5cc6a4db65dd76f1fc753"
+    },
+    {
+      "path": "pandoc-dependencies/lua-2.3.2.tar.gz",
+      "bytes": 264445,
+      "url": "https://hackage.haskell.org/package/lua-2.3.2/lua-2.3.2.tar.gz",
+      "sha256": "ae2a8c091eeb8af2de669a36e49e5818b347c14d4ba1c27bad8fdd88c4c13731"
+    },
+    {
+      "path": "pandoc-dependencies/memory-0.18.0.tar.gz",
+      "bytes": 41957,
+      "url": "https://hackage.haskell.org/package/memory-0.18.0/memory-0.18.0.tar.gz",
+      "sha256": "fd4eb6f638e24b81b4e6cdd68772a531726f2f67686c8969d3407d82f7862e3e"
+    },
+    {
+      "path": "pandoc-dependencies/mime-types-0.1.1.0.tar.gz",
+      "bytes": 11818,
+      "url": "https://hackage.haskell.org/package/mime-types-0.1.1.0/mime-types-0.1.1.0.tar.gz",
+      "sha256": "ebd01ed4e37142cb3233d4ffe55fe879b64d4a0b5802c8bc6afa1c7670f9e11b"
+    },
+    {
+      "path": "pandoc-dependencies/monad-control-1.0.3.1.tar.gz",
+      "bytes": 13985,
+      "url": "https://hackage.haskell.org/package/monad-control-1.0.3.1/monad-control-1.0.3.1.tar.gz",
+      "sha256": "ae0baea04d99375ef788140367179994a7178d400a8ce0d9026846546772713c"
+    },
+    {
+      "path": "pandoc-dependencies/mono-traversable-1.0.15.3.tar.gz",
+      "bytes": 40461,
+      "url": "https://hackage.haskell.org/package/mono-traversable-1.0.15.3/mono-traversable-1.0.15.3.tar.gz",
+      "sha256": "98b220f3313d74227a4249210c8818e839678343e62b3ebb1b8c867cf2b974b7"
+    },
+    {
+      "path": "pandoc-dependencies/mtl-2.2.2.tar.gz",
+      "bytes": 16966,
+      "url": "https://hackage.haskell.org/package/mtl-2.2.2/mtl-2.2.2.tar.gz",
+      "sha256": "8803f48a8ed33296c3a3272f448198737a287ec31baa901af09e2118c829bef6"
+    },
+    {
+      "path": "pandoc-dependencies/mtl-2.3.1.tar.gz",
+      "bytes": 26192,
+      "url": "https://hackage.haskell.org/package/mtl-2.3.1/mtl-2.3.1.tar.gz",
+      "sha256": "2178f1cb60fe2a4cb780827a2bfbab01b56eed92f7f502dc728fecd9f56cdca7"
+    },
+    {
+      "path": "pandoc-dependencies/network-3.1.4.0.tar.gz",
+      "bytes": 139988,
+      "url": "https://hackage.haskell.org/package/network-3.1.4.0/network-3.1.4.0.tar.gz",
+      "sha256": "b452a2afac95d9207357eb3820c719c7c7d27871ef4b6ed7bfcd03a036b9158e"
+    },
+    {
+      "path": "pandoc-dependencies/network-byte-order-0.1.6.tar.gz",
+      "bytes": 6648,
+      "url": "https://hackage.haskell.org/package/network-byte-order-0.1.6/network-byte-order-0.1.6.tar.gz",
+      "sha256": "f2b0ccc9b759d686af30aac874fc394c13c1fc8a3db00fac401c9339c263dc5e"
+    },
+    {
+      "path": "pandoc-dependencies/network-byte-order-0.1.7.tar.gz",
+      "bytes": 6402,
+      "url": "https://hackage.haskell.org/package/network-byte-order-0.1.7/network-byte-order-0.1.7.tar.gz",
+      "sha256": "480ce0ad7f67364ec8d4ce8d815f463d9e4074e3789be22a5722cfdebed08679"
+    },
+    {
+      "path": "pandoc-dependencies/network-control-0.0.2.tar.gz",
+      "bytes": 3410,
+      "url": "https://hackage.haskell.org/package/network-control-0.0.2/network-control-0.0.2.tar.gz",
+      "sha256": "134e9c6f309641bfbb508d8c3957bca76a2715e71138f4c058dba675b06326d4"
+    },
+    {
+      "path": "pandoc-dependencies/network-uri-2.6.4.2.tar.gz",
+      "bytes": 31309,
+      "url": "https://hackage.haskell.org/package/network-uri-2.6.4.2/network-uri-2.6.4.2.tar.gz",
+      "sha256": "9c188973126e893250b881f20e8811dca06c223c23402b06f7a1f2e995797228"
+    },
+    {
+      "path": "pandoc-dependencies/ordered-containers-0.2.3.tar.gz",
+      "bytes": 7404,
+      "url": "https://hackage.haskell.org/package/ordered-containers-0.2.3/ordered-containers-0.2.3.tar.gz",
+      "sha256": "36849705752f3bc367fa1d172e1ec57375418341e9d74de572ae1b6fb56a81a3"
+    },
+    {
+      "path": "pandoc-dependencies/pandoc-3.1.13.tar.gz",
+      "bytes": 7367320,
+      "url": "https://hackage.haskell.org/package/pandoc-3.1.13/pandoc-3.1.13.tar.gz",
+      "sha256": "59176cef1ccf0b2d93458c168c4e89d970c5d18c3d90aadac046d5cd21a675d0"
+    },
+    {
+      "path": "pandoc-dependencies/pandoc-3.1.6.tar.gz",
+      "bytes": 7294304,
+      "url": "https://hackage.haskell.org/package/pandoc-3.1.6/pandoc-3.1.6.tar.gz",
+      "sha256": "3b0332fa84c7cc2d4b3a590776f699dbd4b09c8085e2b29edc7d8dfe5fb0c734"
+    },
+    {
+      "path": "pandoc-dependencies/pandoc-lua-engine-0.2.1.3.tar.gz",
+      "bytes": 81386,
+      "url": "https://hackage.haskell.org/package/pandoc-lua-engine-0.2.1.3/pandoc-lua-engine-0.2.1.3.tar.gz",
+      "sha256": "af36f8a5ba029d6a63c2b0bef9016d2d8c1080ab4488a7dda1b72017c997b8c2"
+    },
+    {
+      "path": "pandoc-dependencies/pandoc-lua-engine-0.2.1.tar.gz",
+      "bytes": 81162,
+      "url": "https://hackage.haskell.org/package/pandoc-lua-engine-0.2.1/pandoc-lua-engine-0.2.1.tar.gz",
+      "sha256": "e556b5d3fdb5861887ec21666472c1f4c82e13d726c8dc78f1745f01e8776c97"
+    },
+    {
+      "path": "pandoc-dependencies/pandoc-lua-marshal-0.2.2.tar.gz",
+      "bytes": 38236,
+      "url": "https://hackage.haskell.org/package/pandoc-lua-marshal-0.2.2/pandoc-lua-marshal-0.2.2.tar.gz",
+      "sha256": "22231c24a7b228b3d0b99dcfb77657b410f8a95f02b6bde365b434a8f1882679"
+    },
+    {
+      "path": "pandoc-dependencies/pandoc-lua-marshal-0.2.6.tar.gz",
+      "bytes": 38722,
+      "url": "https://hackage.haskell.org/package/pandoc-lua-marshal-0.2.6/pandoc-lua-marshal-0.2.6.tar.gz",
+      "sha256": "9c024ccd9f6e21c8fa52ec7a9b044b5b0908917c84b51b84f7aeb1f960c43c09"
+    },
+    {
+      "path": "pandoc-dependencies/pandoc-server-0.1.0.1.tar.gz",
+      "bytes": 12777,
+      "url": "https://hackage.haskell.org/package/pandoc-server-0.1.0.1/pandoc-server-0.1.0.1.tar.gz",
+      "sha256": "f9b21aef4afa23e3a167bee3cf3f813d3bc407452569350a58b48ffbaa2b7fa3"
+    },
+    {
+      "path": "pandoc-dependencies/pandoc-server-0.1.0.5.tar.gz",
+      "bytes": 12733,
+      "url": "https://hackage.haskell.org/package/pandoc-server-0.1.0.5/pandoc-server-0.1.0.5.tar.gz",
+      "sha256": "28ec1f8137c08abf0e91a8a5de4a9df5f3f6848efc96b01278d68513eb6850ef"
+    },
+    {
+      "path": "pandoc-dependencies/pandoc-types-1.23.0.1.tar.gz",
+      "bytes": 36329,
+      "url": "https://hackage.haskell.org/package/pandoc-types-1.23.0.1/pandoc-types-1.23.0.1.tar.gz",
+      "sha256": "515637549263bec8457e58d0c73f1ce424934f98672a7e848146e2be22959d46"
+    },
+    {
+      "path": "pandoc-dependencies/pandoc-types-1.23.1.tar.gz",
+      "bytes": 36480,
+      "url": "https://hackage.haskell.org/package/pandoc-types-1.23.1/pandoc-types-1.23.1.tar.gz",
+      "sha256": "ad0fa083d28d452b7d37a1c67a2c140137a5f29a2f52fd88e807fac20245a1c1"
+    },
+    {
+      "path": "pandoc-dependencies/parsec-3.1.15.0.tar.gz",
+      "bytes": 36412,
+      "url": "https://hackage.haskell.org/package/parsec-3.1.15.0/parsec-3.1.15.0.tar.gz",
+      "sha256": "98820f4423c0027fc1693bf0fe08b4ef4aabb8eb0a7bf1143561e6b03fd21fed"
+    },
+    {
+      "path": "pandoc-dependencies/parsec-3.1.16.1.tar.gz",
+      "bytes": 36919,
+      "url": "https://hackage.haskell.org/package/parsec-3.1.16.1/parsec-3.1.16.1.tar.gz",
+      "sha256": "a41962e5d76ea68658876735b8d5b755e0eff336b079d0a2f439c364755d1246"
+    },
+    {
+      "path": "pandoc-dependencies/pem-0.2.4.tar.gz",
+      "bytes": 4717,
+      "url": "https://hackage.haskell.org/package/pem-0.2.4/pem-0.2.4.tar.gz",
+      "sha256": "770c4c1b9cd24b3db7f511f8a48404a0d098999e28573c3743a8a296bb96f8d4"
+    },
+    {
+      "path": "pandoc-dependencies/pretty-1.1.3.6.tar.gz",
+      "bytes": 35483,
+      "url": "https://hackage.haskell.org/package/pretty-1.1.3.6/pretty-1.1.3.6.tar.gz",
+      "sha256": "eb12cc23cbaf7d3f3e2a5e804e2e0ddb2a2d98d3ad456617d1b87fd3951d66e8"
+    },
+    {
+      "path": "pandoc-dependencies/pretty-show-1.10.tar.gz",
+      "bytes": 42233,
+      "url": "https://hackage.haskell.org/package/pretty-show-1.10/pretty-show-1.10.tar.gz",
+      "sha256": "307f9086e0b063d439dc4f513e36a145e8a57f23de448aefae2a6c00f6da6fd2"
+    },
+    {
+      "path": "pandoc-dependencies/prettyprinter-1.7.1.tar.gz",
+      "bytes": 56907,
+      "url": "https://hackage.haskell.org/package/prettyprinter-1.7.1/prettyprinter-1.7.1.tar.gz",
+      "sha256": "5e6ea6903114fa118fcc359633dfb7ecddecb92c06c853d02a77b72b251f0b45"
+    },
+    {
+      "path": "pandoc-dependencies/primitive-0.8.0.0.tar.gz",
+      "bytes": 57222,
+      "url": "https://hackage.haskell.org/package/primitive-0.8.0.0/primitive-0.8.0.0.tar.gz",
+      "sha256": "5553c21b4a789f9b591eed69e598cc58484c274af29250e517b5a8bcc62b995f"
+    },
+    {
+      "path": "pandoc-dependencies/primitive-0.9.0.0.tar.gz",
+      "bytes": 60580,
+      "url": "https://hackage.haskell.org/package/primitive-0.9.0.0/primitive-0.9.0.0.tar.gz",
+      "sha256": "696d4bd291c94d736142d6182117dca4258d3ef28bfefdb649ac8b5ecd0999c7"
+    },
+    {
+      "path": "pandoc-dependencies/process-1.6.16.0.tar.gz",
+      "bytes": 87354,
+      "url": "https://hackage.haskell.org/package/process-1.6.16.0/process-1.6.16.0.tar.gz",
+      "sha256": "bbc21380d1271aa0dd57934f0b7a4f790f3f6cd12a27eed3eefcd46677ca9328"
+    },
+    {
+      "path": "pandoc-dependencies/process-1.6.17.0.tar.gz",
+      "bytes": 87688,
+      "url": "https://hackage.haskell.org/package/process-1.6.17.0/process-1.6.17.0.tar.gz",
+      "sha256": "4c5c454e0f5c864c79b9fabd850307b26d8ac4037e45a6a39ab87e20b583bf06"
+    },
+    {
+      "path": "pandoc-dependencies/psqueues-0.2.7.3.tar.gz",
+      "bytes": 27328,
+      "url": "https://hackage.haskell.org/package/psqueues-0.2.7.3/psqueues-0.2.7.3.tar.gz",
+      "sha256": "d09750ba3578d905b54d0b3a60a7b468910a60b3165e5de98bf6f4efae3ebfb2"
+    },
+    {
+      "path": "pandoc-dependencies/psqueues-0.2.8.0.tar.gz",
+      "bytes": 27549,
+      "url": "https://hackage.haskell.org/package/psqueues-0.2.8.0/psqueues-0.2.8.0.tar.gz",
+      "sha256": "b36de238414845d5f0e8e521154e670b2129a21b98070a02fd6b7c873b46e462"
+    },
+    {
+      "path": "pandoc-dependencies/random-1.2.1.1.tar.gz",
+      "bytes": 47109,
+      "url": "https://hackage.haskell.org/package/random-1.2.1.1/random-1.2.1.1.tar.gz",
+      "sha256": "3e1272f7ed6a4d7bd1712b90143ec326fee9b225789222379fea20a9c90c9b76"
+    },
+    {
+      "path": "pandoc-dependencies/recv-0.1.0.tar.gz",
+      "bytes": 5158,
+      "url": "https://hackage.haskell.org/package/recv-0.1.0/recv-0.1.0.tar.gz",
+      "sha256": "f664905cffb44b7f9cba604cd75bd69011a666ba06bccbcb7f3fae0cd4f14d5b"
+    },
+    {
+      "path": "pandoc-dependencies/regex-base-0.94.0.2.tar.gz",
+      "bytes": 10488,
+      "url": "https://hackage.haskell.org/package/regex-base-0.94.0.2/regex-base-0.94.0.2.tar.gz",
+      "sha256": "7b99408f580f5bb67a1c413e0bc735886608251331ad36322020f2169aea2ef1"
+    },
+    {
+      "path": "pandoc-dependencies/regex-tdfa-1.3.2.1.tar.gz",
+      "bytes": 82890,
+      "url": "https://hackage.haskell.org/package/regex-tdfa-1.3.2.1/regex-tdfa-1.3.2.1.tar.gz",
+      "sha256": "5c8bf8b5274dd45a9afa72bb4f51602df429b4dfd2a05275da5d78c00e7b8295"
+    },
+    {
+      "path": "pandoc-dependencies/regex-tdfa-1.3.2.2.tar.gz",
+      "bytes": 83016,
+      "url": "https://hackage.haskell.org/package/regex-tdfa-1.3.2.2/regex-tdfa-1.3.2.2.tar.gz",
+      "sha256": "933ed5c54246bb50e335d86b884ffb70bc252b5f776fb291f162a80a27bd75b7"
+    },
+    {
+      "path": "pandoc-dependencies/resourcet-1.3.0.tar.gz",
+      "bytes": 17620,
+      "url": "https://hackage.haskell.org/package/resourcet-1.3.0/resourcet-1.3.0.tar.gz",
+      "sha256": "ec601785ee42a201f32adb205b8685c983f18757b1bd33d2e806d571e0f9996b"
+    },
+    {
+      "path": "pandoc-dependencies/safe-0.3.19.tar.gz",
+      "bytes": 11267,
+      "url": "https://hackage.haskell.org/package/safe-0.3.19/safe-0.3.19.tar.gz",
+      "sha256": "25043442c8f8aa95955bb17467d023630632b961aaa61e807e325d9b2c33f7a2"
+    },
+    {
+      "path": "pandoc-dependencies/safe-0.3.21.tar.gz",
+      "bytes": 11778,
+      "url": "https://hackage.haskell.org/package/safe-0.3.21/safe-0.3.21.tar.gz",
+      "sha256": "2c81fea42bbe79ec488774043c1ec54f30efba059df9a4f3681ce83d85007f01"
+    },
+    {
+      "path": "pandoc-dependencies/safe-exceptions-0.1.7.4.tar.gz",
+      "bytes": 15347,
+      "url": "https://hackage.haskell.org/package/safe-exceptions-0.1.7.4/safe-exceptions-0.1.7.4.tar.gz",
+      "sha256": "3c51d8d50c9b60ff8bf94f942fd92e3bea9e62c5afa778dfc9f707b79da41ef6"
+    },
+    {
+      "path": "pandoc-dependencies/scientific-0.3.7.0.tar.gz",
+      "bytes": 24723,
+      "url": "https://hackage.haskell.org/package/scientific-0.3.7.0/scientific-0.3.7.0.tar.gz",
+      "sha256": "a3a121c4b3d68fb8b9f8c709ab012e48f090ed553609247a805ad070d6b343a9"
+    },
+    {
+      "path": "pandoc-dependencies/semialign-1.3.tar.gz",
+      "bytes": 10543,
+      "url": "https://hackage.haskell.org/package/semialign-1.3/semialign-1.3.tar.gz",
+      "sha256": "628e43319f584a8dd46c124ee0685cac586e0f6f877c5ceff37c3dbb2e3cc56c"
+    },
+    {
+      "path": "pandoc-dependencies/servant-0.20.1.tar.gz",
+      "bytes": 56057,
+      "url": "https://hackage.haskell.org/package/servant-0.20.1/servant-0.20.1.tar.gz",
+      "sha256": "94f773f9bdff67eb2d7aec9c67f80e8af79d531ba6f52fad2e142d8ce4551be9"
+    },
+    {
+      "path": "pandoc-dependencies/servant-0.20.tar.gz",
+      "bytes": 56212,
+      "url": "https://hackage.haskell.org/package/servant-0.20/servant-0.20.tar.gz",
+      "sha256": "f106cd57cf8a71e393c35dc0a0af46102976ff1a6409b71086c824e325f97527"
+    },
+    {
+      "path": "pandoc-dependencies/servant-server-0.20.tar.gz",
+      "bytes": 55745,
+      "url": "https://hackage.haskell.org/package/servant-server-0.20/servant-server-0.20.tar.gz",
+      "sha256": "13b2fe785be1aae07e15d139fa1f94c7c5db6c8d36d0fc7789576b31a9bee8be"
+    },
+    {
+      "path": "pandoc-dependencies/simple-sendfile-0.2.32.tar.gz",
+      "bytes": 343565,
+      "url": "https://hackage.haskell.org/package/simple-sendfile-0.2.32/simple-sendfile-0.2.32.tar.gz",
+      "sha256": "9f28d0a67ac3d956d2dd78eb19ea922c0a9192bbbeeeead20d39f561636828a3"
+    },
+    {
+      "path": "pandoc-dependencies/singleton-bool-0.1.7.tar.gz",
+      "bytes": 3974,
+      "url": "https://hackage.haskell.org/package/singleton-bool-0.1.7/singleton-bool-0.1.7.tar.gz",
+      "sha256": "1c2d196386c3697e884fcc8bef530506045a4860a5f669cc8416358b473bb29b"
+    },
+    {
+      "path": "pandoc-dependencies/skylighting-0.13.4.1.tar.gz",
+      "bytes": 1382542,
+      "url": "https://hackage.haskell.org/package/skylighting-0.13.4.1/skylighting-0.13.4.1.tar.gz",
+      "sha256": "f1f704b35ca161778daa07c422d15f547f4b92fe1e5e57bebbc5038fb6942c24"
+    },
+    {
+      "path": "pandoc-dependencies/skylighting-core-0.13.4.1.tar.gz",
+      "bytes": 863281,
+      "url": "https://hackage.haskell.org/package/skylighting-core-0.13.4.1/skylighting-core-0.13.4.1.tar.gz",
+      "sha256": "c554edbf5c30e205482c46eb5ed55c2ce03c2ede69f0fb5ca9c9c97931cae2c3"
+    },
+    {
+      "path": "pandoc-dependencies/skylighting-core-0.14.1.1.tar.gz",
+      "bytes": 874963,
+      "url": "https://hackage.haskell.org/package/skylighting-core-0.14.1.1/skylighting-core-0.14.1.1.tar.gz",
+      "sha256": "5876d92a1ced386c3b4ab9a0b9ea2f42cb4880d1eec430731aa90ffdfdab5c84"
+    },
+    {
+      "path": "pandoc-dependencies/skylighting-format-blaze-html-0.1.1.2.tar.gz",
+      "bytes": 4894,
+      "url": "https://hackage.haskell.org/package/skylighting-format-blaze-html-0.1.1.2/skylighting-format-blaze-html-0.1.1.2.tar.gz",
+      "sha256": "125fe5367aef04b1bc720bdff07802e5db288cb3634ac0ba2796ed5cedd98f79"
+    },
+    {
+      "path": "pandoc-dependencies/skylighting-format-blaze-html-0.1.1.tar.gz",
+      "bytes": 4769,
+      "url": "https://hackage.haskell.org/package/skylighting-format-blaze-html-0.1.1/skylighting-format-blaze-html-0.1.1.tar.gz",
+      "sha256": "b1139b4df369de93d1ec6d8a2ed02bf11d559f9eaf71c31434fb5b19ba48ef13"
+    },
+    {
+      "path": "pandoc-dependencies/skylighting-format-context-0.1.0.2.tar.gz",
+      "bytes": 3249,
+      "url": "https://hackage.haskell.org/package/skylighting-format-context-0.1.0.2/skylighting-format-context-0.1.0.2.tar.gz",
+      "sha256": "004213e13d89b692ea0912d7ffa6ee98c93146d1a7962a849ad7860697bc88bd"
+    },
+    {
+      "path": "pandoc-dependencies/skylighting-format-latex-0.1.tar.gz",
+      "bytes": 3777,
+      "url": "https://hackage.haskell.org/package/skylighting-format-latex-0.1/skylighting-format-latex-0.1.tar.gz",
+      "sha256": "97b66c9ab60451e41a94aa80a684e792fbe69816835f735224222beea22afb78"
+    },
+    {
+      "path": "pandoc-dependencies/socks-0.6.1.tar.gz",
+      "bytes": 9759,
+      "url": "https://hackage.haskell.org/package/socks-0.6.1/socks-0.6.1.tar.gz",
+      "sha256": "734447558bb061ce768f53a0df1f2401902c6bee396cc96ce627edd986ef6a73"
+    },
+    {
+      "path": "pandoc-dependencies/some-1.0.5.tar.gz",
+      "bytes": 10917,
+      "url": "https://hackage.haskell.org/package/some-1.0.5/some-1.0.5.tar.gz",
+      "sha256": "b0de79de39b5e02bbef673ed8af2a81cb9184a7fe5eb978e4bb0d906fddc915f"
+    },
+    {
+      "path": "pandoc-dependencies/split-0.2.3.5.tar.gz",
+      "bytes": 15746,
+      "url": "https://hackage.haskell.org/package/split-0.2.3.5/split-0.2.3.5.tar.gz",
+      "sha256": "bf8aa8d610354a2b576946a6c838251ec5988c8374100638e6b2604513b93159"
+    },
+    {
+      "path": "pandoc-dependencies/split-0.2.5.tar.gz",
+      "bytes": 16008,
+      "url": "https://hackage.haskell.org/package/split-0.2.5/split-0.2.5.tar.gz",
+      "sha256": "52da404e8397c1ab238354c8d4fd9a7e9c5cac8849cc2ce2e45facc85e74a913"
+    },
+    {
+      "path": "pandoc-dependencies/splitmix-0.1.0.4.tar.gz",
+      "bytes": 22382,
+      "url": "https://hackage.haskell.org/package/splitmix-0.1.0.4/splitmix-0.1.0.4.tar.gz",
+      "sha256": "6d065402394e7a9117093dbb4530a21342c9b1e2ec509516c8a8d0ffed98ecaa"
+    },
+    {
+      "path": "pandoc-dependencies/splitmix-0.1.0.5.tar.gz",
+      "bytes": 22399,
+      "url": "https://hackage.haskell.org/package/splitmix-0.1.0.5/splitmix-0.1.0.5.tar.gz",
+      "sha256": "9df07a9611ef45f1b1258a0b412f4d02c920248f69d2e2ce8ccda328f7e13002"
+    },
+    {
+      "path": "pandoc-dependencies/stm-2.5.1.0.tar.gz",
+      "bytes": 15937,
+      "url": "https://hackage.haskell.org/package/stm-2.5.1.0/stm-2.5.1.0.tar.gz",
+      "sha256": "2b9ad0d1250f56d9dd716a77c4bde5fd1e989cda806765ba9b826f8c4b238885"
+    },
+    {
+      "path": "pandoc-dependencies/streaming-commons-0.2.2.6.tar.gz",
+      "bytes": 37959,
+      "url": "https://hackage.haskell.org/package/streaming-commons-0.2.2.6/streaming-commons-0.2.2.6.tar.gz",
+      "sha256": "0180958a882eb0f6262b812fe886c2b1b8285474b5b958f814ae4f05409fbf79"
+    },
+    {
+      "path": "pandoc-dependencies/strict-0.5.tar.gz",
+      "bytes": 12564,
+      "url": "https://hackage.haskell.org/package/strict-0.5/strict-0.5.tar.gz",
+      "sha256": "3f4f0995dec2d520d0e321542f71412dac023658fdab603db04364d75269a0fd"
+    },
+    {
+      "path": "pandoc-dependencies/string-conversions-0.4.0.1.tar.gz",
+      "bytes": 3759,
+      "url": "https://hackage.haskell.org/package/string-conversions-0.4.0.1/string-conversions-0.4.0.1.tar.gz",
+      "sha256": "46bcce6d9ce62c558b7658a75d9c6a62f7259d6b0473d011d8078234ad6a1994"
+    },
+    {
+      "path": "pandoc-dependencies/tagged-0.8.7.tar.gz",
+      "bytes": 10082,
+      "url": "https://hackage.haskell.org/package/tagged-0.8.7/tagged-0.8.7.tar.gz",
+      "sha256": "6414eeac27a1633f49e2f78199ced99ce8ce3d70b658cf6d55b1d81ff60cb961"
+    },
+    {
+      "path": "pandoc-dependencies/tagsoup-0.14.8.tar.gz",
+      "bytes": 43894,
+      "url": "https://hackage.haskell.org/package/tagsoup-0.14.8/tagsoup-0.14.8.tar.gz",
+      "sha256": "ba7e5500d853d29f0675b90655b7fdd032a4a7eee82a56e7ee3ef9949fe93ad5"
+    },
+    {
+      "path": "pandoc-dependencies/temporary-1.3.tar.gz",
+      "bytes": 5686,
+      "url": "https://hackage.haskell.org/package/temporary-1.3/temporary-1.3.tar.gz",
+      "sha256": "8c442993694b5ffca823ce864af95bd2841fb5264ee511c61cf48cc71d879890"
+    },
+    {
+      "path": "pandoc-dependencies/texmath-0.12.8.8.tar.gz",
+      "bytes": 1482246,
+      "url": "https://hackage.haskell.org/package/texmath-0.12.8.8/texmath-0.12.8.8.tar.gz",
+      "sha256": "6cc57b1a5fd5fc6b315885408da32fa23d28a14b7bbc983f3d1b1ca8dd430972"
+    },
+    {
+      "path": "pandoc-dependencies/texmath-0.12.8.tar.gz",
+      "bytes": 1479868,
+      "url": "https://hackage.haskell.org/package/texmath-0.12.8/texmath-0.12.8.tar.gz",
+      "sha256": "034ff00671d9b8ac4c983df59ccfb4f39fc7d8c2d19f1f39cc00ac5d3f8625c4"
+    },
+    {
+      "path": "pandoc-dependencies/text-2.0.1.tar.gz",
+      "bytes": 279798,
+      "url": "https://hackage.haskell.org/package/text-2.0.1/text-2.0.1.tar.gz",
+      "sha256": "b00a2466c50e2c300a85e76424967e40d751652bfa6707d13d300b8b4ba087da"
+    },
+    {
+      "path": "pandoc-dependencies/text-2.0.2.tar.gz",
+      "bytes": 292557,
+      "url": "https://hackage.haskell.org/package/text-2.0.2/text-2.0.2.tar.gz",
+      "sha256": "c735be650a898606ce9f2c8642bc6ac6123eea82871d5e90f92797801f59efad"
+    },
+    {
+      "path": "pandoc-dependencies/text-short-0.1.5.tar.gz",
+      "bytes": 25113,
+      "url": "https://hackage.haskell.org/package/text-short-0.1.5/text-short-0.1.5.tar.gz",
+      "sha256": "a35ec6cde2ada084c1a050dc5885be5ab01f851b93d744cf0facbc1c18002dda"
+    },
+    {
+      "path": "pandoc-dependencies/th-abstraction-0.5.0.0.tar.gz",
+      "bytes": 40093,
+      "url": "https://hackage.haskell.org/package/th-abstraction-0.5.0.0/th-abstraction-0.5.0.0.tar.gz",
+      "sha256": "8258dc3ab7188af5826e2467032b52a931a3af4d8a93d4a094210e240a8a9964"
+    },
+    {
+      "path": "pandoc-dependencies/these-1.2.tar.gz",
+      "bytes": 10606,
+      "url": "https://hackage.haskell.org/package/these-1.2/these-1.2.tar.gz",
+      "sha256": "a8ed7174b7f790764360f48aab72fea382a6093ed369c7bc6881fae1abacd4b8"
+    },
+    {
+      "path": "pandoc-dependencies/time-1.12.2.tar.gz",
+      "bytes": 126325,
+      "url": "https://hackage.haskell.org/package/time-1.12.2/time-1.12.2.tar.gz",
+      "sha256": "dba0b047a230e823ce08007b4a6c2cd0a1e9e899c148b72019511c0b71ebaf1e"
+    },
+    {
+      "path": "pandoc-dependencies/time-compat-1.9.6.1.tar.gz",
+      "bytes": 59964,
+      "url": "https://hackage.haskell.org/package/time-compat-1.9.6.1/time-compat-1.9.6.1.tar.gz",
+      "sha256": "ad07bb00eb9678c2136d3680752b00acc4cbc522654bb3199bf31c61ef1e6b80"
+    },
+    {
+      "path": "pandoc-dependencies/time-manager-0.0.0.tar.gz",
+      "bytes": 2726,
+      "url": "https://hackage.haskell.org/package/time-manager-0.0.0/time-manager-0.0.0.tar.gz",
+      "sha256": "90a616ed20b2119bb64f78f84230b6798cde22a35e87bc8d9ee08cdf1d90fcdb"
+    },
+    {
+      "path": "pandoc-dependencies/time-manager-0.0.1.tar.gz",
+      "bytes": 2746,
+      "url": "https://hackage.haskell.org/package/time-manager-0.0.1/time-manager-0.0.1.tar.gz",
+      "sha256": "07492523fabc69b8ec308f6276cc93df3dd060c91f23df2ac8a1f56d331ea05b"
+    },
+    {
+      "path": "pandoc-dependencies/tls-1.7.0.tar.gz",
+      "bytes": 158630,
+      "url": "https://hackage.haskell.org/package/tls-1.7.0/tls-1.7.0.tar.gz",
+      "sha256": "3c2a50c902d26864f6af113e59045f049f6c54fb46239ed2d1d4a82bc8524078"
+    },
+    {
+      "path": "pandoc-dependencies/tls-2.0.2.tar.gz",
+      "bytes": 162902,
+      "url": "https://hackage.haskell.org/package/tls-2.0.2/tls-2.0.2.tar.gz",
+      "sha256": "8f9cce86ebdb9466772cce9c59151b1978437d552971046506940f38cc2515a1"
+    },
+    {
+      "path": "pandoc-dependencies/toml-parser-1.2.1.0.tar.gz",
+      "bytes": 36688,
+      "url": "https://hackage.haskell.org/package/toml-parser-1.2.1.0/toml-parser-1.2.1.0.tar.gz",
+      "sha256": "f209c430883420f604541594032be53cf5281685f0cb1fdc80a5a872bc59c17d"
+    },
+    {
+      "path": "pandoc-dependencies/toml-parser-2.0.0.0.tar.gz",
+      "bytes": 48033,
+      "url": "https://hackage.haskell.org/package/toml-parser-2.0.0.0/toml-parser-2.0.0.0.tar.gz",
+      "sha256": "87fd39161e23b2963ca67f5c30f5c17e2b7f2d27ba71ef4cb8a7ee561fad79db"
+    },
+    {
+      "path": "pandoc-dependencies/transformers-0.5.6.2.tar.gz",
+      "bytes": 42370,
+      "url": "https://hackage.haskell.org/package/transformers-0.5.6.2/transformers-0.5.6.2.tar.gz",
+      "sha256": "b668795d600297e4c8a7fd55a107b9827b2c52c0bc14c5ea0d65e20e6691c66c"
+    },
+    {
+      "path": "pandoc-dependencies/transformers-0.6.1.0.tar.gz",
+      "bytes": 41806,
+      "url": "https://hackage.haskell.org/package/transformers-0.6.1.0/transformers-0.6.1.0.tar.gz",
+      "sha256": "e7abcbed7b59510db575cff30b75e0bb1b9672bdf981c393cc064c9bf9d9a4d8"
+    },
+    {
+      "path": "pandoc-dependencies/transformers-base-0.4.6.tar.gz",
+      "bytes": 2902,
+      "url": "https://hackage.haskell.org/package/transformers-base-0.4.6/transformers-base-0.4.6.tar.gz",
+      "sha256": "323bf8689eb691b122661cffa41a25e00fea7a768433fe2dde35d3da7d32cf90"
+    },
+    {
+      "path": "pandoc-dependencies/typst-0.3.1.0.tar.gz",
+      "bytes": 6408489,
+      "url": "https://hackage.haskell.org/package/typst-0.3.1.0/typst-0.3.1.0.tar.gz",
+      "sha256": "6afcc3249062ea1ca47d9508c5224ffbe9f48b661553e08e793932a519a14a16"
+    },
+    {
+      "path": "pandoc-dependencies/typst-0.5.0.3.tar.gz",
+      "bytes": 6432307,
+      "url": "https://hackage.haskell.org/package/typst-0.5.0.3/typst-0.5.0.3.tar.gz",
+      "sha256": "e3411f7a02e5e50acb3354dc077a207059c3de419c5da1104211fbc4ef06493c"
+    },
+    {
+      "path": "pandoc-dependencies/typst-symbols-0.1.2.tar.gz",
+      "bytes": 18076,
+      "url": "https://hackage.haskell.org/package/typst-symbols-0.1.2/typst-symbols-0.1.2.tar.gz",
+      "sha256": "c2e6c71e71cff33d464d6dc50276886d616626772d5f57260b2f668c4bcba0ab"
+    },
+    {
+      "path": "pandoc-dependencies/unicode-collation-0.1.3.4.tar.gz",
+      "bytes": 2056084,
+      "url": "https://hackage.haskell.org/package/unicode-collation-0.1.3.4/unicode-collation-0.1.3.4.tar.gz",
+      "sha256": "b08dbe9bb269d6eda2639cdfc63caee136794f46c16a1ad51b5305dd2ea6d429"
+    },
+    {
+      "path": "pandoc-dependencies/unicode-collation-0.1.3.6.tar.gz",
+      "bytes": 2056131,
+      "url": "https://hackage.haskell.org/package/unicode-collation-0.1.3.6/unicode-collation-0.1.3.6.tar.gz",
+      "sha256": "d64163d64cdf8c872d7ec02b49bc0d0192c70875b8c002765c5142cc880d3a30"
+    },
+    {
+      "path": "pandoc-dependencies/unicode-data-0.4.0.1.tar.gz",
+      "bytes": 187381,
+      "url": "https://hackage.haskell.org/package/unicode-data-0.4.0.1/unicode-data-0.4.0.1.tar.gz",
+      "sha256": "37a5dea6801940beb65c4ac4b9d0f7e653a686cf773507f0ca61c210e0b06080"
+    },
+    {
+      "path": "pandoc-dependencies/unicode-transforms-0.4.0.1.tar.gz",
+      "bytes": 648836,
+      "url": "https://hackage.haskell.org/package/unicode-transforms-0.4.0.1/unicode-transforms-0.4.0.1.tar.gz",
+      "sha256": "3278e1e1d648da4bcd7368658ae091a89080e88a2f44db9df5136711e99649fc"
+    },
+    {
+      "path": "pandoc-dependencies/uniplate-1.6.13.tar.gz",
+      "bytes": 29787,
+      "url": "https://hackage.haskell.org/package/uniplate-1.6.13/uniplate-1.6.13.tar.gz",
+      "sha256": "e777c94628445556a71f135a42cf72d2cfbaccba5849cc42fbfec8b2182e3ad2"
+    },
+    {
+      "path": "pandoc-dependencies/unix-2.7.3.tar.gz",
+      "bytes": 141083,
+      "url": "https://hackage.haskell.org/package/unix-2.7.3/unix-2.7.3.tar.gz",
+      "sha256": "4625c2916545678e20715c4a043e002a4511fc301b4791cc8e7b33c317c42f30"
+    },
+    {
+      "path": "pandoc-dependencies/unix-2.8.4.0.tar.gz",
+      "bytes": 175161,
+      "url": "https://hackage.haskell.org/package/unix-2.8.4.0/unix-2.8.4.0.tar.gz",
+      "sha256": "3211fdbbe2b1ad8944a86838d38ebd0cf2636a4500fb4b5c0a964d8c63c58d55"
+    },
+    {
+      "path": "pandoc-dependencies/unix-time-0.4.10.tar.gz",
+      "bytes": 52393,
+      "url": "https://hackage.haskell.org/package/unix-time-0.4.10/unix-time-0.4.10.tar.gz",
+      "sha256": "7e4a4bf8cba87bc7b1e3a1a7c68a44d7780360d6f52628cd84154829a03629bc"
+    },
+    {
+      "path": "pandoc-dependencies/unix-time-0.4.12.tar.gz",
+      "bytes": 52410,
+      "url": "https://hackage.haskell.org/package/unix-time-0.4.12/unix-time-0.4.12.tar.gz",
+      "sha256": "50a57298e5cba81e9db2be9f4c24c7e514af96e541a97df05a5ecd411aaf97e2"
+    },
+    {
+      "path": "pandoc-dependencies/unliftio-0.2.25.0.tar.gz",
+      "bytes": 58335,
+      "url": "https://hackage.haskell.org/package/unliftio-0.2.25.0/unliftio-0.2.25.0.tar.gz",
+      "sha256": "fb85a22291e78f9e58cd7f5e563a726500ad1a004b3b335b93c0975b828a112b"
+    },
+    {
+      "path": "pandoc-dependencies/unliftio-core-0.2.1.0.tar.gz",
+      "bytes": 3865,
+      "url": "https://hackage.haskell.org/package/unliftio-core-0.2.1.0/unliftio-core-0.2.1.0.tar.gz",
+      "sha256": "99384cba8d56d9d61b85e38a313a93ebcdb78be6566367f0930ef580597fe3e3"
+    },
+    {
+      "path": "pandoc-dependencies/unordered-containers-0.2.19.1.tar.gz",
+      "bytes": 58030,
+      "url": "https://hackage.haskell.org/package/unordered-containers-0.2.19.1/unordered-containers-0.2.19.1.tar.gz",
+      "sha256": "1b27bec5e0d522b27a6029ebf4c4a6d40acbc083c787008e32fb55c4b1d128d2"
+    },
+    {
+      "path": "pandoc-dependencies/unordered-containers-0.2.20.tar.gz",
+      "bytes": 59823,
+      "url": "https://hackage.haskell.org/package/unordered-containers-0.2.20/unordered-containers-0.2.20.tar.gz",
+      "sha256": "d9cfb287cf00592d39dc9c3cac8b99627ea08f2c01798e70130fc39f7c90f11d"
+    },
+    {
+      "path": "pandoc-dependencies/utf8-string-1.0.2.tar.gz",
+      "bytes": 10726,
+      "url": "https://hackage.haskell.org/package/utf8-string-1.0.2/utf8-string-1.0.2.tar.gz",
+      "sha256": "ee48deada7600370728c4156cb002441de770d0121ae33a68139a9ed9c19b09a"
+    },
+    {
+      "path": "pandoc-dependencies/uuid-types-1.0.5.tar.gz",
+      "bytes": 11922,
+      "url": "https://hackage.haskell.org/package/uuid-types-1.0.5/uuid-types-1.0.5.tar.gz",
+      "sha256": "ad68b89b7a64c07dd5c250a11be2033ee929318ff51ec7b4e4b54e1b4deba7dd"
+    },
+    {
+      "path": "pandoc-dependencies/vault-0.3.1.5.tar.gz",
+      "bytes": 5431,
+      "url": "https://hackage.haskell.org/package/vault-0.3.1.5/vault-0.3.1.5.tar.gz",
+      "sha256": "ac2a6b6adf58598c5c8faa931ae961a8a2aa50ddb2f0f7a2044ff6e8c3d433a0"
+    },
+    {
+      "path": "pandoc-dependencies/vector-0.13.0.0.tar.gz",
+      "bytes": 154509,
+      "url": "https://hackage.haskell.org/package/vector-0.13.0.0/vector-0.13.0.0.tar.gz",
+      "sha256": "c5d3167d15e12f52e00879ddf304a591672a74e369cc47bc5c7fa1d5a8d15b4f"
+    },
+    {
+      "path": "pandoc-dependencies/vector-0.13.1.0.tar.gz",
+      "bytes": 156855,
+      "url": "https://hackage.haskell.org/package/vector-0.13.1.0/vector-0.13.1.0.tar.gz",
+      "sha256": "63f272279eab8ab9411a0fffb1252ac309b297313f8e33be9ebbc2f981edecee"
+    },
+    {
+      "path": "pandoc-dependencies/vector-algorithms-0.9.0.1.tar.gz",
+      "bytes": 29149,
+      "url": "https://hackage.haskell.org/package/vector-algorithms-0.9.0.1/vector-algorithms-0.9.0.1.tar.gz",
+      "sha256": "2ba7c0d3a8f26ef3ada24ff4abe81609225ecbab3b5754f048f8a0a3ecc33841"
+    },
+    {
+      "path": "pandoc-dependencies/vector-stream-0.1.0.0.tar.gz",
+      "bytes": 12377,
+      "url": "https://hackage.haskell.org/package/vector-stream-0.1.0.0/vector-stream-0.1.0.0.tar.gz",
+      "sha256": "a888210f6467f155090653734be5cc920406a07227e0d3adb59096716fdb806c"
+    },
+    {
+      "path": "pandoc-dependencies/vector-stream-0.1.0.1.tar.gz",
+      "bytes": 12577,
+      "url": "https://hackage.haskell.org/package/vector-stream-0.1.0.1/vector-stream-0.1.0.1.tar.gz",
+      "sha256": "d0f507334bdea5431a2f07f525a97f29e76522c32210f5de6d5a2b4f1d42bf7c"
+    },
+    {
+      "path": "pandoc-dependencies/wai-3.2.3.tar.gz",
+      "bytes": 11619,
+      "url": "https://hackage.haskell.org/package/wai-3.2.3/wai-3.2.3.tar.gz",
+      "sha256": "5574d6541000988fe204d3032db87fd0a5404cdbde33ee4fa02e6006768229f8"
+    },
+    {
+      "path": "pandoc-dependencies/wai-3.2.4.tar.gz",
+      "bytes": 13302,
+      "url": "https://hackage.haskell.org/package/wai-3.2.4/wai-3.2.4.tar.gz",
+      "sha256": "a6088f847d886d7c767092d170c03c7690d197eb3189d7cc67dbaaab33bf6d94"
+    },
+    {
+      "path": "pandoc-dependencies/wai-cors-0.2.7.tar.gz",
+      "bytes": 16248,
+      "url": "https://hackage.haskell.org/package/wai-cors-0.2.7/wai-cors-0.2.7.tar.gz",
+      "sha256": "2597beb56ebd7148f9755ae2661c065a6c532e0a286717061861b149a51cfb81"
+    },
+    {
+      "path": "pandoc-dependencies/wai-extra-3.1.13.0.tar.gz",
+      "bytes": 82251,
+      "url": "https://hackage.haskell.org/package/wai-extra-3.1.13.0/wai-extra-3.1.13.0.tar.gz",
+      "sha256": "df0d2d275bc3c888fae9cf525496140c707cbccfdf013a36dc00e7a94ac38cc0"
+    },
+    {
+      "path": "pandoc-dependencies/wai-extra-3.1.14.tar.gz",
+      "bytes": 84015,
+      "url": "https://hackage.haskell.org/package/wai-extra-3.1.14/wai-extra-3.1.14.tar.gz",
+      "sha256": "5704f51b09ce16417f174885b99fd2c24d70e31b653187801716254dcd8f64b5"
+    },
+    {
+      "path": "pandoc-dependencies/warp-3.3.28.tar.gz",
+      "bytes": 65625,
+      "url": "https://hackage.haskell.org/package/warp-3.3.28/warp-3.3.28.tar.gz",
+      "sha256": "50787cbcc4003854d498edd152c3a65bf957ea7c5b80c019c6247a027797f1aa"
+    },
+    {
+      "path": "pandoc-dependencies/warp-3.3.31.tar.gz",
+      "bytes": 67075,
+      "url": "https://hackage.haskell.org/package/warp-3.3.31/warp-3.3.31.tar.gz",
+      "sha256": "7ca9c7df2ba44ffe225df63866f32b14b70ea2c045ff9301bac982ce377ec38d"
+    },
+    {
+      "path": "pandoc-dependencies/witherable-0.4.2.tar.gz",
+      "bytes": 11876,
+      "url": "https://hackage.haskell.org/package/witherable-0.4.2/witherable-0.4.2.tar.gz",
+      "sha256": "790d2bb274283419173bd89104439860675a9410f70f21912973ecd9098b4104"
+    },
+    {
+      "path": "pandoc-dependencies/word8-0.1.3.tar.gz",
+      "bytes": 6271,
+      "url": "https://hackage.haskell.org/package/word8-0.1.3/word8-0.1.3.tar.gz",
+      "sha256": "2630934c75728bfbf390c1f0206b225507b354f68d4047b06c018a36823b5d8a"
+    },
+    {
+      "path": "pandoc-dependencies/xml-1.3.14.tar.gz",
+      "bytes": 12048,
+      "url": "https://hackage.haskell.org/package/xml-1.3.14/xml-1.3.14.tar.gz",
+      "sha256": "32d1a1a9f21a59176d84697f96ae3a13a0198420e3e4f1c48abbab7d2425013d"
+    },
+    {
+      "path": "pandoc-dependencies/xml-conduit-1.9.1.3.tar.gz",
+      "bytes": 44653,
+      "url": "https://hackage.haskell.org/package/xml-conduit-1.9.1.3/xml-conduit-1.9.1.3.tar.gz",
+      "sha256": "d8e9169562c71c9e6bc616f15832f521a68c362aa4fc03682748a809755f1bf4"
+    },
+    {
+      "path": "pandoc-dependencies/xml-types-0.3.8.tar.gz",
+      "bytes": 4054,
+      "url": "https://hackage.haskell.org/package/xml-types-0.3.8/xml-types-0.3.8.tar.gz",
+      "sha256": "dad5e4ce602b7d1f4be37c0cfd99a261a4573746bfd80d917dc955b72da84c80"
+    },
+    {
+      "path": "pandoc-dependencies/yaml-0.11.11.2.tar.gz",
+      "bytes": 31926,
+      "url": "https://hackage.haskell.org/package/yaml-0.11.11.2/yaml-0.11.11.2.tar.gz",
+      "sha256": "ee74923ee5b0fef74413c58aaa20ea59baf5d29d256a62fb47cc279570d9dc2f"
+    },
+    {
+      "path": "pandoc-dependencies/zip-archive-0.4.3.1.tar.gz",
+      "bytes": 22651,
+      "url": "https://hackage.haskell.org/package/zip-archive-0.4.3.1/zip-archive-0.4.3.1.tar.gz",
+      "sha256": "ce6f65c36dbb346bcb2d6ea5c694e644d3e14848e5f2fe5d9a50e1bac5053f39"
+    },
+    {
+      "path": "pandoc-dependencies/zip-archive-0.4.3.tar.gz",
+      "bytes": 22161,
+      "url": "https://hackage.haskell.org/package/zip-archive-0.4.3/zip-archive-0.4.3.tar.gz",
+      "sha256": "68050fa0f139848db0ea422ea9af1a65b652abf5168db7dafaf1bded5b045d05"
+    },
+    {
+      "path": "pandoc-dependencies/zlib-0.6.3.0.tar.gz",
+      "bytes": 369595,
+      "url": "https://hackage.haskell.org/package/zlib-0.6.3.0/zlib-0.6.3.0.tar.gz",
+      "sha256": "9eaa989ad4534438b5beb51c1d3a4c8f6a088fdff0b259a5394fbf39aaee04da"
+    },
+    {
+      "path": "sources/Python-3.12.15.tar.xz",
+      "bytes": 20829824,
+      "url": "https://www.python.org/ftp/python/3.12.15/Python-3.12.15.tar.xz",
+      "sha256": "c2c4321961fab0fb999d66e0cecf521c2ab3994c7992873ea99e306c1094fd5a"
+    },
+    {
+      "path": "sources/U-2-Net-master.tar.gz",
+      "bytes": 63890564,
+      "url": "https://codeload.github.com/xuebinqin/U-2-Net/tar.gz/refs/heads/master",
+      "sha256": "dd86d678273a1078246eb9ebc85bcdf93a26b3ee41eba181b823617ef9caa2a1"
+    },
+    {
+      "path": "sources/backports_zstd-1.8.0.tar.gz",
+      "bytes": 1006566,
+      "url": "https://files.pythonhosted.org/packages/ff/9c/13569626440e88f09d16f43ec1c2aa0d10a523be2811414580d1cfb7c9f3/backports_zstd-1.8.0.tar.gz",
+      "sha256": "9dae4f4c481716e3db473d667457b4f508ff7459c0931b567a5c9677fb3db316"
+    },
+    {
+      "path": "sources/beautifulsoup4-4.15.0.tar.gz",
+      "bytes": 632571,
+      "url": "https://files.pythonhosted.org/packages/43/65/318323f98dbee45d42dff61d8f047181bc6f2268a9068cfad035a46be5af/beautifulsoup4-4.15.0.tar.gz",
+      "sha256": "288e3ca7d54b06f2ac191970bc275c1939cb46d450b255bf6718b04aa37ab4f7"
+    },
+    {
+      "path": "sources/brotli-1.2.1.tar.gz",
+      "bytes": 7389447,
+      "url": "https://files.pythonhosted.org/packages/cf/81/1546c983678a9b4e77cb4718eaedd1b2caf24a6cdbf1eb8775938d22aff7/brotli-1.2.1.tar.gz",
+      "sha256": "02b2f7b5a83485efe448a44ddf7983def05c3bb1dcf917d4f7154070260e13de"
+    },
+    {
+      "path": "sources/bzip2-1.0.8.tar.gz",
+      "bytes": 810029,
+      "url": "https://astral-sh.github.io/mirror/files/bzip2-1.0.8.tar.gz",
+      "sha256": "ab5a03176ee106d3f0fa90e381da478ddae405918153cca248e682cd0c4a2269"
+    },
+    {
+      "path": "sources/coloredlogs-15.0.1.tar.gz",
+      "bytes": 278520,
+      "url": "https://files.pythonhosted.org/packages/cc/c7/eed8f27100517e8c0e6b923d5f0845d0cb99763da6fdee00478f91db7325/coloredlogs-15.0.1.tar.gz",
+      "sha256": "7c991aa71a4577af2f82600d8f8f3a89f936baeaf9b50a9c197da014e5bf16b0"
+    },
+    {
+      "path": "sources/defusedxml-0.7.1.tar.gz",
+      "bytes": 75520,
+      "url": "https://files.pythonhosted.org/packages/0f/d5/c66da9b79e5bdb124974bfe172b4daf3c984ebd9c2a06e2b8a4dc7331c72/defusedxml-0.7.1.tar.gz",
+      "sha256": "1bb3032db185915b62d7c6209c5a8792be6a32ab2fedacc84e01b52c51aa3e69"
+    },
+    {
+      "path": "sources/ebooklib-0.20.tar.gz",
+      "bytes": 127066,
+      "url": "https://files.pythonhosted.org/packages/77/85/322e8882a582d4b707220d1929cfb74c125f2ba513991edbce40dbc462de/ebooklib-0.20.tar.gz",
+      "sha256": "35e2f9d7d39907be8d39ae2deb261b19848945903ae3dbb6577b187ead69e985"
+    },
+    {
+      "path": "sources/et_xmlfile-2.0.0.tar.gz",
+      "bytes": 17234,
+      "url": "https://files.pythonhosted.org/packages/d3/38/af70d7ab1ae9d4da450eeec1fa3918940a5fafb9055e934af8d6eb0c2313/et_xmlfile-2.0.0.tar.gz",
+      "sha256": "dab3f4764309081ce75662649be815c4c9081e88f0837825f90fd28317d4da54"
+    },
+    {
+      "path": "sources/expat-2.9.0.tar.xz",
+      "bytes": 534052,
+      "url": "https://github.com/libexpat/libexpat/releases/download/R_2_9_0/expat-2.9.0.tar.xz",
+      "sha256": "1e6371862cc31999b368c3b89b49994f0677e1bab5f1b2b85ae3741f5d803051"
+    },
+    {
+      "path": "sources/ffmpeg-7.1.tar.gz",
+      "bytes": 15881667,
+      "url": "https://codeload.github.com/FFmpeg/FFmpeg/tar.gz/refs/tags/n7.1",
+      "sha256": "7ddad2d992bd250a6c56053c26029f7e728bebf0f37f80cf3f8a0e6ec706431a"
+    },
+    {
+      "path": "sources/flatbuffers-25.12.19.tar.gz",
+      "bytes": 2355743,
+      "url": "https://codeload.github.com/google/flatbuffers/tar.gz/refs/tags/v25.12.19",
+      "sha256": "f81c3162b1046fe8b84b9a0dbdd383e24fdbcf88583b9cb6028f90d04d90696a"
+    },
+    {
+      "path": "sources/freetype-2.13.3.tar.xz",
+      "bytes": 2617564,
+      "url": "https://download.savannah.gnu.org/releases/freetype/freetype-2.13.3.tar.xz",
+      "sha256": "0550350666d427c74daeb85d5ac7bb353acba5f76956395995311a9c6f063289"
+    },
+    {
+      "path": "sources/fribidi-1.0.16.tar.xz",
+      "bytes": 1098260,
+      "url": "https://github.com/fribidi/fribidi/releases/download/v1.0.16/fribidi-1.0.16.tar.xz",
+      "sha256": "1b1cde5b235d40479e91be2f0e88a309e3214c8ab470ec8a2744d82a5a9ea05c"
+    },
+    {
+      "path": "sources/ghc-9.4.4-src.tar.xz",
+      "bytes": 28564104,
+      "url": "https://downloads.haskell.org/~ghc/9.4.4/ghc-9.4.4-src.tar.xz",
+      "sha256": "e8cef25a6ded1531cda7a90488d0cfb6d780657d16636daa59430be030cd67e2"
+    },
+    {
+      "path": "sources/ghc-9.6.4-src.tar.xz",
+      "bytes": 29451856,
+      "url": "https://downloads.haskell.org/~ghc/9.6.4/ghc-9.6.4-src.tar.xz",
+      "sha256": "10bf25b8b07174fdd9868b5c0c56c17c0ef1edcb6247b4b864be933651bfd4c0"
+    },
+    {
+      "path": "sources/gmp-6.2.1.tar.xz",
+      "bytes": 2027316,
+      "url": "https://ftp.gnu.org/gnu/gmp/gmp-6.2.1.tar.xz",
+      "sha256": "fd4829912cddd12f84181c3451cc752be224643e87fac497b69edddadc49b4f2"
+    },
+    {
+      "path": "sources/gmp-6.3.0.tar.xz",
+      "bytes": 2094196,
+      "url": "https://ftp.gnu.org/gnu/gmp/gmp-6.3.0.tar.xz",
+      "sha256": "a3c2b80201b89e68616f4ad30bc66aee4927c3ce50e33929ca819d5c43538898"
+    },
+    {
+      "path": "sources/harfbuzz-10.0.1.tar.gz",
+      "bytes": 36785875,
+      "url": "https://codeload.github.com/harfbuzz/harfbuzz/tar.gz/refs/tags/10.0.1",
+      "sha256": "e7358ea86fe10fb9261931af6f010d4358dac64f7074420ca9bc94aae2bdd542"
+    },
+    {
+      "path": "sources/humanfriendly-10.0.tar.gz",
+      "bytes": 360702,
+      "url": "https://files.pythonhosted.org/packages/cc/3f/2c29224acb2e2df4d2046e4c73ee2662023c58ff5b113c4c1adac0886c43/humanfriendly-10.0.tar.gz",
+      "sha256": "6b0b831ce8f15f7300721aa49829fc4e83921a9a301cc7f606be6686a2288ddc"
+    },
+    {
+      "path": "sources/imageio_ffmpeg-0.6.0.tar.gz",
+      "bytes": 25210,
+      "url": "https://files.pythonhosted.org/packages/44/bd/c3343c721f2a1b0c9fc71c1aebf1966a3b7f08c2eea8ed5437a2865611d6/imageio_ffmpeg-0.6.0.tar.gz",
+      "sha256": "e2556bed8e005564a9f925bb7afa4002d82770d6b08825078b7697ab88ba1755"
+    },
+    {
+      "path": "sources/inflate64-1.0.4.tar.gz",
+      "bytes": 902542,
+      "url": "https://files.pythonhosted.org/packages/3e/f3/41bb2901543abe7aad0b0b0284ae5854bb75f848cf406bf8a046bf525f67/inflate64-1.0.4.tar.gz",
+      "sha256": "b398c686960c029777afc0ed281a86f66adb956cfc3fbf6667cc6453f7b407ce"
+    },
+    {
+      "path": "sources/lame-3.100.tar.gz",
+      "bytes": 1524133,
+      "url": "https://downloads.sourceforge.net/project/lame/lame/3.100/lame-3.100.tar.gz",
+      "sha256": "ddfe36cab873794038ae2c1210557ad34857a4b6bdc515785d1da9e175b1da1e"
+    },
+    {
+      "path": "sources/libass-0.17.3.tar.xz",
+      "bytes": 442744,
+      "url": "https://github.com/libass/libass/releases/download/0.17.3/libass-0.17.3.tar.xz",
+      "sha256": "eae425da50f0015c21f7b3a9c7262a910f0218af469e22e2931462fed3c50959"
+    },
+    {
+      "path": "sources/libde265-1.1.3.tar.gz",
+      "bytes": 325596,
+      "url": "https://codeload.github.com/strukturag/libde265/tar.gz/refs/tags/v1.1.3",
+      "sha256": "189baa08fd6d2dd34db099de411bd6b2e6bd5eb88e81236a3d0fa3826b9715c4"
+    },
+    {
+      "path": "sources/libedit-20240808-3.1.tar.gz",
+      "bytes": 538611,
+      "url": "https://thrysoee.dk/editline/libedit-20240808-3.1.tar.gz",
+      "sha256": "5f0573349d77c4a48967191cdd6634dd7aa5f6398c6a57fe037cc02696d6099f"
+    },
+    {
+      "path": "sources/libffi-3.8.0.tar.gz",
+      "bytes": 1581626,
+      "url": "https://github.com/libffi/libffi/releases/download/v3.8.0/libffi-3.8.0.tar.gz",
+      "sha256": "7da3e2d9a171eb0a038f592ecad3ff2bb2550f3496d87b3b29ad0cf4430c0db4"
+    },
+    {
+      "path": "sources/libheif-1.23.6.tar.gz",
+      "bytes": 2311710,
+      "url": "https://codeload.github.com/strukturag/libheif/tar.gz/refs/tags/v1.23.6",
+      "sha256": "c9a00b0452f5c16d72ef71e5e40c0e90fbe2ad37148d27a1b2f9bb21546f5f03"
+    },
+    {
+      "path": "sources/libogg-1.3.5.tar.gz",
+      "bytes": 593071,
+      "url": "https://downloads.xiph.org/releases/ogg/libogg-1.3.5.tar.gz",
+      "sha256": "0eb4b4b9420a0f51db142ba3f9c64b333f826532dc0f48c6410ae51f4799b664"
+    },
+    {
+      "path": "sources/libreoffice-25.8.7.2.tar.xz",
+      "bytes": 287541372,
+      "url": "https://downloadarchive.documentfoundation.org/libreoffice/old/25.8.7.2/src/libreoffice-25.8.7.2.tar.xz",
+      "sha256": "2c3f398d92f1bc42573b7bfd2b1b85f29fdcfba1f443155bc31b2eeccc7312da"
+    },
+    {
+      "path": "sources/libreoffice-dictionaries-25.8.7.2.tar.xz",
+      "bytes": 62082640,
+      "url": "https://downloadarchive.documentfoundation.org/libreoffice/old/25.8.7.2/src/libreoffice-dictionaries-25.8.7.2.tar.xz",
+      "sha256": "9b9e0745963d39fd5752ff0f684862e26ff7f653d97e06327eba9f275a2571c2"
+    },
+    {
+      "path": "sources/libreoffice-translations-25.8.7.2.tar.xz",
+      "bytes": 234280740,
+      "url": "https://downloadarchive.documentfoundation.org/libreoffice/old/25.8.7.2/src/libreoffice-translations-25.8.7.2.tar.xz",
+      "sha256": "63f8bab2da282018065e4071e07fad60d05074b052cd3615655050705d0b1e04"
+    },
+    {
+      "path": "sources/libvorbis-1.3.7.tar.gz",
+      "bytes": 1658963,
+      "url": "https://downloads.xiph.org/releases/vorbis/libvorbis-1.3.7.tar.gz",
+      "sha256": "0e982409a9c3fc82ee06e08205b1355e5c6aa4c36bca58146ef399621b0ce5ab"
+    },
+    {
+      "path": "sources/libvpx-1.14.1.tar.gz",
+      "bytes": 5614104,
+      "url": "https://codeload.github.com/webmproject/libvpx/tar.gz/refs/tags/v1.14.1",
+      "sha256": "901747254d80a7937c933d03bd7c5d41e8e6c883e0665fadcb172542167c7977"
+    },
+    {
+      "path": "sources/lxml-6.1.3.tar.gz",
+      "bytes": 4211198,
+      "url": "https://files.pythonhosted.org/packages/23/ad/28ecd7cb894d172f3c9c80a075eeeb2017ac62e3632cee05a5f9493547eb/lxml-6.1.3.tar.gz",
+      "sha256": "45222d94ddd511536f3b2f7d9deae3b2339b4ce0f075f1ca25703b07cad9dd21"
+    },
+    {
+      "path": "sources/markdown-3.11.2.tar.gz",
+      "bytes": 491445,
+      "url": "https://files.pythonhosted.org/packages/f4/32/0b4d0297064244f04af4331b65de16237cc3cce07474171ee14222a28981/markdown-3.11.2.tar.gz",
+      "sha256": "87bf5d90f2d2882e2c02fcda182c2800456b985bff38913867c49706481514b0"
+    },
+    {
+      "path": "sources/mpdecimal-4.0.0.tar.gz",
+      "bytes": 315325,
+      "url": "https://astral-sh.github.io/mirror/files/mpdecimal-4.0.0.tar.gz",
+      "sha256": "942445c3245b22730fd41a67a7c5c231d11cb1b9936b9c0f76334fb7d0b4468c"
+    },
+    {
+      "path": "sources/mpmath-1.3.0.tar.gz",
+      "bytes": 508106,
+      "url": "https://files.pythonhosted.org/packages/e0/47/dd32fa426cc72114383ac549964eecb20ecfd886d1e5ccf5340b55b02f57/mpmath-1.3.0.tar.gz",
+      "sha256": "7a28eb2a9774d00c7bc92411c19a89209d5da7c4c9a9e227be8330a23a25b91f"
+    },
+    {
+      "path": "sources/multivolumefile-0.2.3.tar.gz",
+      "bytes": 77984,
+      "url": "https://files.pythonhosted.org/packages/50/f0/a7786212b5a4cb9ba05ae84a2bbd11d1d0279523aea0424b6d981d652a14/multivolumefile-0.2.3.tar.gz",
+      "sha256": "a0648d0aafbc96e59198d5c17e9acad7eb531abea51035d08ce8060dcad709d6"
+    },
+    {
+      "path": "sources/mupdf-1.26.12-source.tar.gz",
+      "bytes": 64536473,
+      "url": "https://mupdf.com/downloads/archive/mupdf-1.26.12-source.tar.gz",
+      "sha256": "6baf910928f404167ba49be6340195dec340795724722b331f5a2143f5aa0d01"
+    },
+    {
+      "path": "sources/nasm-2.16.03.tar.xz",
+      "bytes": 1032388,
+      "url": "https://www.nasm.us/pub/nasm/releasebuilds/2.16.03/nasm-2.16.03.tar.xz",
+      "sha256": "1412a1c760bbd05db026b6c0d1657affd6631cd0a63cddb6f73cc6d4aa616148"
+    },
+    {
+      "path": "sources/ncurses-6.5.tar.gz",
+      "bytes": 3688489,
+      "url": "https://astral-sh.github.io/mirror/files/ncurses-6.5.tar.gz",
+      "sha256": "136d91bc269a9a5785e5f9e980bc76ab57428f604ce3e5a5a90cebc767971cc6"
+    },
+    {
+      "path": "sources/numpy-1.26.4.tar.gz",
+      "bytes": 15786129,
+      "url": "https://files.pythonhosted.org/packages/65/6e/09db70a523a96d25e115e71cc56a6f9031e7b8cd166c1ac8438307c14058/numpy-1.26.4.tar.gz",
+      "sha256": "2a02aba9ed12e4ac4eb3ea9421c420301a0c6460d9830d74a9df87efa4912010"
+    },
+    {
+      "path": "sources/odfpy-1.4.1.tar.gz",
+      "bytes": 717045,
+      "url": "https://files.pythonhosted.org/packages/97/73/8ade73f6749177003f7ce3304f524774adda96e6aaab30ea79fd8fda7934/odfpy-1.4.1.tar.gz",
+      "sha256": "db766a6e59c5103212f3cc92ec8dd50a0f3a02790233ed0b52148b70d3c438ec"
+    },
+    {
+      "path": "sources/onnxruntime-1.19.2.tar.gz",
+      "bytes": 240389939,
+      "url": "https://codeload.github.com/microsoft/onnxruntime/tar.gz/refs/tags/v1.19.2",
+      "sha256": "870ee3772d265d1c7b0799ac7280071f8ecd55b11ee3f11868a3e79c7f4cab0f"
+    },
+    {
+      "path": "sources/openpyxl-3.1.5.tar.gz",
+      "bytes": 186464,
+      "url": "https://files.pythonhosted.org/packages/3d/f9/88d94a75de065ea32619465d2f77b29a0469500e99012523b91cc4141cd1/openpyxl-3.1.5.tar.gz",
+      "sha256": "cf0e3cf56142039133628b5acffe8ef0c12bc902d2aadd3e0fe5878dc08d1050"
+    },
+    {
+      "path": "sources/openssl-3.5.9.tar.gz",
+      "bytes": 53279637,
+      "url": "https://github.com/openssl/openssl/releases/download/openssl-3.5.9/openssl-3.5.9.tar.gz",
+      "sha256": "603f5602e2eef00d77fbd429d34dcd5822bb301757a1bc9cdb24c670f1eb859a"
+    },
+    {
+      "path": "sources/opus-1.5.2.tar.gz",
+      "bytes": 7839412,
+      "url": "https://downloads.xiph.org/releases/opus/opus-1.5.2.tar.gz",
+      "sha256": "65c1d2f78b9f2fb20082c38cbe47c951ad5839345876e46941612ee87f9a7ce1"
+    },
+    {
+      "path": "sources/packaging-26.3.tar.gz",
+      "bytes": 313412,
+      "url": "https://files.pythonhosted.org/packages/7d/fa/3944b40b07da9ce895c0e6303a5ab7d53da063554f534556b134a54d6093/packaging-26.3.tar.gz",
+      "sha256": "94edc256424af38762eb31306eed28beb9f0efc50a8837492c9d6fd6004aed79"
+    },
+    {
+      "path": "sources/pandoc-3.1.13.tar.gz",
+      "bytes": 7656812,
+      "url": "https://codeload.github.com/jgm/pandoc/tar.gz/refs/tags/3.1.13",
+      "sha256": "e00265e5aa56ecb214d12fd7781e87d77abf101dd8d02e15c4d648ad50a5ef80"
+    },
+    {
+      "path": "sources/pandoc-3.1.6.tar.gz",
+      "bytes": 7499807,
+      "url": "https://codeload.github.com/jgm/pandoc/tar.gz/refs/tags/3.1.6",
+      "sha256": "3194ab5b37ab1b80bb0be023753fbc78207df5f093caeb2ac6edb5dc0d5e704b"
+    },
+    {
+      "path": "sources/pillow-13.0.0.tar.gz",
+      "bytes": 47058631,
+      "url": "https://files.pythonhosted.org/packages/ce/a4/9cc30690a394a8305e8be4c9036aa16d0dfddadd09079860b582f562496d/pillow-13.0.0.tar.gz",
+      "sha256": "cdcd1ba258178f7356d74170c9a81ba4eab6a5d55748bc402a5a2a6fe6be3510"
+    },
+    {
+      "path": "sources/pillow_heif-1.8.1.tar.gz",
+      "bytes": 17395786,
+      "url": "https://files.pythonhosted.org/packages/44/c1/82145984920ca055675af2c2795bd30da6f7461215c41f3c1eacb3d66353/pillow_heif-1.8.1.tar.gz",
+      "sha256": "521ebffb8a181d56c3904e5a61f20903edee0d9d3275967b8fb345f866215c06"
+    },
+    {
+      "path": "sources/pkgconf-2.3.0.tar.gz",
+      "bytes": 459191,
+      "url": "https://distfiles.ariadne.space/pkgconf/pkgconf-2.3.0.tar.gz",
+      "sha256": "a2df680578e85f609f2fa67bd3d0fc0dc71b4bf084fc49119de84cd6ed28e723"
+    },
+    {
+      "path": "sources/protobuf-7.36.2.tar.gz",
+      "bytes": 512737,
+      "url": "https://files.pythonhosted.org/packages/d9/89/5b8517baa72f84a67b8a307ba953c91057af618bf40bf676f3c03551f8f0/protobuf-7.36.2.tar.gz",
+      "sha256": "497d0463ff3316681da6c0b9e8d06cb465d61abce00b613ab42226175644d1bb"
+    },
+    {
+      "path": "sources/psutil-7.2.2.tar.gz",
+      "bytes": 493740,
+      "url": "https://files.pythonhosted.org/packages/aa/c6/d1ddf4abb55e93cebc4f2ed8b5d6dbad109ecb8d63748dd2b20ab5e57ebe/psutil-7.2.2.tar.gz",
+      "sha256": "0746f5f8d406af344fd547f1c8daa5f5c33dbc293bb8d6a16d80b4bb88f59372"
+    },
+    {
+      "path": "sources/py7zr-1.1.4.tar.gz",
+      "bytes": 76503,
+      "url": "https://files.pythonhosted.org/packages/d6/31/d5469ec310b57c730785068c227caf2263391be846ae5e99488f69b394eb/py7zr-1.1.4.tar.gz",
+      "sha256": "7674697559bd06b697bf6e8249985cee6dc704a4b07b8e11f24d0b1695707c3e"
+    },
+    {
+      "path": "sources/pybcj-1.0.8.tar.gz",
+      "bytes": 31763,
+      "url": "https://files.pythonhosted.org/packages/14/c9/e2de4f98c21f2ff9e58047395b6a8e17701a0f2977f0e63f80948f61647f/pybcj-1.0.8.tar.gz",
+      "sha256": "6818270692912d47e81ccd777b7d0ed2ad3a19ef7aaead3735b38048c80bf368"
+    },
+    {
+      "path": "sources/pycryptodomex-3.24.1.tar.gz",
+      "bytes": 4934627,
+      "url": "https://files.pythonhosted.org/packages/f4/e7/50e72301e32acb73a314e663c2014e1ddefc019d5f434ff14ec89861d664/pycryptodomex-3.24.1.tar.gz",
+      "sha256": "09081666ffc599976c0b8b29caf2cf82212c0f05bed233c8f8ed53e4f6e1d356"
+    },
+    {
+      "path": "sources/pymupdf-1.26.7.tar.gz",
+      "bytes": 84327033,
+      "url": "https://files.pythonhosted.org/packages/48/d6/09b28f027b510838559f7748807192149c419b30cb90e6d5f0cf916dc9dc/pymupdf-1.26.7.tar.gz",
+      "sha256": "71add8bdc8eb1aaa207c69a13400693f06ad9b927bea976f5d5ab9df0bb489c3"
+    },
+    {
+      "path": "sources/pypandoc-1.17.tar.gz",
+      "bytes": 68117,
+      "url": "https://codeload.github.com/JessicaTegner/pypandoc/tar.gz/refs/tags/v1.17",
+      "sha256": "6fcd5739c2eefec86723df9b6ae4eac2c3918d8bf22b7209adcb5cd1c23d20c1"
+    },
+    {
+      "path": "sources/pyppmd-1.3.1.tar.gz",
+      "bytes": 1351815,
+      "url": "https://files.pythonhosted.org/packages/81/d7/803232913cab9163a1a97ecf2236cd7135903c46ac8d49613448d88e8759/pyppmd-1.3.1.tar.gz",
+      "sha256": "ced527f08ade4408c1bfc5264e9f97ffac8d221c9d13eca4f35ec1ec0c7b6b2e"
+    },
+    {
+      "path": "sources/python-build-standalone-20261021.tar.gz",
+      "bytes": 461490,
+      "url": "https://codeload.github.com/astral-sh/python-build-standalone/tar.gz/refs/tags/20261021",
+      "sha256": "e82909cfa3a7bf9f3ec655b8c565d67bd7fc2126aa4d8ee67c6348d8f70d036c"
+    },
+    {
+      "path": "sources/python_docx-1.2.0.tar.gz",
+      "bytes": 5723256,
+      "url": "https://files.pythonhosted.org/packages/a9/f7/eddfe33871520adab45aaa1a71f0402a2252050c14c7e3009446c8f4701c/python_docx-1.2.0.tar.gz",
+      "sha256": "7bc9d7b7d8a69c9c02ca09216118c86552704edc23bac179283f2e38f86220ce"
+    },
+    {
+      "path": "sources/python_pptx-1.0.2.tar.gz",
+      "bytes": 10109297,
+      "url": "https://files.pythonhosted.org/packages/52/a9/0c0db8d37b2b8a645666f7fd8accea4c6224e013c42b1d5c17c93590cd06/python_pptx-1.0.2.tar.gz",
+      "sha256": "479a8af0eaf0f0d76b6f00b0887732874ad2e3188230315290cd1f9dd9cc7095"
+    },
+    {
+      "path": "sources/pyzipper-0.4.0.tar.gz",
+      "bytes": 36780,
+      "url": "https://files.pythonhosted.org/packages/8b/5a/548039b202f85fcdfbadaddde2f4182c6dbf7730bbe005b24f903ae886ee/pyzipper-0.4.0.tar.gz",
+      "sha256": "a4b96afcac04c5589d5abdc6158dd362166374e3cc6810aa441e65f8a17cb9e3"
+    },
+    {
+      "path": "sources/rarfile-4.5.tar.gz",
+      "bytes": 155541,
+      "url": "https://files.pythonhosted.org/packages/b2/eb/33ea5625de4e84144069ea021a282ea3c44ff7bd341b740bcadff028bea7/rarfile-4.5.tar.gz",
+      "sha256": "7425d0afa180f0092db903abb1526a130b36858980aad90b3694f48e41420155"
+    },
+    {
+      "path": "sources/six-1.17.0.tar.gz",
+      "bytes": 34031,
+      "url": "https://files.pythonhosted.org/packages/94/e7/b2c673351809dca68a0e064b6af791aa332cf192da575fd474ed7d6f16a2/six-1.17.0.tar.gz",
+      "sha256": "ff70335d468e7eb6ec65b95b99d3a2836546063f63acc5171de367e834932a81"
+    },
+    {
+      "path": "sources/soupsieve-3.0.4.tar.gz",
+      "bytes": 119017,
+      "url": "https://files.pythonhosted.org/packages/19/63/0b6bae54546aed98d72f12d09df57b19a287f01c84d22047fa2e23772ab9/soupsieve-3.0.4.tar.gz",
+      "sha256": "924fab84ae21604c19e175e1f39815eb6fa83ba23836e09e9de180925e5bc4c0"
+    },
+    {
+      "path": "sources/sqlite-autoconf-3530100.tar.gz",
+      "bytes": 3275272,
+      "url": "https://www.sqlite.org/2026/sqlite-autoconf-3530100.tar.gz",
+      "sha256": "83e6b2020a034e9a7ad4a72feea59e1ad52f162e09cbd26735a3ffb98359fc4f"
+    },
+    {
+      "path": "sources/sympy-1.14.0.tar.gz",
+      "bytes": 7793921,
+      "url": "https://files.pythonhosted.org/packages/83/d3/803453b36afefb7c2bb238361cd4ae6125a569b4db67cd9e79846ba2d68c/sympy-1.14.0.tar.gz",
+      "sha256": "d3d3fe8df1e5a0b42f0e7bdf50541697dbe7d23746e894990c030e2b05e72517"
+    },
+    {
+      "path": "sources/tcl9.0.4-src.tar.gz",
+      "bytes": 11866337,
+      "url": "https://prdownloads.sourceforge.net/tcl/tcl9.0.4-src.tar.gz",
+      "sha256": "d0aed49230bc02a65c1e0229e65f34590a4b037ec40d546f32573b467f7551ea"
+    },
+    {
+      "path": "sources/texttable-1.7.2.tar.gz",
+      "bytes": 15400,
+      "url": "https://files.pythonhosted.org/packages/03/19/9590fd39a668ea0a0869493441fe65852246a3ec67616877baad98bcb039/texttable-1.7.2.tar.gz",
+      "sha256": "dc16ea6b35fbf5291ba6ef79d79e37d9b3ca6acd7bae3ca3450488d7c2e19c99"
+    },
+    {
+      "path": "sources/tk9.0.4-src.tar.gz",
+      "bytes": 4613019,
+      "url": "https://prdownloads.sourceforge.net/tcl/tk9.0.4-src.tar.gz",
+      "sha256": "d7a146d2917eb8b5cc95276dbf0e3d03c7464d2b19c1675357857c989301dbb4"
+    },
+    {
+      "path": "sources/typing_extensions-4.16.0.tar.gz",
+      "bytes": 113555,
+      "url": "https://files.pythonhosted.org/packages/f6/cc/6253133b5bb138fc3306cebfbda2c520f545d36b5be2c7255cc528bb45d6/typing_extensions-4.16.0.tar.gz",
+      "sha256": "dc983d19a509c94dba722ee6abd33940f7c05a89e243c47e907eb4db6f1a43e5"
+    },
+    {
+      "path": "sources/whisper-model-source.tar.gz",
+      "bytes": 7262959,
+      "url": "https://codeload.github.com/openai/whisper/tar.gz/refs/heads/main",
+      "sha256": "51488f3706601940a53409e63785fbb4a804650077eac91a0c054f07e5f5f8a3"
+    },
+    {
+      "path": "sources/whisper.cpp-1.8.2.tar.gz",
+      "bytes": 7584994,
+      "url": "https://github.com/ggml-org/whisper.cpp/archive/refs/tags/v1.8.2.tar.gz",
+      "sha256": "bcee25589bb8052d9e155369f6759a05729a2022d2a8085c1aa4345108523077"
+    },
+    {
+      "path": "sources/x264-stable.tar.gz",
+      "bytes": 1038613,
+      "url": "https://code.videolan.org/videolan/x264/-/archive/stable/x264-stable.tar.gz",
+      "sha256": "1108b94cd4c6943bc569afff1f8ec8c6034594a80d2baebc2b043bb438847485"
+    },
+    {
+      "path": "sources/x265-4.3.tar.gz",
+      "bytes": 2055120,
+      "url": "https://codeload.github.com/Multicorewareinc/x265/tar.gz/refs/tags/4.3",
+      "sha256": "fb157f809b74dabbef5002af99489fcaebb4d0073724beffdaaf2be15cbaf7ac"
+    },
+    {
+      "path": "sources/xlsxwriter-3.3.0.tar.gz",
+      "bytes": 221380,
+      "url": "https://files.pythonhosted.org/packages/93/f2/98b45e52bc0330256bd4bb039cc44b28f838ad85602ce4f358f355d501bb/xlsxwriter-3.3.0.tar.gz",
+      "sha256": "0a6bf2e4dcec8b29dd9b86d1e622132134c48bb6fd10f925fdfb229f0447199a"
+    },
+    {
+      "path": "sources/xz-5.8.4.tar.gz",
+      "bytes": 2799797,
+      "url": "https://github.com/tukaani-project/xz/releases/download/v5.8.4/xz-5.8.4.tar.gz",
+      "sha256": "0014c7886930454fe8bd4228665b51af55eeae560ea135c9c4cd33f55b2591d9"
+    },
+    {
+      "path": "sources/zlib-1.3.2.tar.gz",
+      "bytes": 1502830,
+      "url": "https://github.com/madler/zlib/releases/download/v1.3.2/zlib-1.3.2.tar.gz",
+      "sha256": "bb329a0a2cd0274d05519d61c667c062e06990d72e125ee2dfa8de64f0119d16"
+    },
+    {
+      "path": "sources/zstd-1.5.7.tar.gz",
+      "bytes": 2440298,
+      "url": "https://github.com/python/cpython-source-deps/archive/refs/tags/zstd-1.5.7.tar.gz",
+      "sha256": "f24b52470d12f466e9fa4fcc94e6c530625ada51d7b36de7fdc6ed7e6f499c8e"
+    }
+  ],
+  "notes": [
+    "Original Orbita code: AGPL-3.0-only. Third-party licenses remain unchanged.",
+    "MuPDF 1.26.12 source includes its thirdparty sources.",
+    "GHC 9.4.4 and 9.6.4 sources include compiler runtime libraries, ghc-boot-th, and bundled GMP sources.",
+    "Some upstream source/build inputs cover optional features not enabled in the shipped macOS binaries.",
+    "The Windows-only python.3.12.8.nupkg build input is not included or needed for the macOS distribution."
+  ]
+}
