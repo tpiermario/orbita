@@ -17,7 +17,7 @@ final class AppDelegate:NSObject,NSApplicationDelegate {
     var help:NSWindow?
     var services:NSObject?
     func applicationDidFinishLaunching(_ notification:Notification) {
-        let mainMenu=NSMenu();let appItem=NSMenuItem();let appMenu=NSMenu();appMenu.addItem(withTitle:"Esci da Orbita",action:#selector(quit),keyEquivalent:"q").target=self;appItem.submenu=appMenu;mainMenu.addItem(appItem)
+        let mainMenu=NSMenu();let appItem=NSMenuItem();let appMenu=NSMenu();appMenu.addItem(withTitle:"Licenze e sorgenti…",action:#selector(showLicenses),keyEquivalent:"").target=self;appMenu.addItem(withTitle:"Esci da Orbita",action:#selector(quit),keyEquivalent:"q").target=self;appItem.submenu=appMenu;mainMenu.addItem(appItem)
         let editItem=NSMenuItem();let edit=NSMenu(title:"Modifica")
         for (title,selector,key) in [("Annulla","undo:","z"),("Taglia","cut:","x"),("Copia","copy:","c"),("Incolla","paste:","v"),("Seleziona tutto","selectAll:","a")] {edit.addItem(withTitle:title,action:Selector(selector),keyEquivalent:key)}
         editItem.submenu=edit;mainMenu.addItem(editItem);NSApp.mainMenu=mainMenu
@@ -27,7 +27,7 @@ final class AppDelegate:NSObject,NSApplicationDelegate {
         status=NSStatusBar.system.statusItem(withLength:NSStatusItem.squareLength)
         status.button?.image=NSImage(systemSymbolName:"circle.hexagongrid.fill",accessibilityDescription:"Orbita")
         let menu=NSMenu()
-        for (title,action,key) in [("Apri Studio…",#selector(openStudio),""),("Ruota Converti · ⇧⌥",#selector(manualWheel),""),("Scaffale",#selector(showShelf),""),("Aggiungi cartella automatica…",#selector(addWatch),""),("Gestisci cartelle automatiche…",#selector(manageWatches),""),("Mostra ultimi risultati",#selector(reveal),""),("Istruzioni",#selector(showHelp),""),("Esci da Orbita",#selector(quit),"")] {
+        for (title,action,key) in [("Apri Studio…",#selector(openStudio),""),("Ruota Converti · ⇧⌥",#selector(manualWheel),""),("Scaffale",#selector(showShelf),""),("Aggiungi cartella automatica…",#selector(addWatch),""),("Gestisci cartelle automatiche…",#selector(manageWatches),""),("Mostra ultimi risultati",#selector(reveal),""),("Istruzioni",#selector(showHelp),""),("Licenze e sorgenti…",#selector(showLicenses),""),("Esci da Orbita",#selector(quit),"")] {
             let item=menu.addItem(withTitle:title,action:action,keyEquivalent:key);item.target=self
         };status.menu=menu
         panel=NSPanel(contentRect:NSRect(x:0,y:0,width:400,height:400),styleMask:[.borderless,.nonactivatingPanel],backing:.buffered,defer:false)
@@ -80,6 +80,12 @@ final class AppDelegate:NSObject,NSApplicationDelegate {
     @objc func openStudio() {studio.show()}
     @objc func showShelf() {shelf.window.orderFrontRegardless()}
     @objc func reveal() {if !Model.shared.results.isEmpty {NSWorkspace.shared.activateFileViewerSelecting(Model.shared.results)}}
+    @objc func showLicenses() {
+        guard let resources=Bundle.main.resourceURL else{return}
+        let file=resources.appendingPathComponent("Licenses/LEGGIMI.txt")
+        if FileManager.default.fileExists(atPath:file.path) {NSWorkspace.shared.open(file)}
+        else {alert("Orbita · AGPL-3.0", "Copyright © 2026 Piermario Tavernise. Software libero, senza garanzia. Puoi modificarlo e ridistribuirlo secondo AGPL-3.0. Licenza e sorgenti: https://github.com/tpiermario/orbita")}
+    }
     @objc func quit() {if Model.shared.busy {Model.shared.cancel()};NSApp.terminate(nil)}
     func alert(_ title:String,_ text:String) {NSApp.activate(ignoringOtherApps:true);let a=NSAlert();a.messageText=title;a.informativeText=text;a.runModal()}
     func execute(_ action:Action,_ urls:[URL],_ params:[String:String]) {
