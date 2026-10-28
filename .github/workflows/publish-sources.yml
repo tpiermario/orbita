@@ -1,0 +1,93 @@
+name: Prepare verified release sources
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: [.github/workflows/publish-sources.yml]
+permissions:
+  contents: write
+concurrency:
+  group: orbita-2.3.1-release-sources
+  cancel-in-progress: false
+jobs:
+  sources:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    env:
+      GH_TOKEN: ${{ github.token }}
+      GH_REPO: ${{ github.repository }}
+      SOURCE_SHA: ${{ github.sha }}
+    steps:
+      - name: Fetch, verify and attach corresponding sources
+        shell: bash
+        run: |
+          python3 - <<'PY'
+          import concurrent.futures,hashlib,io,json,os,subprocess,tarfile,time,urllib.parse,urllib.request
+          from pathlib import Path
+          repo=os.environ['GH_REPO'];sha=os.environ['SOURCE_SHA']
+          def api(path,*args):
+              return subprocess.check_output(['gh','api',path,*args])
+          releases=json.loads(api(f'repos/{repo}/releases?per_page=100'))
+          matches=[r for r in releases if r['draft'] and r['name']=='Orbita 2.3.1 · Mac Intel e Apple Silicon · Offline']
+          assert len(matches)==1,'Expected exactly one Orbita 2.3.1 draft'
+          release=matches[0];rid=release['id']
+          manifest=api(f'repos/{repo}/contents/Distribution/SOURCE-MANIFEST.json?ref={sha}','-H','Accept: application/vnd.github.raw+json')
+          recipe=api(f'repos/{repo}/contents/Distribution/build_ffmpeg.py?ref={sha}','-H','Accept: application/vnd.github.raw+json')
+          items=json.loads(manifest)['source_archives'];assert len(items)==484
+          root=Path('verified-sources');root.mkdir()
+          def download(item):
+              relative=Path(item['path'])
+              assert not relative.is_absolute() and '..' not in relative.parts
+              assert item['url'].startswith('https://')
+              target=root/relative;target.parent.mkdir(parents=True,exist_ok=True)
+              last=None
+              for attempt in range(4):
+                  try:
+                      req=urllib.request.Request(item['url'],headers={'User-Agent':'Orbita-source-verification/2.3.1'})
+                      digest=hashlib.sha256();size=0
+                      with urllib.request.urlopen(req,timeout=90) as source,target.open('wb') as output:
+                          while True:
+                              data=source.read(1024*1024)
+                              if not data:break
+                              output.write(data);digest.update(data);size+=len(data)
+                      assert size==item['bytes'] and digest.hexdigest()==item['sha256'],f'Hash mismatch: {relative}'
+                      return str(relative)
+                  except Exception as error:
+                      last=error;target.unlink(missing_ok=True);time.sleep(2*(attempt+1))
+              raise RuntimeError(f'Unable to verify {relative}: {last}')
+          with concurrent.futures.ThreadPoolExecutor(max_workers=6) as pool:
+              for index,name in enumerate(pool.map(download,items),1):
+                  if index%25==0:print(f'Verified {index}/{len(items)} sources',flush=True)
+          groups=[];group=[];size=0
+          for item in items:
+              if group and size+item['bytes']>350_000_000:groups.append(group);group=[];size=0
+              group.append(item);size+=item['bytes']
+          if group:groups.append(group)
+          assert len(groups)==7
+          assets=json.loads(api(f'repos/{repo}/releases/{rid}/assets?per_page=100'))
+          result=[]
+          def clean(info):
+              info.uid=info.gid=0;info.uname=info.gname='';info.mtime=0;info.pax_headers={};return info
+          for number,group in enumerate(groups,1):
+              output=Path(f'Orbita-2.3.1-Sources-{number:02d}.tar')
+              prefix='Orbita-2.3.1-ThirdParty/'
+              with tarfile.open(output,'w',format=tarfile.PAX_FORMAT) as archive:
+                  for item in group:archive.add(root/item['path'],arcname=prefix+item['path'],filter=clean)
+                  readme=b'Extract ALL seven numbered Sources archives into the same directory. SOURCE-MANIFEST.json records the original source URLs and verified hashes. These archives are not required to install the app. Orbita source: https://github.com/tpiermario/orbita/tree/v2.3.1\n'
+                  for name,data in [('SOURCE-MANIFEST.json',manifest),('build_ffmpeg.py',recipe),('README.txt',readme)]:
+                      info=tarfile.TarInfo(prefix+name);info.size=len(data);info.mode=0o644;archive.addfile(info,io.BytesIO(data))
+              digest=hashlib.sha256(output.read_bytes()).hexdigest()
+              existing=[a for a in assets if a['name']==output.name]
+              if existing and existing[0]['state']=='uploaded':
+                  assert len(existing)==1 and existing[0]['digest']=='sha256:'+digest,'Refusing to replace a different complete asset'
+                  uploaded=existing[0]
+              else:
+                  for asset in existing:api(f'repos/{repo}/releases/assets/{asset["id"]}','--method','DELETE')
+                  url=release['upload_url'].split('{')[0]+'?name='+urllib.parse.quote(output.name)
+                  uploaded=json.loads(api(url,'--method','POST','-H','Content-Type: application/octet-stream','--input',str(output)))
+              assert uploaded['state']=='uploaded' and uploaded['size']==output.stat().st_size and uploaded['digest']=='sha256:'+digest
+              result.append({'name':output.name,'bytes':uploaded['size'],'sha256':digest})
+              print('Attached and verified:',output.name,digest,flush=True)
+          Path('source-assets.json').write_text(json.dumps(result,indent=2))
+          print('All 484 upstream archives verified; all seven source assets uploaded. Draft remains unpublished.',flush=True)
+          PY
