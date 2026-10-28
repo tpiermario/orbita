@@ -1,0 +1,60 @@
+name: Assemble verified release upload
+on:
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  assemble:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    env:
+      GH_TOKEN: ${{ github.token }}
+      GH_REPO: ${{ github.repository }}
+    steps:
+      - name: Reassemble verified DMG in the existing draft
+        shell: bash
+        run: |
+          python3 - <<'PY'
+          import hashlib,json,os,subprocess
+          from pathlib import Path
+          repo=os.environ['GH_REPO']
+          def api(path,*args):
+              return subprocess.check_output(['gh','api',path,*args])
+          releases=json.loads(api(f'repos/{repo}/releases?per_page=100'))
+          matches=[r for r in releases if r['draft'] and r['name']=='Orbita 2.3.1 · Mac Intel e Apple Silicon · Offline']
+          assert len(matches)==1,'Expected exactly one Orbita 2.3.1 draft'
+          release=matches[0]
+          assets=json.loads(api(f'repos/{repo}/releases/{release["id"]}/assets?per_page=100'))
+          name='Orbita-2.3.1-Universal.dmg'
+          expected='b7dabf65804ea78b5a17ea2eed5227168a504b85540886797fc741c6248a3dbd'
+          completed=[a for a in assets if a['name']==name and a['state']=='uploaded' and a.get('digest')=='sha256:'+expected]
+          if completed:
+              print('Verified DMG already uploaded; nothing to do')
+              raise SystemExit(0)
+          parts=[]
+          with open(name,'wb') as output:
+              for number in range(1,15):
+                  partname=f'{name}.part{number:02d}'
+                  selected=[a for a in assets if a['name']==partname and a['state']=='uploaded']
+                  assert len(selected)==1,f'Missing complete upload: {partname}'
+                  asset=selected[0];parts.append(asset)
+                  result=api(f'repos/{repo}/releases/assets/{asset["id"]}','-H','Accept: application/octet-stream')
+                  assert len(result)==asset['size'],partname
+                  assert 'sha256:'+hashlib.sha256(result).hexdigest()==asset['digest'],partname
+                  output.write(result)
+          p=Path(name)
+          assert p.stat().st_size==685799796
+          assert hashlib.sha256(p.read_bytes()).hexdigest()==expected
+          # Only replace an incomplete upload of this exact, verified artifact.
+          for asset in assets:
+              if asset['name']==name:
+                  assert asset['state']!='uploaded','Unexpected complete DMG; refusing to overwrite'
+                  api(f'repos/{repo}/releases/assets/{asset["id"]}','--method','DELETE')
+          subprocess.run(['gh','release','upload',release['tag_name'],name,'--repo',repo],check=True)
+          fresh=json.loads(api(f'repos/{repo}/releases/{release["id"]}/assets?per_page=100'))
+          result=[a for a in fresh if a['name']==name and a['state']=='uploaded']
+          assert len(result)==1 and result[0]['digest']=='sha256:'+expected
+          for asset in parts:
+              api(f'repos/{repo}/releases/assets/{asset["id"]}','--method','DELETE')
+          print('DMG verified and attached; temporary parts removed. Draft remains unpublished.')
+          PY
