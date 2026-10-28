@@ -1,36 +1,95 @@
-COMPONENTI INCLUSI IN ORBITA 2.3 UNIVERSAL
+ORBITA 2.3.1 — AVVISI DEI COMPONENTI ESTERNI
 
-Interfaccia e coordinamento: codice sorgente in Sources/ ed Engine/.
-Il pacchetto usa componenti open source con licenze distinte. Le licenze e gli avvisi dei pacchetti Python sono conservati nelle rispettive cartelle *.dist-info; LibreOffice include LICENSE, NOTICE e le sue informazioni di licenza.
+Codice originale Orbita: copyright 2026 Piermario Tavernise, AGPL-3.0-only.
+Le licenze elencate di seguito appartengono ai rispettivi componenti e non
+vengono sostituite dalla licenza del codice originale di Orbita.
 
-Python 3.12.15, python-build-standalone 20261021 (PSF e licenze delle librerie incluse)
+I testi integrali e gli avvisi di copyright sono nel pacchetto Licenses
+allegato alla release e in Orbita.app/Contents/Resources/Licenses.
+INDEX.txt e INDEX.json collegano ciascun avviso al testo originale.
+
+SORGENTI E MODIFICHE
+https://github.com/tpiermario/orbita/releases/tag/v2.3.1
+La stessa pagina che offre il DMG offre gratuitamente gli archivi numerati
+Orbita-2.3.1-Sources-*.tar. Estrarli tutti nella stessa cartella. Il manifest
+Distribution/SOURCE-MANIFEST.json contiene percorsi, provenienza e SHA-256.
+Sono inclusi i sorgenti delle dipendenze copyleft e gli script di compilazione.
+La disponibilità dei sorgenti non richiede l'acquisto o il download del DMG.
+
+I componenti upstream sono non modificati, salvo le modifiche di assemblaggio
+(potatura di file non utilizzati, selezione dell'architettura, firma ad hoc,
+unificazione di copie identiche) e la ricompilazione FFmpeg descritta sotto.
+I moduli e le librerie possono essere sostituiti secondo le rispettive licenze.
+Non sono imposte restrizioni al reverse engineering per il debug di modifiche
+alle librerie LGPL. Vedere Distribution/README.md per ricompilazione e firma.
+
+COMPONENTI PRINCIPALI
+
+Python 3.12.15 — PSF/Python-2.0 e avvisi delle librerie incluse.
+Build: python-build-standalone 20261021, Intel e ARM.
+Sorgenti di CPython, ricette/patch della build e licenze incluse negli archivi.
 https://github.com/astral-sh/python-build-standalone/releases/tag/20261021
+https://www.python.org/
 
-FFmpeg 7.1, distribuito dalla wheel imageio-ffmpeg 0.6.0 (build GPL; consultare ffmpeg -L)
-https://github.com/imageio/imageio-ffmpeg
-https://ffmpeg.org/releases/ffmpeg-7.1.tar.xz
+FFmpeg 7.1 — GPL versione 3 o successiva nella configurazione distribuita.
+Nuove compilazioni x86_64 e arm64 per macOS 12, senza --enable-nonfree.
+Sorgenti e script: Distribution/build_ffmpeg.py e gli archivi Sources.
+Librerie collegate: x264 (GPL-2.0-or-later, usato secondo GPLv3), libvpx 1.14.1
+(BSD e concessione brevetti WebM), Opus 1.5.2 (BSD e avvisi di brevetti),
+libogg 1.3.5/libvorbis 1.3.7 (BSD), LAME 3.100 (LGPL), libass 0.17.3 (ISC),
+FreeType 2.13.3 (licenza FreeType), HarfBuzz 10.0.1 (MIT), FriBidi 1.0.16 (LGPL).
+Lo script contiene la correzione di compatibilità al configure di libvorbis,
+la rigenerazione dei file di selezione CPU e le opzioni di configurazione.
+Le librerie di sistema macOS (inclusa zlib) non vengono redistribuite.
+Il wrapper imageio-ffmpeg e i suoi precedenti eseguibili sono rimossi.
+https://ffmpeg.org/
 
-LibreOffice 25.8.7.2 x86_64 e arm64 (MPL 2.0 e componenti con altre licenze)
+LibreOffice 25.8.7.2, Intel e ARM — MPL 2.0 e altre licenze dei componenti
+elencati nel suo LICENSE/NOTICE. Tali file restano anche nei bundle LibreOffice.
+Gli archivi Sources comprendono core, dizionari, traduzioni e archivi upstream
+delle dipendenze esterne delle ricette di questa versione. Alcuni di tali
+sorgenti riguardano funzionalità opzionali non presenti nella build macOS.
 https://www.libreoffice.org/about-us/licenses/
-https://download.documentfoundation.org/libreoffice/src/25.8.7/
+https://downloadarchive.documentfoundation.org/libreoffice/old/25.8.7.2/src/
 
-Pandoc 3.1.13 Intel e 3.1.6 ARM, distribuzioni ufficiali, wrapper pypandoc_binary 1.17 (Pandoc GPL)
+Pandoc 3.1.13 Intel e 3.1.6 ARM — GPL-2.0-or-later, usato secondo GPLv3.
+Wrapper pypandoc 1.17 — MIT.
+Inclusi sorgenti Pandoc, dipendenze Haskell, sorgenti GHC 9.6.4/9.4.4 e GMP.
 https://github.com/jgm/pandoc
 https://github.com/JessicaTegner/pypandoc
 
-PyMuPDF 1.26.7 / MuPDF (AGPL, salvo licenza commerciale separata)
+PyMuPDF 1.26.7 e MuPDF 1.26.12 — AGPLv3 nella presente distribuzione.
+Non viene dichiarata o concessa una licenza commerciale Artifex.
+Incluso il sorgente MuPDF completo dei componenti thirdparty.
 https://github.com/pymupdf/PyMuPDF/tree/1.26.7
-https://mupdf.com/licensing/index.html
+https://mupdf.com/downloads/archive/mupdf-1.26.12-source.tar.gz
 
-Pillow, pillow-heif/libheif, NumPy, ONNX Runtime, python-docx, python-pptx, openpyxl, odfpy, EbookLib, py7zr, pyzipper e relative dipendenze: versioni in requirements.lock.txt, licenze incluse nelle distribuzioni.
+EbookLib 0.20 — AGPLv3. Sorgente incluso.
+https://github.com/aerkalov/ebooklib
 
-whisper.cpp 1.8.2 (MIT), modello Whisper tiny multilingue
+pillow-heif 1.8.1 — wrapper BSD-3-Clause; wheel con componenti copyleft.
+libheif 1.23.6 e libde265 1.1.3 — LGPLv3; x265 4.3 — GPL-2.0-or-later,
+usato secondo GPLv3. Testi di licenza, copyright e sorgenti sono inclusi.
+https://github.com/bigcat88/pillow_heif
+https://github.com/strukturag/libheif
+https://github.com/strukturag/libde265
+https://github.com/Multicorewareinc/x265
+
+whisper.cpp 1.8.2 — MIT. Modello Whisper tiny multilingue — MIT.
+Sorgenti whisper.cpp e OpenAI Whisper, avvisi e modello inclusi.
 https://github.com/ggml-org/whisper.cpp/tree/v1.8.2
-https://huggingface.co/ggerganov/whisper.cpp
+https://github.com/openai/whisper
 
-U2NetP per rimozione sfondo, distribuito dal progetto rembg; U-2-Net (Apache 2.0)
+U-2-Net / modello U2NetP — Apache 2.0. Licenza e sorgenti inclusi.
+Il modello ONNX distribuito è identificato dal suo SHA-256 in DEPENDENCIES.json.
 https://github.com/xuebinqin/U-2-Net
-https://github.com/danielgatis/rembg
 
-Gli hash degli archivi e modelli acquisiti sono in DEPENDENCIES.json. La firma locale dell'app non equivale a una certificazione dei fornitori.
-Questo è un pacchetto locale realizzato per l'utente. Prima di una redistribuzione pubblica occorre rispettare le licenze di ciascun componente, inclusi gli obblighi di fornitura del codice sorgente per componenti GPL/AGPL; includere i soli collegamenti non sostituisce tali obblighi.
+ALTRE DIPENDENZE
+Versioni dei pacchetti Python in requirements.lock.txt e nell'inventario della
+release. Pillow, NumPy, ONNX Runtime, python-docx, python-pptx, openpyxl, odfpy,
+py7zr, pyzipper e le dipendenze transitivamente incluse conservano i propri
+avvisi nelle directory dist-info e nel pacchetto Licenses. Le licenze dei
+pacchetti wrapper non sostituiscono quelle delle librerie native incorporate.
+
+I testi delle licenze prevalgono su questo riepilogo. Non sono concesse garanzie
+ulteriori, né diritti sui marchi dei rispettivi fornitori.

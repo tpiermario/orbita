@@ -1,0 +1,8 @@
+Orbita
+Copyright (C) 2026 Piermario Tavernise
+
+The original Orbita source code and artwork are licensed under the GNU Affero General Public License, version 3.0 only (SPDX: AGPL-3.0-only).
+You may copy, modify and redistribute them under that license.
+Orbita is distributed WITHOUT ANY WARRANTY, including the implied warranties of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See LICENSE.
+
+Third-party components retain their own copyrights and licenses. Their inclusion does not change those licenses. See THIRD-PARTY.txt and the release source archives.
