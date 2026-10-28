@@ -223,8 +223,11 @@ def process_vision(action,paths,p):
   output(image_bytes(im,'png'),path,'png')
 
 def ffmpeg():
- import imageio_ffmpeg
- return imageio_ffmpeg.get_ffmpeg_exe()
+ arch=platform.machine()
+ if arch not in ('x86_64','arm64'):raise UserError('Processore non supportato: '+arch)
+ binary=RES/('bin/arm64/ffmpeg' if arch=='arm64' else 'bin/ffmpeg')
+ if not binary.is_file():raise UserError('Motore audio/video mancante. Reinstalla il pacchetto completo di Orbita.')
+ return str(binary)
 
 def ff(args,timeout=3600):return run([ffmpeg(),'-nostdin','-hide_banner','-loglevel','error','-y']+args,timeout)
 
